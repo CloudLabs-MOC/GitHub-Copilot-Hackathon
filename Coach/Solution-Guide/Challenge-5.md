@@ -24,7 +24,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Now select the entire file, right-click, and then select **Copilot** and **Generate Docs**.
 
-   ![](../../media/backend-requirements-generate-docs.png)
+   ![](../../media/backend-requirements-generate-docsupd.png)
 
 1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
 
@@ -32,9 +32,9 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for either of the modules, functions, or classes.
 
-1. Now select the entire file, right-click, and then select **Copilot** and **Start in Editor**. Ask the GitHub Copilot to generate comments for the selected code.
+1. Now select the entire file, right-click, and then select **Copilot** and **Editor Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/snap.png)
+   ![](../../media/snapupd.png)
 
    ![](../../media/snap2.png)
 

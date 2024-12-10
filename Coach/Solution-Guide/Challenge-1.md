@@ -54,7 +54,7 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    ![](../../media/open.png)
 
-   ![](../../media/codespaces.png)
+   ![](../../media/codespacesupd.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
@@ -75,6 +75,9 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 In this task, you will evaluate the functionality of GitHub Copilot by generating a simple code snippet using Copilot Chat.
 
 1. Create a file with any name of your choice.
+
+   ![](../../media/createfile.png)
+
 1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
 1. When the Copilot mini window appears, request Copilot to generate a simple Python code.
 
@@ -82,7 +85,7 @@ In this task, you will evaluate the functionality of GitHub Copilot by generatin
 
 1. A basic "Hello World" code will be generated. Click "Accept" to insert it into the newly created file.
 
-   ![](../../media/checkpy1.png)
+   ![](../../media/checkpy2.png)
 
 This confirms that the Copilot functionality is working properly.
 
@@ -96,7 +99,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
    Create a Python/JS based code to build a calculator 
    ```
 
-   ![](../../media/copilot-calculator.png)
+   ![](../../media/copilotchat.png)
+
+   ![](../../media/copilot-calculatorupd.png)
 
 1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
 
@@ -347,7 +352,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       print(deck[i][0], "of", deck[i][1]
    ```
 
-1. Select the entire code, right-click and click **Copilot**, and then click **Fix This** to debug the selected code.
+1. Select the entire code, right-click and click **Copilot**, and then click **Fix** to debug the selected code.
 
 1. You'll notice that GitHub Copilot has debugged and fixed the code.
 
@@ -391,15 +396,15 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. Select the entire code, right-click, and view the **Copilot** features.
 
-   ![](../../media/CopilotFeatures.png)
+   ![](../../media/CopilotFeaturesupd.png)
 
-1. **Start in Editor (1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
+1. **Editor Inline Chat(1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
 
-1. **Explain This (2)** feature gives a detailed explanation of how the code works and its functionality.
+1. **Explain (2)** feature gives a detailed explanation of how the code works and its functionality.
 
-   ![](../../media/copilot-features-explain.png)
+   ![](../../media/copilot-features-explainupd.png)
 
-1. **Fix This (3)** feature proposes a fix for the problems in the selected code.
+1. **Fix (3)** feature proposes a fix for the problems in the selected code.
 
    ![](../../media/copilot-features-fix.png)
 
@@ -415,7 +420,7 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
 
-   ![](../../media/copilot-features-chat.png)
+   ![](../../media/copilot-features-chatupd.png)
 
 1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
 
