@@ -269,7 +269,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 1. Execute the command below to commit the files. Copy your ODL user email and paste it inside the quotes.
 
    ```
-   git config --global user.email "odl_user_1707238@azurehoxxxx.onmicrosoft.com"
+   git config --global user.email "odl_user_xxxxxx@azurehoxxxx.onmicrosoft.com"
    ```
 
 1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
