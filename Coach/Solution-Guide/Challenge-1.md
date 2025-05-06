@@ -1,4 +1,4 @@
-# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
+![image](https://github.com/user-attachments/assets/82f1e421-14b1-4629-aab9-619df75a560d)# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
 ## Task 1: Setup Github Copilot in VS Code
 
@@ -254,7 +254,34 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
 
-1. Push the files to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
+1. Push the files to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using the steps below.
+1. Run the below command to add the files :
+
+    ```
+    git add .
+    ```
+1. Run the below command to commit the files :
+
+    ```
+    git commit -m "files"
+    ```
+
+1. Execute the command below to commit the files. Copy your ODL user email and paste it inside the quotes.
+
+   ```
+   git config --global user.email "odl_user_1707238@azurehoxxxx.onmicrosoft.com"
+   ```
+
+1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
+
+   ```
+   git config --global user.name "odl_user_xxxxx"
+   ```
+
+1. Run the below command to push all the files to the repository :
+
+    ```
+    git push
 
 ## Task 6: Code Refactoring & Debugging
 
