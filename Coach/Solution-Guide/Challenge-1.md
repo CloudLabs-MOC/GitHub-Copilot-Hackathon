@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/82f1e421-14b1-4629-aab9-619df75a560d)# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
+# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
 ## Task 1: Setup Github Copilot in VS Code
 
