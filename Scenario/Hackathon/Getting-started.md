@@ -12,7 +12,7 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 
 Once you are in the **Environment** tab, click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
 
-![](../../media/new-github-copilot-hack-02.png)
+![](../../media/git-01.png)
 
 ### Virtual Machine & Lab Guide
 
@@ -22,25 +22,25 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../../media/new-github-copilot-hack-03.png)
+![](../../media/git-02-2.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![](../../media/new-github-copilot-hack-04.png)
+![](../../media/git-03.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![](../../media/zoom-feature.png)
+![](../../media/git-04.png)
 
 ## Managing Your Virtual Machine
 
 1. Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-    ![](../../media/new-github-copilot-hack-05.png)
+    ![](../../media/git-05.png)
 
 1. Click **Next** from the bottom right corner to embark on your Lab journey!
 
