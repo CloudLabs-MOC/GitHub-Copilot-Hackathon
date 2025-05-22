@@ -16,10 +16,6 @@
 
    ![](../../media/Fork-repo.png)
 
-1. Once the repository is forked, please go to the website https://git-scm.com/download/win and install **64-bit Git for Windos Portable**
-
-   ![](../../media/gitupdate.png)
-
 ### Open Visual Studio Code and Clone Repository
 
 1. Launch Visual Studio and click on **Clone Git repository**.
