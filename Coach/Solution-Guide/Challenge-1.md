@@ -46,7 +46,7 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-   ![GitHub-Codespaces](../../media/github-codespaces.png)
+   ![GitHub-Codespaces](../../media/git-07.png)
 
 1. If the Codespace does not open in your Visual Studio Code, then navigate to your GitHub repository, click on **Code**, click on the **ellipsis** button for your current codespace and then click on **Open in Visual Studio Code**.
 
@@ -87,6 +87,8 @@ In this task, you will evaluate the functionality of GitHub Copilot by generatin
 
    ![](../../media/checkpy2.png)
 
+   >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the image provided.
+
 This confirms that the Copilot functionality is working properly.
 
 ## Task 5: Code Generation with Copilot and Copilot Chat
@@ -102,6 +104,8 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
    ![](../../media/copilotchat.png)
 
    ![](../../media/copilot-calculatorupd.png)
+
+   >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the image provided.
 
 1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
 
@@ -188,7 +192,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
       console.log("Multiplication:", multiply(num1, num2));
       console.log("Division:", divide(num1, num2));
      ```
-   > **Note:** Declare the two variables/numbers before running tests through JS.
+      > **Note:** Declare the two variables/numbers before running tests through JS.
+
+      >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the code provided.
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 

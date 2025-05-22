@@ -1,4 +1,3 @@
-# Getting Started with Your Microsoft Copilot Hackathon Workshop
 
 Welcome to your Microsoft Copilot Hackathon Workshop! We've prepared a seamless environment for you to explore and learn about Microsoft Copilot services. Let's begin by making the most of this experience:
 
