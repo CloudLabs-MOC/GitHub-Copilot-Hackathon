@@ -1,3 +1,4 @@
+# Getting Started with Your Microsoft Copilot Hackathon Workshop
 
 Welcome to your Microsoft Copilot Hackathon Workshop! We've prepared a seamless environment for you to explore and learn about Microsoft Copilot services. Let's begin by making the most of this experience:
 
@@ -21,7 +22,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../../media/git-02.png)
+![](../../media/git-02-2.png)
 
 ## Utilizing the Split Window Feature
 
