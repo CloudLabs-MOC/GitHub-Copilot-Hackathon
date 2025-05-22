@@ -28,9 +28,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. On the LABVM desktop, double-tap **Microsoft Edge**.
 
-   ![](../../media/git-06.png)
-
 1. Navigate to GitHub login page using the provided URL below:
+   
    ```
    https://github.com/login
    ```
