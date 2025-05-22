@@ -26,9 +26,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 ## Login to GitHub
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+1. On the LABVM desktop, double-tap **Microsoft Edge**.
 
-   ![](../../media/Edge.png)
+   ![](../../media/git-06.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -76,16 +76,18 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Utilising GitHub Copilot:
    
      - Press Ctrl + I to prompt GitHub Copilot for code suggestions.
-     - In the Copilot mini window, type "Generate a basic Hello World program in Python.
+
+     - In the Copilot mini window, type "Generate a basic Hello World program in Python".
+     
      - Review the generated code, which should look like: 
 
-     ```
-       print("Hello, World!")
-     ```
+         ```
+         print("Hello, World!")
+         ```
 
      - Click Accept to insert the code into your file.
 
-     > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
+         > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
       - Create Python/JS-based code to build a calculator.
