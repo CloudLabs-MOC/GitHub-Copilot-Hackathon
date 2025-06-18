@@ -64,31 +64,55 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
 In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
 
-1. Fork the **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repo On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Copy the following repository URL **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** you will need it in the next step.
+   
+1. Go to your GitHub account, navigate to the Dashboard, and click on Import repository.
+
+   ![Allow](../../media/18-06-25-s1-8.png)
+
+1. Paste the source repository URL recently copied into **The URL for your source repository field (1)**, select the **Owner** from the drop-down list (2), type a unique **Repository name (3)**, and then click **Begin import (4)** to clone the project into your GitHub account.
+
+   ![Allow](../../media/18-06-25-s1-9.png)
+
+1. Once the import is complete, you’ll see a confirmation message that your new repository is ready. Click on the **Code tab**
+
+   ![Allow](../../media/18-06-25-s1-10.png)
+
+1. Click on **settings** and Click on Switch settings context and select the organization 
+
+   ![Allow](../../media/18-06-25-s1-12.png)
+
+1. In the left sidebar, click Codespaces (1), then select General (2). Under Codespaces access, choose Enable for all members and outside collaborators (3), and click Save to apply the setting.
+
+   ![Allow](../../media/18-06-25-s1-13.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up, and then click the **Create codespace on main (2)** button.
 
+   ![GitHub-Codespaces](../../media/18-06-25-s1-14.png)
+
    >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-   ![GitHub-Codespaces](../../media/git-07.png)
-
 1. If the Codespace does not open in your Visual Studio Code, then navigate to your GitHub repository, click on **Code**, click on the **ellipsis** button for your current codespace and then click on **Open in Visual Studio Code**.
+
+   ![GitHub-Codespaces](../../media/18-06-25-s1-15.png)
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
    ![](../../media/open.png)
 
-   ![](../../media/codespacesupd.png)
+   ![](../../media/18-06-25-s1-16.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
 1. Next, once you get the popup, click on **Allow**.
 
+   ![](../../media/18-06-25-s1-17.png)
+
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-   ![](../../media/allow.png)
-
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+
+   ![](../../media/18-06-25-s1-18.png)
 
 1. Verify your codespace is running.
 
