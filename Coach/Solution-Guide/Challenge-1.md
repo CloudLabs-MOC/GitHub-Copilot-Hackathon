@@ -110,7 +110,11 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+1. Click on Continue on Select user to authorize Visual Studio Code.
+
+   ![](../../media/18-06-25-s1-5.png)
+
+1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
 
    ![](../../media/18-06-25-s1-18.png)
 
@@ -127,7 +131,7 @@ In this task, you will evaluate the functionality of GitHub Copilot by generatin
    ![](../../media/createfile.png)
 
 1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
-1. When the Copilot mini window appears, request Copilot to generate a simple Python code.
+1. When the Copilot mini window appears, Enter this prompt `Create a simple python code'.
 
    ![](../../media/checkpy.png)
 
