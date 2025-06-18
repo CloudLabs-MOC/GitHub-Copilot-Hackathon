@@ -30,7 +30,35 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
    ![Allow](../../media/allow.png)
 
-1. On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
+1. On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in with identity provider**.
+
+   ![Allow](../../media/18-06-25-s1-1.png)
+
+1. Click on Continue on Single sign-on to **CloudLabs Organizations**.
+
+   ![Allow](../../media/18-06-25-s1-2.png)
+
+1. On the Sign into Microsoft tab, you will see a login screen. Enter the email/username, and then click on Next.
+
+   ![Allow](../../media/18-06-25-s1-3.png)
+
+   >**Note:** You can find the Username and Password within the lab environment by navigating to the **Environment tab** at the top. Then click on Azure Credentials and copy both the **Username** and **Password** from the Auth Fields section.
+
+1. Now enter the password and click on Sign in.
+
+   ![Allow](../../media/18-06-25-s1-4.png)
+
+1. Click on Continue on Select user to authorize Visual Studio Code.   
+
+   ![Allow](../../media/18-06-25-s1-5.png)
+
+1. Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
+
+   ![Allow](../../media/18-06-25-s1-6.png)
+
+1. You will encounter a pop-up prompt, Click Open to proceed.
+
+   ![Allow](../../media/18-06-25-s1-7.png)
 
 1. To verify your GitHub account login, sign in to Outlook in the Lab VM in a **Private** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
 
