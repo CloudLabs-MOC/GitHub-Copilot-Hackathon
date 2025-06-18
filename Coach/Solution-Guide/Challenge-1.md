@@ -60,10 +60,6 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
    ![Allow](../../media/18-06-25-s1-7.png)
 
-1. To verify your GitHub account login, sign in to Outlook in the Lab VM in a **Private** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
-
-1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
-
 ## Task 3: Using GitHub Codespaces with Copilot
 
 In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
