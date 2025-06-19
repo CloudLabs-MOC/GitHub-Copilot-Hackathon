@@ -324,7 +324,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
 
-1. Push the files to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
+1. Push the files to your forked **gh-hack-20250618-1769089/Code-Generation-Refactoring** GitHub repository.
 
    ![](../../media/18-06-25-s1-21.png)
 
