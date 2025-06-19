@@ -4,9 +4,21 @@
 
 In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for codes.
 
-1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
+1. Open Visual Studio Code and click on Clone Git repository. [https://github.com/Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new README.md file
+   ![](../../media/18-06-25-s2-7.png)
+
+1. In the search bar, enter the Git Repository URL and click enter.
+
+   ![](../../media/18-06-25-s5-1.png)
+
+1. Click on Select as repository destination.
+
+   ![](../../media/18-06-25-s5-2.png)
+
+1. Navigate to the **azure-search-openai-demo\app\backend** and create a new README.md file
+
+   ![](../../media/18-06-25-s5-3.png)
 
 1. On the empty README.md file click Ctrl+I to get Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
 
@@ -24,7 +36,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Now select the entire file, right-click, and then select **Copilot** and **Generate Docs**.
 
-   ![](../../media/backend-requirements-generate-docsupd.png)
+   ![](../../media/18-06-25-s5-4.png)
 
 1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
 
@@ -32,11 +44,13 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for either of the modules, functions, or classes.
 
+   ![](../../media/18-06-25-s5-5.png)
+
 1. Now select the entire file, right-click, and then select **Copilot** and **Editor Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/snapupd.png)
+   ![](../../media/18-06-25-s5-6.png)
 
-   ![](../../media/snap2.png)
+   ![](../../media/18-06-25-s5-7.png)
 
 1. Notice how the GitHub Copilot generates comments in the code.
 
@@ -60,7 +74,15 @@ In this task, you'll explore the various styles of documentation that you can ge
 
 1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Copilot** and **Start Inline Chat**.
 
+   ![](../../media/18-06-25-s5-8.png)
+
+   ![](../../media/18-06-25-s5-9.png)
+
 1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
+
+   ![](../../media/18-06-25-s5-10.png)
+
+   ![](../../media/18-06-25-s5-11.png)
 
 1. You'll notice that the GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
