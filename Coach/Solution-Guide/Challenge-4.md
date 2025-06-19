@@ -28,7 +28,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     1. Starts responding, combining the context from the prompt with the one it was able to gain.
 
-    ![](../../media/file3.png)
+    ![](../../media/18-06-25-s4-1.png)
 
 1. The **GitHub Copilot** would provide you with a step-by-step explanation of how to run your project. You can follow the same steps and verify that your project is running successfully.
 
@@ -64,11 +64,17 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 1. Open a new window in the **VS code** by choosing **File** from the topmost bar and then selecting **New Window**.
 
-    ![](../../media/new-window.png)
+    ![](../../media/18-06-25-s4-2.png)
 
-1. Now, select **Open Folder** from the **Welcome** page, browse to the DemoApp folder, and double-click to open it in your VS Code.
-
+1. Now, select **Open Folder** from the **Welcome** page.
+   
     ![](../../media/vscode-open-folder.png)
+
+1. Create DemoApp folder, and double-click to open it in your VS Code.
+
+   ![](../../media/18-06-25-s4-3.png) 
+
+   >**Note** If any pop-up appears during the process, click Yes to proceed.
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
 
@@ -93,6 +99,8 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
     ![](../../media/created-workspace.png)
 
 1. Now, generate the code for all the required components of your application by providing the relevant prompts to the **GitHub Copilot** under the **Chat** section. For instance, to create code for the **ExpenseForm.js** component of your application, write `@workspace. How can I add functionality to the ExpenseForm component to handle user input and save expenses?` and select **Submit**.
+
+    ![](../../media/18-06-25-s4-4.png) 
 
     The **GitHub Copilot** will provide you with the related code for the referenced component.
 
