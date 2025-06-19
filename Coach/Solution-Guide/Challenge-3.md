@@ -171,7 +171,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. In your Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
 
-   ![](../../media/challenge3-azure-custom.png)
+   ![](../../media/18-06-25-s3-5.png)
 
 1. In your Custom deployment tab, click on **Build your own template in editor**.
 
@@ -209,26 +209,24 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
    * **Runtime stack**: .NET
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
-  
-   ![](../../media/challenge3-deployment-center-01.png)
 
-   ![](../../media/challenge3-deployment-center-02.png)
+     ![](../../media/18-06-25-s3-6.png)
 
 1. You can also view your workflow configuration by clicking on the **Preview file** button.
 
 1. Navigate to your GitHub repository, and under the **Actions** tab, you'll notice that the build has started for your web app. 
 
-   ![](../../media/challenge3-github-build.png)
+   ![](../../media/18-06-25-s3-7.png)
 
 1. The workflow will fail with the **build** error stating that the process completed with exit code 1 due to the undefined path issue in your workflow YAML file.
 
-   ![](../../media/challenge3-github-build-fail.png)
+   ![](../../media/18-06-25-s3-8.png)
 
    ![](../../media/challenge3-github-build-fail-error.png)
 
 1. Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
 
-   ![](../../media/challenge3-github-workflow-edit.png)
+   ![](../../media/18-06-25-s3-9.png)
 
 1. Locate the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file and replace the **${{env.DOTNET_ROOT}}/myapp** paths with **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** and click on **Commit changes**.
 
@@ -238,7 +236,7 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
 1. Navigate back to the **Actions** tab, you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
 
-   ![](../../media/challenge3-github-build-succeed.png)
+   ![](../../media/18-06-25-s3-10.png)
 
 ## Task 3: Get the app working on Azure
 
@@ -246,7 +244,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)**.
 
-   ![](../../media/challenge3-github-build-verify.png)
+   ![](../../media/18-06-25-s3-11.png)
 
 1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
 
@@ -254,7 +252,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 1. Also, verify that your workflow file has been created in a new directory **.github/workflows**.
 
-   ![](../../media/challenge3-github-workflows.png)
+   ![](../../media/18-06-25-s3-12.png)
 
 1. Your GitHub workflow file will be in the below format:
 
@@ -319,7 +317,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
 
-   ![](../../media/challenge3-default-domain.png)
+   ![](../../media/18-06-25-s3-f.png)
 
 ## Task 4: Generate Documentation with Copilot for the App
 
