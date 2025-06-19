@@ -6,19 +6,29 @@
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
-        
+
+     ![](../../media/18-06-25-s3-mz.png)
+     
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
+
+     ![](../../media/17-06-25-l5.png)
      
 1. If you see the pop-up **Stay Signed in?** click No.
+
+   ![](../../media/17-06-25-l6.png)
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
    
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
+
+   ![](../../media/18-06-25-s3-1.png)
   
 1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
+
+   ![](../../media/18-06-25-s3-2.png)
 
 ## Task 1: Develop ARM Template to deploy an app to Azure
 
@@ -175,9 +185,11 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. Once you have specified all the parameters, click **Review + Create**, and **Create**.
 
+   ![](../../media/18-06-25-s3-3.png)
+
 1. Wait for the deployment to succeed and verify that your web app service and app service plan resources exist in the resource group.
 
-   ![](../../media/challenge3-custom-deploy-verify.png)
+   ![](../../media/18-06-25-s3-4.png)
 
 ## Task 2: Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal
 
