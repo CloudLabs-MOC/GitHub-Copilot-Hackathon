@@ -448,5 +448,9 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
    ![](../../media/crud4.8.png)
 
+
+1. Push the files to your gh-hack-20250618-1769089/MyMvcApp-Contact-Database-Application GitHub repository.
+
+
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
 
