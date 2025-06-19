@@ -48,6 +48,8 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
    ![Allow](../../media/18-06-25-s1-4.png)
 
+   >**Note** If you see the pop-up Stay Signed in?, click No.
+
 1. Click on Continue on Select user to authorize Visual Studio Code.   
 
    ![Allow](../../media/18-06-25-s1-5.png)
@@ -250,6 +252,10 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 
+   ![](../../media/18-06-25-s-test1.png)
+
+   ![](../../media/18-06-25-s-test2.png)
+
 1. To access weather data using the OpenWeatherMap API, sign in to your account on their website: [https://openweathermap.org/](https://openweathermap.org/).
 
    ![](../../media/signinapi.png)
@@ -258,13 +264,19 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/createaaccount.png)
 
+   >**Note** If a pop-up prompt appears asking "How and where will you use our API?", click **Cancel** to proceed
+
 1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the 'Create Account' button **(8)**.
 
-   ![](../../media/weather-api-keys1.png)
+   ![](../../media/18-06-25-s1-19.png)
 
 1. Then Sign-in using same usernmae and credentials.
 
    >**Note:** Please user OLD username and password.
+
+1. To access your API keys, click on your **username (1)** at the top-right corner, then select **My API keys (2)** from the dropdown menu. This will open the section where you can view or manage your API key.  Make sure to copy the API key.
+
+   ![](../../media/18-06-25-s1-20.png)
 
 1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
 
@@ -308,11 +320,13 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
      const city = 'Mumbai';  // Replace with the city you want to get the weather for
      getWeather(city);
      ```
-   > **Note:** Enter the name of the city before running tests through JS.
+     > **Note:** Enter the name of the city before running tests through JS.
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
 
 1. Push the files to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
+
+   ![](../../media/18-06-25-s1-21.png)
 
 ## Task 6: Code Refactoring & Debugging
 
@@ -321,6 +335,10 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 1. Open the **sum_elements.py** file by double-clicking on it.
 
 1. Select the entire code, right-click, and click **Refactor** and select *Modify using copilot*, and ask the Copilot to refactor the selected code.
+
+   ![](../../media/18-06-25-s1-22.png)
+
+   ![](../../media/18-06-25-s1-23.png)
 
 1. You'll notice that GitHub Copilot has refactored and fixed the code.
 
@@ -363,9 +381,13 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Accept the changes and Save the file and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
 
+   ![](../../media/18-06-25-s1-24.png)
+
 1. Open the **card_draw.py** file by double-clicking on it.
 
 1. Select the entire code, right-click and click **Copilot**, and then click **Fix** to debug the selected code.
+
+   ![](../../media/18-06-25-s1-25.png)
 
 1. You'll notice that GitHub Copilot has debugged and fixed the code.
 
@@ -390,6 +412,8 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Accept the changes and Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
 
+   ![](../../media/18-06-25-s1-26.png)
+
 ## Task 7: Explore GitHub Copilot Features
 
 In this task, you'll explore various GitHub Copilot features through a simple Python script that defines a function to calculate the factorial of a number.
@@ -409,7 +433,7 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. Select the entire code, right-click, and view the **Copilot** features.
 
-   ![](../../media/CopilotFeaturesupd.png)
+   ![](../../media/18-06-25-s1-27.png)
 
 1. **Editor Inline Chat(1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
 
