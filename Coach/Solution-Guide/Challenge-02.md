@@ -6,21 +6,32 @@
 
 1. Login to [GitHub](https://github.com/login) with the CloudLabs provided GitHub account. Ensure that you are logged in to the correct GitHub account provided for this lab session.
 
-### Fork the Repository
+### Import the Repository
 
-1. Navigate to the provided GitHub repository link: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
+1. Copy the following repository URL [https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Database-Application
+) you will need it in the next step.
 
-   ![](../../media/Repo-info.png)
+1. Go to your GitHub account, navigate to the Dashboard, and click on New.
 
-1. Fork the repository into the CloudLabs provided GitHub account.
+   ![](../../media/18-06-25-s2-1.png)
 
-   ![](../../media/Fork-repo.png)
+1. click on Import a repository at the top of the "Create a new repository" page. 
+
+   ![](../../media/18-06-25-s2-2.png)
+
+1. Paste the source repository URL recently copied into The URL for your source repository field (1), select the Owner from the drop-down list (2), type a unique Repository name (3), and then click Begin import (4) to clone the project into your GitHub account.
+
+   ![](../../media/18-06-25-s2-3.png)
+
+1. Once the import is complete, you’ll see a confirmation message that your new repository is ready. Click on the Code tab in the top-left corner,then go to the browser’s address bar and copy the full repository URL. This URL will be used to clone. 
+
+   ![](../../media/18-06-25-s2-4.png)
 
 ### Open Visual Studio Code and Clone Repository
 
 1. Launch Visual Studio and click on **Clone Git repository**.
 
-   ![](../../media/CloneRepo.png)
+   ![](../../media/18-06-25-s2-7.png)
 
 1. In the search bar, enter the Git Repository URL and click enter.
 
@@ -28,7 +39,14 @@
 
 1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination.
 
-   ![](../../media/Folder.png)
+   ![](../../media/18-06-25-s2-5.png)
+
+   >**Note** If the folder does not exist, please create a new one manually before proceeding.
+
+1. Prompt will appear in Visual Studio Code asking: “Would you like to open the cloned repository?”
+Click Open 
+
+   ![](../../media/18-06-25-s2-6.png)
 
 1. The window will look like this.
 
@@ -43,12 +61,26 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
- - Click on the extension on the left hand side
- - Search for Nuget Gallery and C# Dev Kit
- - Click on install, post this the extensions should be installed.
+ - Search for Nuget Gallery and Click on install.
 
-![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+   ![](../../media/18-06-25-s2-8.png)
 
+   >**Note:** When prompted with the message “Do you trust the publisher 'pcislo'?.click Trust Publisher & Install to proceed.
+ 
+ -  Search for C# Dev Kit and Click on install, post this the extensions should be installed.
+
+    ![](../../media/18-06-25-s2-9.png)
+
+    >**Note:** If a warning appears saying ".NET Core SDK cannot be located", it means a valid .NET SDK is missing.
+Click Get the SDK to download 
+
+    ![](../../media/18-06-25-s2-10.1.png)
+    
+ - When the browser opens, you will be prompted to download the .NET Runtime needed to run console apps on Windows.
+Click Download x64 to get the Windows-compatible version
+
+   ![](../../media/18-06-25-s2-11.png)
+   
 ### Implement Methods using GitHub Copilot
  
 1. Navigate to the `UserController.cs` file within the `Controllers` folder.
@@ -70,7 +102,7 @@
 1. From the context menu, choose the **Copilot** option and click on **Fix**
 
  
-   ![](../../media/github-hack-copilot-2.png)
+   ![](../../media/18-06-25-s2-12.png)
 
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
@@ -200,12 +232,14 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
    ```
    dotnet new xunit -n MyMvcApp.Tests
    ```
+   ![](../../media/18-06-25-s2-13.png)
 
 1. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
 
    ```
    dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
    ```
+   ![](../../media/18-06-25-s2-14.png)
 
 1. Locate the **MyMvcApp.Tests** folder in the Solution Explorer and rename the **UnitTest1.cs** file to **UserControllerTests.cs**.
   
@@ -217,7 +251,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
    dotnet add reference ../MyMvcApp-Contact-Database-Application\MyMvcApp.csproj
    ```
 
-   ![](../../media/prom.png)
+   ![](../../media/18-06-25-s2-15.png)
 
 1. In the **Github Copilot chat** window, ask the GitHub Copilot to **Generate test cases to UserControllerTests for the MyMvcApp.csproj app by using xunit**.
 
