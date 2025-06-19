@@ -4,11 +4,13 @@
 
 In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for codes.
 
-1. Open Visual Studio Code and click on Clone Git repository. [https://github.com/Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
+1. Copy the following repository URL [https://github.com/Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) you will need it in the next step.
+
+1. Open Visual Studio Code and click on Clone Git repository.
 
    ![](../../media/18-06-25-s2-7.png)
 
-1. In the search bar, enter the Git Repository URL and click enter.
+1. In the search bar, Paste the source repository URL recently copied and click enter.
 
    ![](../../media/18-06-25-s5-1.png)
 
