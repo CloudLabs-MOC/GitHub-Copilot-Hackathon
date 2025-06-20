@@ -6,7 +6,7 @@
 
 In this task, you will be utilizing the GitHub Copilot Workspace to enhance coding efficiency by providing contextually relevant code suggestions.
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub account details.
+1. Open your project in **Visual Studio Code**, where you are signed in using the **CloudLabs-provided GitHub account** details.
 
     ![](../../media/vscode-launch.png)
 
@@ -14,7 +14,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/githubchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
+1. To start using the GitHub Copilot Workspace agent, type `@` in the chat box **(1)** and select `@workspace` from the list **(2)**.
 
     ![](../../media/file2.png)
 
@@ -22,11 +22,11 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     1. Scans the file or directory names to understand which of them are potentially relevant to providing a response.
 
-    1. Reads file contents. Sometimes the whole file, sometimes only parts of them (due to the token memory limits).
+    1. Reads file contents. Sometimes the whole file, sometimes only parts of it (due to the token memory limits).
 
     1. Creates context from everything it was able to collect.
 
-    1. Starts responding, combining the context from the prompt with the one it was able to gain.
+    1. Starts responding, combining the context from the prompt with the context it was able to gain.
 
     ![](../../media/18-06-25-s4-1.png)
 
@@ -38,7 +38,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/file5.png)
 
-    The output provided is extremely abstract, and in the end, it tells you it can't provide you with the exact solution and generates only a generic solution.
+    >**Note:** The output provided is extremely abstract, and in the end, it tells you it can't provide you with the exact solution and generates only a generic solution.
 
 1. After this, you can try the prompt using the **Workspace** feature and get complete information about your current working project by providing the following prompt: `@workspace Tell me about the current workspace structure.`
 
@@ -60,9 +60,9 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
     
 ### Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
-The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
+The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the steps below:
 
-1. Open a new window in the **VS code** by choosing **File** from the topmost bar and then selecting **New Window**.
+1. Open a new window in the **Visual Studio Code** by choosing **File (1)** from the topmost bar and then selecting **New Window (2)**.
 
     ![](../../media/18-06-25-s4-2.png)
 
@@ -70,17 +70,17 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
    
     ![](../../media/vscode-open-folder.png)
 
-1. Create DemoApp folder, and double-click to open it in your VS Code.
+1. Create DemoApp folder , click **New folder** **(1)**, name it `DemoApp`, and select it **(2)**, then click **Select Folder (3)**.
 
    ![](../../media/18-06-25-s4-3.png) 
 
    >**Note** If any pop-up appears during the process, click Yes to proceed.
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
+1. Next to the search bar, select the **Copilot icon**. You will be provided with the **Github Copilot** welcome chat window.
 
     ![](../../media/githubchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to start working with the **Github Copilot Workspace** agent.
+1. To start using the GitHub Copilot Workspace agent, type `@` in the chat box **(1)** and select `@workspace` from the list **(2)**.
 
     ![](../../media/@workspace.png)
 
@@ -88,17 +88,17 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/expense-tracker-workspace.png)
 
-    >**Note:** The currrent version of **Github Copilot Workspace** allows you to create the workspace automatically with all the file structure, just click on **Create Workspace**.
+    >**Note:** The current version of **Github Copilot Workspace** allows you to create the workspace automatically with all the file structure, just click on **Create Workspace**.
 
-1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
+1. Now, create the workspace for your **Expense Tracker** application by creating the required **files and folders**. To do so, select **Explorer (1)** from the left pane, and choose the appropriate **file or folder (2)** icons to create a new file or folder as per the workspace structure of your application.
 
-    ![](../../media/vscode-explorer.png)
+    ![](../../media/18-06-25-s3-file.png)
 
 1. The workspace structure for your **Expense Tracker** application would look similar to this, as per the output generated by the **GitHub Copilot Workspace**:
 
     ![](../../media/created-workspace.png)
 
-1. Now, generate the code for all the required components of your application by providing the relevant prompts to the **GitHub Copilot** under the **Chat** section. For instance, to create code for the **ExpenseForm.js** component of your application, write `@workspace. How can I add functionality to the ExpenseForm component to handle user input and save expenses?` and select **Submit**.
+1. Now, generate the code for all the required components of your application by providing the relevant prompts to the **GitHub Copilot** under the **Chat** section. For instance, to create code for the **ExpenseForm.js** component of your application, write `@workspace. How can I add functionality to the ExpenseForm component to handle user input and save expenses?` and press **enter**.
 
     ![](../../media/18-06-25-s4-4.png) 
 
@@ -106,7 +106,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/expense-form.png)
 
-1. Select the **Copy** icon to copy the code and paste it into the related **ExpenseForm.js** component. Save the file.
+1. Select the **Copy** icon to copy the code and paste it into the related **ExpenseForm.js** component. **Save** the file **Ctrl + S**.
 
     ![](../../media/expense-form-completed.png)
 
@@ -124,7 +124,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     Go through the response and resolve the errors using the steps provided in it.
 
-1. Now, when all the errors have been fixed, you can ask Copilot how to run your application by prompting `@workspace. How can I run this app?` and submitting it.
+1. Now, when all the errors have been fixed, you can ask Copilot how to run your application by prompting `@workspace. How can I run this app?` and submit it.
 
     Follow the steps provided by it and run your application.
 
@@ -146,23 +146,23 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on; it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. **GitHub Copilot's** ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
 
-In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the below steps:
+In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the steps below:
 
-1. Open your Expense Tracker project in **VS Code**, where you are signed in using the CloudLabs provided Github account details.
+1. Open your Expense Tracker project in **VS Code**, where you are signed in using the CloudLabs-provided GitHub account details.
 
     ![](../../media/vscode-launch.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Next to the search bar, select the **Copilot icon**. You will be provided with the **GitHub Copilot** welcome chat window.
 
-    ![](../../media/githubchat.png)
+   ![](../../media/githubchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@ (1)** and select **Workspace (2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../../media/@workspace.png)
 
-1. Now, you can use the following prompt to understand how the file referencing feature works in **GitHub Copilot**. It can accurately provide the answer for the file to which you refer: `What is the purpose of the index.js file in my project?`
+1. Now, you can use the following prompt to understand how the file referencing feature works in **GitHub Copilot**. It can accurately provide the answer to the file to which you refer: `What is the purpose of the index.js file in my project?`
 
-    The **GitHub Copilot** will make reference to the information, functions, classes, or variables defined in the file you asked the question about and will provide you with a detailed explanation of what is in the **index.js**. Not just the explanation; it will also provide you with the related code accompanied by the answer, referenced in the provided file.
+    The **GitHub Copilot** will make reference to the information, functions, classes, or variables defined in the file you asked the question about and will provide you with a detailed explanation of what is in the **index.js**. Not just the explanation, it will also provide you with the related code, accompanied by the answer, referenced in the provided file.
 
     The **GitHub Copilot** also automatically references the additional files in your project that may be required to provide you with the best answer. To get information about those files, select **Used n references** (where **n** is the total number of files referenced from your current project) present at the start of the answer and see all the files that **GitHub Copilot** referenced to provide you with the answer.
 
@@ -182,19 +182,19 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
     
 #### **Adding a new feature in the application using File Reference:**
 
-In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you, will be able to sort the expenses by date in the **ExpenseList** component.
+In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you will be able to sort the expenses by date in the **ExpenseList** component.
 
-To do so, follow the below steps:
+To do so, follow the steps below:
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided Github account details.
+1. Open your project in VS Code, where you are signed in using the CloudLabs-provided GitHub account details.
 
     ![](../../media/vscode-launch.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Next to the search bar, select the **Copilot icon**. You will be provided with the **GitHub Copilot** welcome chat window.
 
     ![](../../media/githubchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@ (1)** and select **Workspace (2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../../media/@workspace.png)
 
