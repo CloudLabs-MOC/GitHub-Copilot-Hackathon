@@ -24,7 +24,7 @@
    
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![](../../media/18-06-25-s3-1.png)
+   ![](../../media/18-06-25-s3-1.1.png)
   
 1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
 
@@ -144,7 +144,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. In your **Visual Studio Code**, create a new file named **`deploy.parameters.json`** to define the parameter values referenced in your **`deploy.json`** ARM template file.
 
-  ![](../../media/18-06-25-new.png)
+   ![](../../media/18-06-25-s3-new.png)
 
    ```
    {
@@ -170,7 +170,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In the Azure portal, type **Deploy a custom template(1)** into the search bar and select the **Deploy a custom template(2)** option from the results.
+1. In the Azure portal, type **Deploy a custom template (1)** into the search bar and select the **Deploy a custom template (2)** option from the results.
 
    ![](../../media/18-06-25-s3-5.1.png)
 
@@ -184,17 +184,16 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. On the **Basics** tab of the deployment form, enter instance details:
 
-  - **resource group**: `GitHub-Copilot-Challenges` **(1)**
-  - **Region**: `(US) West US 2` **(2)**
-  - **Subscription ID**: *Enter your AzureSubscription ID)* **(3)**
-  - **Resource Group Name**: `GitHub-Copilot-Challenges` **(4)**
-  - **Name**: `contactdatabaseapp` *(or your desired app name)* **(5)**
-  - **Location**: `west us 2` **(6)**
-  - **Hosting Plan Name**: `webapp12345` **(7)**
- 
-1. Once you have specified all the parameters, click **Review + Create (8)**, and **Create**.
+    - **resource group**: `GitHub-Copilot-Challenges` **(1)**
+    - **Region**: `(US) West US 2` **(2)**
+    - **Subscription ID**: *Enter your AzureSubscription ID)* **(3)**
+    - **Resource Group Name**: `GitHub-Copilot-Challenges` **(4)**
+    - **Name**: `contactdatabaseapp` *(or your desired app name)* **(5)**
+    - **Location**: `west us 2` **(6)**
+    - **Hosting Plan Name**: `webapp12345` **(7)**
+    - Once you have specified all the parameters, click **Review + Create (8)**, and **Create**.
 
-   ![](../../media/18-06-25-s3-3.1.png)
+      ![](../../media/18-06-25-s3-3.1.png)
 
 1. Wait for the deployment to succeed and verify that your **web app service and app service plan** resources exist in the resource group.
 
@@ -231,9 +230,9 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
    ![](../../media/challenge3-github-build-fail-error.png)
 
-1.  **(1) Navigate to the workflow YAML file** Go to your repository: `MyMvcApp-Contact-Database-Application → .github → workflows → main_mymvcapp-webapp949348.yml` **(2) Click the pencil icon** to begin editing the YAML file.
+1. **Navigate to the workflow YAML file (1)** Go to your repository: `MyMvcApp-Contact-Database-Application → .github → workflows → main_mymvcapp-webapp949348.yml` **Click the pencil icon (2)** to begin editing the YAML file.
 
-   ![](../../media/18-06-25-s3-9.png)
+   ![](../../media/18-06-25-s3-9.1.png)
 
 1. Locate the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file and replace the **${{env.DOTNET_ROOT}}/myapp** paths with **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** and click on **Commit changes**.
 
@@ -241,19 +240,19 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
-1. Navigate back to the **Actions (1)** tab, and you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed**(2)**.
+1. Navigate back to the **Actions (1)** tab, and you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed **(2)**.
 
-   ![](../../media/18-06-25-s3-10.png)
+   ![](../../media/18-06-25-s3-10.1.png)
 
 ## Task 3: Get the app working on Azure
 
 In this task, you'll verify that the GitHub action pipeline build has succeeded, the workflow file has been created, and your  web app is working as expected on Azure.
 
-1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)**.
+1. Verify that both `build` and `deploy` jobs show a green checkmark in the **Actions** tab **(1)**. Confirm the deployment link **(2)** to ensure your web app is live and running.
 
    ![](../../media/18-06-25-s3-11.png)
 
-1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
+1. Verify that your web app is working as expected by navigating to the **web application** in a different tab.
 
    ![](../../media/challenge3-web-app-001.png)
 
@@ -261,7 +260,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
    ![](../../media/18-06-25-s3-12.png)
 
-1. Your GitHub workflow file will be in the below format:
+1. Your GitHub workflow file will be in the following format:
 
    ```
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
@@ -322,9 +321,9 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
              publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
-1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
+1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting, and clicking on the **Default Domain**.
 
-   ![](../../media/18-06-25-s3-f.png)
+   ![](../../media/18-06-25-s3-f1.png)
 
 ## Task 4: Generate Documentation with Copilot for the App
 
@@ -337,7 +336,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 1. You'll notice that the GitHub Copilot generates brief documentation about your workspace's ARM template deployment to Azure, and the workings of the workflow file and a few config files.
 
    ```
-   # Deployment of Web Application to Azure
+   # Deployment of a Web Application to Azure
    This document outlines the process of deploying the web application to Azure using ARM templates and GitHub Actions.
 
    ## ARM Template Deployment
@@ -345,7 +344,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    ### ARM Template File - deploy.json
 
-   This file contains the Azure Resource Manager (ARM) template which describes the resources that are needed for the application.
+   This file contains the Azure Resource Manager (ARM) template, which describes the resources that are needed for the application.
 
    ### Parameters File - deploy.parameters.json
 
@@ -365,7 +364,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
    In this workflow, replace ExampleDeployment and ExampleGroup with your actual deployment name and resource group name. Also, make sure to store your Azure credentials as a secret in your GitHub repository.
 
    ## Web Configuration
-   The web application's configuration is defined in the Web.config, Web.Debug.config, and Web.Release.config files.
+   The web application's configuration is defined in the Web.config, Web.Debug.config, and Web.Release.con, fig files.
 
    ### Web Configuration File - Web.config
 
@@ -381,20 +380,4 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
    ```
 
    ![](../../media/workspace.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
