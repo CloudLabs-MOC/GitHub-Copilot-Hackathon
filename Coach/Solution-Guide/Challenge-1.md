@@ -355,7 +355,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Open the **sum_elements.py** file by double-clicking on it.
 
-1. Select the entire code, right-click, and click **Refactor** and select **Modify using Copilot**, and ask the Copilot to refactor the code chosen.
+1. Select the entire code, right-click, and click **Refactor (1)** and select **Modify using Copilot (2)**, and ask the Copilot to refactor the code chosen.
 
    ![](../../media/18-06-25-s1-22.png)
 
