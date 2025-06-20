@@ -191,7 +191,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
     - **Name**: `contactdatabaseapp` *(or your desired app name)* **(5)**
     - **Location**: `west us 2` **(6)**
     - **Hosting Plan Name**: `webapp12345` **(7)**
-    - Once you have specified all the parameters, click **Review + Create (8)**, and **Create**.
+    - Once you have specified all the parameters, click **Review + create (8)**, and **Create**.
 
       ![](../../media/18-06-25-s3-3.1.png)
 
@@ -203,7 +203,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 In this task, you'll generate a GitHub Action workflow pipeline using the Deployment Center from the Web App in the Azure portal.
 
-1. Navigate to your web app in the Azure portal. Under the **Deployment section (1)** in the left-hand menu, select **Deployment Center (2)**.
+1. Navigate to your web app in the Azure portal. Under the **Deployment (1)**  section in the left-hand menu, select **Deployment Center (2)**.
 
    ![](../../media/challenge3-deployment-center.png)
 
@@ -226,9 +226,9 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
 1. The workflow will fail with the **build error(1)** stating that the process completed with **exit code 1 (2)** due to the undefined path issue in your workflow YAML file.
 
-   ![](../../media/18-06-25-s3-8.png)
+   ![](../../media/18-06-25-s3-8.1.png)
 
-   ![](../../media/challenge3-github-build-fail-error.png)
+   ![](../../media/18-06-25-s3-8.2.png)
 
 1. **Navigate to the workflow YAML file (1)** Go to your repository: `MyMvcApp-Contact-Database-Application → .github → workflows → main_mymvcapp-webapp949348.yml` **Click the pencil icon (2)** to begin editing the YAML file.
 
