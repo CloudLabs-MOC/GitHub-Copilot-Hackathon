@@ -10,7 +10,7 @@
 
 1. Copy the following repository URL [https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Database-Application) You will need it in the next step.
 
-1. Go to your GitHub account, navigate to the Dashboard, and click on New.
+1. Go to your **GitHub account**, navigate to the **Dashboard**, and click on **New**.
 
    ![](../../media/18-06-25-s2-1.png)
 
