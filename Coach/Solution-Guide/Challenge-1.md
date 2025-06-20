@@ -1,6 +1,6 @@
 # Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
-## Task 1: Setup Github Copilot in VS Code
+## Task 1: Set up GitHub Copilot in VS Code
 
 In this task, you'll be installing the GitHub Copilot extension in VS Code.
 
@@ -26,39 +26,39 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
    
    ![Sign in to GitHub](../../media/signingit.png)
    
-1. Click on **Allow** in the popup.
+1. Click **Allow** if the GitHub Copilot extension wants to sign in using GitHub.
 
    ![Allow](../../media/allow.png)
 
-1. On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in with identity provider**.
+1. On the **Sign-in GitHub** page, enter your GitHub credentials and click on **Sign in with identity provider**.
 
    ![Allow](../../media/18-06-25-s1-1.png)
 
-1. Click on Continue on Single sign-on to **CloudLabs Organizations**.
+1. Click on **Continue** on Single sign-on to **CloudLabs Organizations**.
 
    ![Allow](../../media/18-06-25-s1-2.png)
 
-1. On the Sign into Microsoft tab, you will see a login screen. Enter the email/username, and then click on Next.
+1. On the **Sign in to Microsoft tab**, you will see a login screen. Enter the email/username, and then click on **Next**.
 
    ![Allow](../../media/18-06-25-s1-3.png)
 
    >**Note:** You can find the Username and Password within the lab environment by navigating to the **Environment tab** at the top. Then click on Azure Credentials and copy both the **Username** and **Password** from the Auth Fields section.
 
-1. Now enter the password and click on Sign in.
+1. Now, enter the password and click on **Sign in**.
 
    ![Allow](../../media/18-06-25-s1-4.png)
 
-   >**Note** If you see the pop-up Stay Signed in?, click No.
+   >**Note:** If you see the pop-up **Stay Signed in?**, click **No**.
 
-1. Click on Continue on Select user to authorize Visual Studio Code.   
+1. Click on **Continue** on Select user to authorize **Visual Studio Code**.   
 
    ![Allow](../../media/18-06-25-s1-5.png)
 
-1. Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
+1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for Visual Studio Code.
 
    ![Allow](../../media/18-06-25-s1-6.png)
 
-1. You will encounter a pop-up prompt, Click Open to proceed.
+1. You will encounter a pop-up prompt. click **Open** to proceed.
 
    ![Allow](../../media/18-06-25-s1-7.png)
 
@@ -66,57 +66,59 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
 In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
 
-1. Copy the following repository URL **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** you will need it in the next step.
+1. Copy the following repository URL: **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** You will need it in the next step to **import or clone**the repository.
    
-1. Go to your GitHub account, navigate to the Dashboard, and click on Import repository.
+1. Go to your GitHub account, navigate to the **Dashboard**, and click on **Import repository.
 
    ![Allow](../../media/18-06-25-s1-8.png)
 
-1. Paste the source repository URL recently copied into **The URL for your source repository field (1)**, select the **Owner** from the drop-down list (2), type a unique **Repository name (3)**, and then click **Begin import (4)** to clone the project into your GitHub account.
+1. **Paste** the source repository URL you recently copied into the **"The URL for your source repository"** field (1). Then, select the appropriate **Owner** from the drop-down list (2), enter a unique **Repository name** (3), and finally click **Begin import** (4) to clone the project into your GitHub account.
 
    ![Allow](../../media/18-06-25-s1-9.png)
 
-1. Once the import is complete, you’ll see a confirmation message that your new repository is ready. Click on the **Code tab**
+1. **Once the import is complete**, you will see the confirmation message **"Preparing your new repository"** followed by a green checkmark. This indicates that your new repository is ready. Now, click on the **Code** tab.
 
    ![Allow](../../media/18-06-25-s1-10.png)
 
-1. Click on **settings** and Click on Switch settings context and select the organization 
+1. **Go to GitHub Settings**, then click on **Switch settings context (1)**. From the dropdown menu, select your organization **gh-hack-... (2)**.
 
    ![Allow](../../media/18-06-25-s1-12.png)
 
-1. In the left sidebar, click Codespaces (1), then select General (2). Under Codespaces access, choose Enable for all members and outside collaborators (3), and click Save to apply the setting.
+1. In the left sidebar, click **Codespaces (1)**, then select **General (2)**. Under **Codespaces access**, choose **Enable for all members and outside collaborators (3)**, and finally click **Save (4)** to apply the setting.
 
    ![Allow](../../media/18-06-25-s1-13.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up, and then click the **Create codespace on main (2)** button.
+1. Click the **Code (1)** dropdown at the top right, then select the **Codespaces (2)** tab from the pop-up. After that, click **Create codespace on main (3)** to launch a cloud-based development environment.
 
    ![GitHub-Codespaces](../../media/18-06-25-s1-14.png)
 
-   >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
+   >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-1. If the Codespace does not open in your Visual Studio Code, then navigate to your GitHub repository, click on **Code**, click on the **ellipsis** button for your current codespace and then click on **Open in Visual Studio Code**.
+1. **If the Codespace does not automatically open in Visual Studio Code**, follow these steps:
+
+   Click on **Code (1)**, then go to the **Codespaces tab (2)**. Locate your active codespace, click on the **ellipsis menu (3)** next to it, and select **Open in Visual Studio Code (4)** from the dropdown.
 
    ![GitHub-Codespaces](../../media/18-06-25-s1-15.png)
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+1. **You will encounter a browser pop-up** asking if you want to open Visual Studio Code. Click **Open** to proceed.
 
    ![](../../media/open.png)
 
+1. Inside Visual Studio Code, another prompt will appear asking: **"Would you like to install 'GitHub Codespaces' extension?"** Click **Install Extension and Open URI** to proceed.
+
    ![](../../media/18-06-25-s1-16.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
-
-1. Next, once you get the popup, click on **Allow**.
+1. When prompted with **"The extension 'GitHub Codespaces' wants to sign in using GitHub"**, click **Allow** to continue. Next, once you get the pop-up, click on **Allow**.
 
    ![](../../media/18-06-25-s1-17.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+   >**Note:** Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click on Continue on Select user to authorize Visual Studio Code.
+1. On the **"Select user to authorize Visual Studio Code"** screen, click **Continue** next to your signed-in GitHub account.
 
    ![](../../media/18-06-25-s1-5.png)
 
-1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
+1. Click on **Authorize Visual-Studio-Code** to grant the necessary permissions for Visual Studio Code to access your GitHub Codespaces and repositories.
 
    ![](../../media/18-06-25-s1-18.png)
 
@@ -128,20 +130,21 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
 In this task, you will evaluate the functionality of GitHub Copilot by generating a simple code snippet using Copilot Chat.
 
-1. Create a file with any name of your choice.
+1. Create a new file with any name of your choice (e.g., `HelloW.py`) in Visual Studio Code.
 
    ![](../../media/createfile.png)
 
 1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
-1. When the Copilot mini window appears, Enter this prompt `Create a simple python code'.
+
+1. When the Copilot mini window appears, enter this prompt: `Create a simple python code`.
 
    ![](../../media/checkpy.png)
 
-1. A basic "Hello World" code will be generated. Click "Accept" to insert it into the newly created file.
+1. A basic "Hello World" code will be generated. Click **Accept** to insert it into the newly created file.
 
    ![](../../media/checkpy2.png)
 
-   >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the image provided.
+   >**Note:** The output may vary in your case. It won't be the same, but it will be similar to the image provided.
 
 This confirms that the Copilot functionality is working properly.
 
@@ -149,19 +152,16 @@ This confirms that the Copilot functionality is working properly.
 
 In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get weather data from weather APIs.
 
-1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator using the below prompt.
-
-   ```
-   Create a Python/JS based code to build a calculator 
-   ```
+1. Click on the **GitHub Copilot Chat** icon at the top right and select **Open Chat**. In the chat window, enter the prompt:
+**`Create a Python/JS-based code to build a calculator`**. GitHub Copilot will respond with the relevant code suggestion.
 
    ![](../../media/copilotchat.png)
 
    ![](../../media/copilot-calculatorupd.png)
 
-   >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the image provided.
+   >**Note:** The output may vary in your case. It won't be the same, but it will be similar to the image provided.
 
-1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
+1. Notice how GitHub Copilot creates code to build a calculator in both Python and JavaScript. Save the files to run tests.
 
    - Python code to build a calculator:
      ```
@@ -246,9 +246,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
       console.log("Multiplication:", multiply(num1, num2));
       console.log("Division:", divide(num1, num2));
      ```
-      > **Note:** Declare the two variables/numbers before running tests through JS.
+      >**Note:** Declare the two variables/numbers before running tests through JS.
 
-      >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the code provided.
+      >**Note:** The output may vary in your case. It won't be the same, but it will be similar to the code provided.
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 
@@ -256,37 +256,45 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/18-06-25-s-test2.png)
 
-1. To access weather data using the OpenWeatherMap API, sign in to your account on their website: [https://openweathermap.org/](https://openweathermap.org/).
+1. To access weather data using the OpenWeatherMap API, go to [https://openweathermap.org](https://openweathermap.org) and click on **Sign in** at the top-right corner of the page.
 
    ![](../../media/signinapi.png)
 
-1. Create a new one to get the weather data using code by click on Create an Account.
+1. Click on **Create an Account** to register and get access to the OpenWeatherMap API for retrieving weather data.
 
    ![](../../media/createaaccount.png)
 
-   >**Note** If a pop-up prompt appears asking "How and where will you use our API?", click **Cancel** to proceed
+   >**Note:** If a pop-up prompt appears asking "How and where will you use our API?", click **Cancel** to proceed.
 
-1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the 'Create Account' button **(8)**.
+1. To create a new OpenWeather account, fill in the following fields:
 
-   ![](../../media/18-06-25-s1-19.png)
+   * Enter your **Username (1)**
+   * Enter your **Email address (2)**
+   * Set your **Password (3)** and **Confirm it (4)**
+   * Check the box to confirm you are over 16 years old **(5)**
+   * Agree to the Privacy Policy and Terms **(6)**
+   * Complete the **CAPTCHA verification (7)**
+   * Finally, click on **Create Account (8)**
 
-1. Then Sign-in using same usernmae and credentials.
+     ![](../../media/18-06-25-s1-19.png)
 
-   >**Note:** Please user OLD username and password.
+1. After creating the account, you will be signed in automatically. If not, **sign in manually** using the **same username and password** you created earlier.
+
+   >**Note:** Please use OLD username and password.
 
 1. To access your API keys, click on your **username (1)** at the top-right corner, then select **My API keys (2)** from the dropdown menu. This will open the section where you can view or manage your API key.  Make sure to copy the API key.
 
    ![](../../media/18-06-25-s1-20.png)
 
-1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
-
+1. Open the **GitHub Copilot Chat** window by clicking the Copilot icon from the top bar. Then, in the message box at the bottom, type:
+   
    ```
    Create a Python/JS based app to get weather data from weather APIs
    ```
 
    ![](../../media/copilot-weather-api.png)
 
-1. Notice how GitHub Copilot creates codes to get weather data from weather APIs in both Python and JS languages.
+1. Notice how GitHub Copilot creates code to get weather data from weather APIs in both Python and JavaScript.
 
    - Python:
      ```
@@ -324,7 +332,20 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
 
-1. Push the files to your forked **gh-hack-20250618-1769089/Code-Generation-Refactoring** GitHub repository.
+1. Run the following commands in your terminal to upload your local files to your GitHub repository:
+
+   ```bash
+   git add .
+   ```
+
+   ```bash
+   git commit -m "Initial commit"
+   ```
+
+   ```bash
+   git push -u origin main
+   ```
+   >**Note:** This will upload your project to your repository **`gh-hack-20250618-1769089/Code-Generation-Refactoring`**
 
    ![](../../media/18-06-25-s1-21.png)
 
@@ -334,7 +355,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Open the **sum_elements.py** file by double-clicking on it.
 
-1. Select the entire code, right-click, and click **Refactor** and select *Modify using copilot*, and ask the Copilot to refactor the selected code.
+1. Select the entire code, right-click, and click **Refactor** and select **Modify using Copilot**, and ask the Copilot to refactor the code chosen.
 
    ![](../../media/18-06-25-s1-22.png)
 
@@ -379,13 +400,13 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       main()
    ```
 
-1. Accept the changes and Save the file and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
+1. After Copilot suggests changes to your code, click **Accept** to apply the fix. Then, **save the file** and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
 
    ![](../../media/18-06-25-s1-24.png)
 
 1. Open the **card_draw.py** file by double-clicking on it.
 
-1. Select the entire code, right-click and click **Copilot**, and then click **Fix** to debug the selected code.
+1. Select the entire code, then **right-click**, go to **Copilot (1)**, and click **Fix (2)** to let GitHub Copilot automatically suggest a corrected version of the selected code. 
 
    ![](../../media/18-06-25-s1-25.png)
 
@@ -410,7 +431,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       print(deck[i][0], "of", deck[i][1])
    ```
 
-1. Accept the changes and Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
+1. After Copilot suggests changes to your code, click **Accept** to apply the fix. Then, **save the file** and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
 
    ![](../../media/18-06-25-s1-26.png)
 
@@ -455,9 +476,10 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
    ![](../../media/copilot-features-tests-cmd.png)
 
-1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
+1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering the **@** special character in your GitHub Copilot Chat window.
 
    ![](../../media/copilot-features-chatupd.png)
 
 1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
 
+### You have successfully completed the Challenge
