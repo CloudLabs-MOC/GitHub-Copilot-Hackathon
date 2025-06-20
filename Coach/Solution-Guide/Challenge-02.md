@@ -38,7 +38,7 @@
 
 1. Select the **GitHub Copilot** folder **(1)** in `C:\Users\azureuser`, then click **Select as Repository Destination** **(2)**.
 
-   ![](../../media/18-06-25-s2-5.png)
+   ![](../../media/18-06-25-s2-5-new.png)
 
    >**Note:** If the folder does not exist, please create a new one manually before proceeding.
 
@@ -94,7 +94,7 @@ Click **Download x64** to get the Windows-compatible version. After the download
 
 1. From the context menu, choose the **Copilot (1)** option and click on **Fix (2)**
  
-   ![](../../media/18-06-25-s2-12.png)
+   ![](../../media/18-06-25-s2-12-new.png)
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
  
@@ -108,7 +108,7 @@ Click **Download x64** to get the Windows-compatible version. After the download
 
 1. From the context menu, choose the **Copilot (1)** option and click on **Editor Inline chat (2)**
    
-   ![](../../media/github-hack-copilot-3.png)
+   ![](../../media/18-06-25-s2-edit.png)
      
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
 
@@ -130,7 +130,7 @@ Click **Download x64** to get the Windows-compatible version. After the download
 
 1. Locate the app file **MyMvcApp.csproj** and right click **Open in Integreted Terminal**.
 
-   ![](../../media/OpenTerminal.png)
+   ![](../../media/18-06-25-s2-term.png)
 
 1. Run the below command to run the application on localhost. 
 
