@@ -364,7 +364,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
    In this workflow, replace ExampleDeployment and ExampleGroup with your actual deployment name and resource group name. Also, make sure to store your Azure credentials as a secret in your GitHub repository.
 
    ## Web Configuration
-   The web application's configuration is defined in the Web.config, Web.Debug.config, and Web.Release.con, fig files.
+   The web application's configuration is defined in the Web.config, Web.Debug.config, and Web.Release.config files.
 
    ### Web Configuration File - Web.config
 
