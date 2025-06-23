@@ -2,43 +2,59 @@
 
 ## Task 1: Generate Documentation with Copilot
 
-In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for codes.
+In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for code.
 
-1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
+1. Copy the following repository URL [https://github.com/Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) you will need it in the next step.
 
-1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new README.md file
+1. Open Visual Studio Code and click on **Clone Repository**.
 
-1. On the empty README.md file click Ctrl+I to get Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
+   ![](../../media/18-06-25-s2-7.png)
+
+1. In the search bar, paste the source repository URL recently copied and click Enter.
+
+   ![](../../media/18-06-25-s5-1.png)
+
+1. Click on **Select as Repository destination**.
+
+   ![](../../media/18-06-25-s5-2.png)
+
+1. Navigate to the **azure-search-openai-demo\app\backend** and create a new **README.md** file
+
+   ![](../../media/18-06-25-s5-3.1.png)
+
+1. On the **empty README.md** file, click **Ctrl+I** to get the **Copilot Copilot Chat** window and ask Copilot to generate a README.md file for the directory app/backend.
 
    ![](../../media/Generatee.png)
 
-1. Accept the generated code from Copilot to reflect in the README.md file
+1. **Accept** the generated code from Copilot to reflect in the README.md file
 
    ![](../../media/Code3.png)
 
    ![](../../media/Code2.png)
 
-1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
+1. Navigate to the **app/backend/requirements.txt** file and browse through the requirements. 
 
-   ![](../../media/backend-requirements.png)
+   ![](../../media/18-06-25-s3-req.png)
 
-1. Now select the entire file, right-click, and then select **Copilot** and **Generate Docs**.
+1. Now select the entire file, right-click, and then select **Copilot (1)** and **Generate Docs (2)**.
 
-   ![](../../media/backend-requirements-generate-docsupd.png)
+   ![](../../media/18-06-25-s5-4.1.png)
 
-1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
+1. Notice how the **GitHub Copilot** lists out all the requirements in the file at the beginning.
 
    ![](../../media/backend-requirements-list.png)
 
-1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for either of the modules, functions, or classes.
+1. Navigate to **app/backend/approaches/approach.py** file. You will notice that there are no comments for either of the modules, functions, or classes.
+
+   ![](../../media/18-06-25-s5-5.1.png)
 
 1. Now select the entire file, right-click, and then select **Copilot** and **Editor Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/snapupd.png)
+   ![](../../media/18-06-25-s5-6.1.png)
 
-   ![](../../media/snap2.png)
+   ![](../../media/18-06-25-s5-7.png)
 
-1. Notice how the GitHub Copilot generates comments in the code.
+1. Notice how the **GitHub Copilot generates** comments in the code.
 
 ## Task 2: Enhance and Refine Documentation
 
@@ -46,23 +62,31 @@ In this task, you'll enhance and refine your README.md documentation by utilizin
 
 1. Open your **README.md** file, which you saved in the previous task.
 
-1. Select the entire documentation and click **Ctrl+Enter** to view suggestions provided by GitHub Copilot to enhance the documentation.
+1. Select the entire documentation and click **Ctrl+Enter** to view suggestions provided by **GitHub Copilot** to enhance the documentation.
 
    ![](../../media/backend-readme-suggestions.png)
 
-1. You'll find a number of suggestions for the selected document that will help you refine it.
+1. You'll find several suggestions for the selected document that will help you refine it.
 
-1. Browse through the GitHub Copilot suggestions and **Accept** the best-suited suggestions.
+1. Browse through the **GitHub Copilot** suggestions and **Accept** the best-suited suggestions.
 
 ## Task 3: Explore Various Documentation Styles
 
 In this task, you'll explore the various styles of documentation that you can generate by utilizing GitHub Copilot.
 
-1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Copilot** and **Start Inline Chat**.
+1. In your Visual Studio Code, create a **new file (1)** and name it **New-VNet (2)**, right-click anywhere on the new file, and select **Copilot (3)** and **Eidtor Inline Chat (4)**.
 
-1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
+   ![](../../media/18-06-25-s5-8.png)
 
-1. You'll notice that the GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
+   ![](../../media/18-06-25-s5-9.1.png)
+
+1. Ask the **GitHub Copilot** to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
+
+   ![](../../media/18-06-25-s5-10.png)
+
+   ![](../../media/18-06-25-s5-11.png)
+
+1. You'll notice that the **GitHub Copilot** has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
    ```
    # Deploy a Virtual Network (VNet) in Azure
@@ -112,7 +136,7 @@ In this task, you'll explore the various styles of documentation that you can ge
    - Explore advanced networking features in Azure.
    ```
 
-1. You can also utilize GitHub Copilot Chat to generate a Javadoc to create a calculator.
+1. You can also utilize **GitHub Copilot Chat** to generate a Javadoc to create a calculator.
 
    ```
    /**

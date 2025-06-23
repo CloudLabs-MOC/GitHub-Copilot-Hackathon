@@ -6,30 +6,39 @@
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
-        
+
+     ![](../../media/18-06-25-s3-mz.png)
+     
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
+
+     ![](../../media/17-06-25-l5.png)
      
-1. If you see the pop-up **Stay Signed in?** click No.
+1. If you see the pop-up **Stay Signed in?**, click No.
+
+   ![](../../media/17-06-25-l6.png)
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
    
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
+
+   ![](../../media/18-06-25-s3-1.1.png)
   
 1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
 
-## Task 1: Develop ARM Template to deploy an app to Azure
+   ![](../../media/18-06-25-s3-2.png)
+
+## Task 1: Develop an ARM Template to deploy an app to Azure
 
 In this task, you'll be generating an ARM template to deploy a web application to Azure using Azure App Services and defining the necessary resources.
 
-1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled).
+1. In the GitHub Copilot Chat panel, type and ask: **"Generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled)"**.
 
    ![](../../media/codechat.png)
 
-
-1. GitHub Copilt will generate a basic ARM template (which might not be accurate). Copy and paste the ARM template in a new file named **deploy.json**, and utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble what is given below, with the resources and specifications.
+1. GitHub Copilot will generate a basic ARM template (which might not be accurate). Copy and paste the ARM template in a new file named **deploy.json**, and utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble what is given below, with the resources and specifications.
 
    ```
    {
@@ -133,7 +142,9 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In your VS Code, create a new file **deploy.parameters.json** to define the parameters from your *deploy.json* file.
+1. In your **Visual Studio Code**, create a new file named **`deploy.parameters.json`** to define the parameter values referenced in your **`deploy.json`** ARM template file.
+
+   ![](../../media/18-06-25-s3-new.png)
 
    ```
    {
@@ -159,64 +170,69 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In your Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
+1. In the Azure portal, type **Deploy a custom template (1)** into the search bar and select the **Deploy a custom template (2)** option from the results.
 
-   ![](../../media/challenge3-azure-custom.png)
+   ![](../../media/18-06-25-s3-5.1.png)
 
-1. In your Custom deployment tab, click on **Build your own template in editor**.
+1. In your **Custom deployment** tab, click on **Build your own template in editor**.
 
    ![](../../media/challenge3-custom-deploy.png)
 
-1. In your Edit Template tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
+1. In your **Edit Template** tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
 
    ![](../../media/challenge3-custom-deploy-save.png)
 
-1. Enter the specifications to deploy your web app. Make sure to deploy the web app in the existing resource group named **GitHub-Copilot-Challenges**.
+1. On the **Basics** tab of the deployment form, enter instance details:
 
-1. Once you have specified all the parameters, click **Review + Create**, and **Create**.
+    - **resource group**: `GitHub-Copilot-Challenges` **(1)**
+    - **Region**: `(US) West US 2` **(2)**
+    - **Subscription ID**: *Enter your AzureSubscription ID)* **(3)**
+    - **Resource Group Name**: `GitHub-Copilot-Challenges` **(4)**
+    - **Name**: `contactdatabaseapp` *(or your desired app name)* **(5)**
+    - **Location**: `west us 2` **(6)**
+    - **Hosting Plan Name**: `webapp12345` **(7)**
+    - Once you have specified all the parameters, click **Review + create (8)**, and **Create**.
 
-1. Wait for the deployment to succeed and verify that your web app service and app service plan resources exist in the resource group.
+      ![](../../media/18-06-25-s3-3.1.png)
 
-   ![](../../media/challenge3-custom-deploy-verify.png)
+1. Wait for the deployment to succeed and verify that your **web app service and app service plan** resources exist in the resource group.
+
+   ![](../../media/18-06-25-s3-4.png)
 
 ## Task 2: Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal
 
 In this task, you'll generate a GitHub Action workflow pipeline using the Deployment Center from the Web App in the Azure portal.
 
-1. Navigate to your web app service, and under the **Deployment** settings, select **Deployment Center**.
+1. Navigate to your web app in the Azure portal. Under the **Deployment (1)**  section in the left-hand menu, select **Deployment Center (2)**.
 
    ![](../../media/challenge3-deployment-center.png)
 
-1. Specify the following settings to generate a GitHub Action workflow YAML file and click **Save**:
+1. Specify the following settings to generate a GitHub Action workflow YAML file and click **Save (9)**:
 
-   * **Source**: GitHub
-   * **Signed in as**: Your GitHub Account
-   * **Organization**: Your GitHub Organization
-   * **Repository**: Your Github Repository (**MyMvcApp-Contact-Database-Application**)
-   * **Branch**: Your GitHub Repository Branch
-   * **Runtime stack**: .NET
-   * **Version**: v8.0
-   * **Authentication type**: Basic authentication
-  
-   ![](../../media/challenge3-deployment-center-01.png)
+   * **Source**: GitHub **(1)**
+   * **Signed in as**: Your GitHub Account **(2)**
+   * **Organization**: Your GitHub Organization **(3)**
+   * **Repository**: Your Github Repository (**MyMvcApp-Contact-Database-Application**) **(4)**
+   * **Branch**: Your GitHub Repository Branch **(5)**
+   * **Runtime stack**: .NET **(6)**
+   * **Version**: v8.0  **(7)**
+   * **Authentication type**: Basic authentication  **(8)**
 
-   ![](../../media/challenge3-deployment-center-02.png)
-
-1. You can also view your workflow configuration by clicking on the **Preview file** button.
+     ![](../../media/18-06-25-s3-6.1.png)
 
 1. Navigate to your GitHub repository, and under the **Actions** tab, you'll notice that the build has started for your web app. 
 
-   ![](../../media/challenge3-github-build.png)
+   ![](../../media/18-06-25-s3-7.png)
 
-1. The workflow will fail with the **build** error stating that the process completed with exit code 1 due to the undefined path issue in your workflow YAML file.
+1. The workflow will fail with the **build error(1)** stating that the process completed with **exit code 1 (2)** due to the undefined path issue in your workflow YAML file.
 
-   ![](../../media/challenge3-github-build-fail.png)
+   ![](../../media/18-06-25-s3-8.1.png)
 
-   ![](../../media/challenge3-github-build-fail-error.png)
+   ![](../../media/18-06-25-s3-8.2.png)
 
-1. Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
+1. **Navigate to the workflow YAML file (1)** Go to your repository: `MyMvcApp-Contact-Database-Application → .github → workflows → main_mymvcapp-webapp949348.yml` **Click the pencil icon (2)** to begin editing the YAML file.
 
-   ![](../../media/challenge3-github-workflow-edit.png)
+   ![](../../media/18-06-25-s3-9.1.png)
 
 1. Locate the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file and replace the **${{env.DOTNET_ROOT}}/myapp** paths with **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** and click on **Commit changes**.
 
@@ -224,27 +240,27 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
-1. Navigate back to the **Actions** tab, you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
+1. Navigate back to the **Actions (1)** tab, and you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed **(2)**.
 
-   ![](../../media/challenge3-github-build-succeed.png)
+   ![](../../media/18-06-25-s3-10.1.png)
 
 ## Task 3: Get the app working on Azure
 
 In this task, you'll verify that the GitHub action pipeline build has succeeded, the workflow file has been created, and your  web app is working as expected on Azure.
 
-1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)**.
+1. Verify that both `build` and `deploy` jobs show a green checkmark in the **Actions** tab **(1)**. Confirm the deployment link **(2)** to ensure your web app is live and running.
 
-   ![](../../media/challenge3-github-build-verify.png)
+   ![](../../media/18-06-25-s3-11.png)
 
-1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
+1. Verify that your web app is working as expected by navigating to the **web application** in a different tab.
 
    ![](../../media/challenge3-web-app-001.png)
 
 1. Also, verify that your workflow file has been created in a new directory **.github/workflows**.
 
-   ![](../../media/challenge3-github-workflows.png)
+   ![](../../media/18-06-25-s3-12.png)
 
-1. Your GitHub workflow file will be in the below format:
+1. Your GitHub workflow file will be in the following format:
 
    ```
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
@@ -305,9 +321,9 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
              publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
-1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
+1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting, and clicking on the **Default Domain**.
 
-   ![](../../media/challenge3-default-domain.png)
+   ![](../../media/18-06-25-s3-f1.png)
 
 ## Task 4: Generate Documentation with Copilot for the App
 
@@ -320,7 +336,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 1. You'll notice that the GitHub Copilot generates brief documentation about your workspace's ARM template deployment to Azure, and the workings of the workflow file and a few config files.
 
    ```
-   # Deployment of Web Application to Azure
+   # Deployment of a Web Application to Azure
    This document outlines the process of deploying the web application to Azure using ARM templates and GitHub Actions.
 
    ## ARM Template Deployment
@@ -328,7 +344,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    ### ARM Template File - deploy.json
 
-   This file contains the Azure Resource Manager (ARM) template which describes the resources that are needed for the application.
+   This file contains the Azure Resource Manager (ARM) template, which describes the resources that are needed for the application.
 
    ### Parameters File - deploy.parameters.json
 
@@ -364,20 +380,4 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
    ```
 
    ![](../../media/workspace.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
