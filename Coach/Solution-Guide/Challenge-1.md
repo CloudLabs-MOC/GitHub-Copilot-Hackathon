@@ -385,3 +385,6 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
 
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
