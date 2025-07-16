@@ -28,6 +28,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
+  >**Note**: If you get a message stating repository already exists. Please delete the existing repository and fork new one again.
+
 4. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
 
 ## Challenge Objectives  
