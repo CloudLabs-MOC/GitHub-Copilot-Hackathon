@@ -18,6 +18,8 @@
 
 ### Open Visual Studio Code and Clone Repository
 
+1. Open the File explorer and create a folder named **GitHub Copilot** in **C:\Users\azureuser**. 
+
 1. Launch Visual Studio and click on **Clone Git repository**.
 
    ![](../../media/CloneRepo.png)
@@ -137,11 +139,11 @@
 
 ### Create a New Contact
 
-1. In the opened web browser, locate the "Create New" button and click on it.
+1. In the opened web browser, locate the **Create New** button and click on it.
 
    ![](../../media/crud1.7.png)
 
-1. Fill in the required fields for Name and Email in the form provided. Click on the "Create" button to submit the form and create a new contact.
+1. Fill in the required fields for Name and Email in the form provided. Click on the **Create** button to submit the form and create a new contact.
 
    ![](../../media/crud1.8.png)
 
@@ -149,11 +151,11 @@
 
 1. After creating a contact, return to the homepage.
 
-1. Find the contact you created in the list and locate the "Edit" button associated with it. Click on the "Edit" button.
+1. Find the contact you created in the list and locate the "Edit" button associated with it. Click on the **Edit** button.
 
    ![](../../media/crud1.9.png)
 
-1. Modify the existing details (Name or Email) as desired. Save the changes by clicking on the "Save" button.
+1. Modify the existing details (Name or Email) as desired. Save the changes by clicking on the **Save** button.
 
    ![](../../media/crud1.10.png)
 
@@ -161,7 +163,7 @@
 
 1. Once again, return to the homepage.
 
-1. Locate the contact whose details you want to verify. Click on the "Details" button associated with that contact.
+1. Locate the contact whose details you want to verify. Click on the **Details** button associated with that contact.
 
    ![](../../media/crud1.11.png)
 
@@ -173,7 +175,7 @@
 
 1. From the homepage, find the contact you wish to delete.
 
-1. Click on the "Delete" button associated with that contact.
+1. Click on the **Delete** button associated with that contact.
 
    ![](../../media/crud1.13.png)
 
@@ -188,8 +190,6 @@
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
 
 # Task 2: Generate Unit Test Cases
-
-1. Create a folder named **GitHub Copilot** in **C:\Users\azureuser**.
 
 1. Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
