@@ -38,13 +38,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
-   ![](../../media/github-login.png)
+   ![](../../media/CH1S3.png)
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
 
-   ![](../../media/authgit.png)
+   ![](../../media/CHS4.png)
 
 ## Challenge Objectives:
 
@@ -60,17 +60,20 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - To verify your GitHub account login, sign in to **Outlook** in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
       - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
+
 3. **Using GitHub Codespaces with Copilot:**
       - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
       - Clone the above forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
       - Understand how Copilot can be utilized in a collaborative coding environment.
       - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
+
 4. **Copilot Function Test:**
      
    - Create a New Python File:
-
+     
       - Open Visual Studio Code and create a new file named hello.py.
+
 
    - Utilising GitHub Copilot:
    
@@ -89,6 +92,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
          > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
+
       - Create Python/JS-based code to build a calculator.
          - Utilize GitHub Copilot to assist in generating the code. Start by typing a comment like `# Create a basic calculator` to prompt Copilot to suggest code snippets. 
          - Implement various mathematical operations, such as addition, subtraction, multiplication, and division, as well as user interactions to take input and display results.
@@ -105,14 +109,15 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
-6. **Code Refactoring & Debugging:**
+7. **Code Refactoring & Debugging:**
+      
       - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
         >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
 
       - Debug the `card_draw.py` code effectively from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository with Copilot's assistance, addressing and fixing identified issues. 
         >**Hint:** Utilize GitHub Copilot's **Fix** feature.
 
-7. **Explore GitHub Copilot Features:**
+8. **Explore GitHub Copilot Features:**
       - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
       - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
         >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
@@ -134,3 +139,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ### Conclusion
 
 In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You were also successful in creating Python/JS code for a calculator and an app to fetch weather data from OpenWeatherMap APIs. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance.
+
+### Click on Next >> to proceed with the next challenge.
+
+![](../../media/next-page.png)
