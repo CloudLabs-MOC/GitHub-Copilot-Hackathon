@@ -6,13 +6,13 @@ Welcome to your Microsoft Copilot Hackathon Workshop! We've prepared a seamless 
 
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![](../../media/new-github-copilot-hack-01.png)
+![](../../media/GSS1.png)
 
 ## Accessing Your GitHub credentials
 
 Once you are in the **Environment** tab, click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
 
-![](../../media/git-01.png)
+![](../../media/GSS2.png)
 
 ### Virtual Machine & Lab Guide
 
@@ -22,13 +22,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../../media/git-02-2.png)
+![](../../media/GSS3.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![](../../media/git-03.png)
+![](../../media/GSS4.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
