@@ -180,6 +180,10 @@ In this task, you'll explore the various styles of documentation that you can ge
        return a * b * c;
    }
    ```
+   
+## Conclusion
+
+In this challenge, you've utilized GitHub Copilot to generate comments and markdown documentation for the backend app through GitHub Copilot features. You have also enhanced and refined your newly generated markdown documentation for the backend app through GitHub Copilot Suggestions. Further, you explored the various documentation styles that GitHub Copilot provides by generating markdown documents to deploy a VNet in Azure and a Javadoc to create a calculator from scratch.
 
 ### Click on Next >> to proceed with the next challenge.
 
