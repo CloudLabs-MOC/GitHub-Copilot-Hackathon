@@ -6,7 +6,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new README.md file
+1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new **README.md** file
 
 1. On the empty README.md file click Ctrl+I to get Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
 
@@ -18,7 +18,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/Code2.png)
 
-1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
+1. Navigate to the ***app/backend/requirements.txt*** file and browse through the requirements. 
 
    ![](../../media/backend-requirements.png)
 
@@ -30,11 +30,11 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/backend-requirements-list.png)
 
-1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for either of the modules, functions, or classes.
+1. Navigate to ***app/backend/approaches/approach.py*** file. You will notice that there are no comments for either of the modules, functions, or classes.
 
 1. Now select the entire file, right-click, and then select **Copilot** and **Editor Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/snapupd.png)
+   ![](../../media/CH5T1S9.png)
 
    ![](../../media/snap2.png)
 
@@ -181,7 +181,9 @@ In this task, you'll explore the various styles of documentation that you can ge
    }
    ```
 
+### Click on Next >> to proceed with the next challenge.
 
+![](../../media/next-page.png)
 
 
 
