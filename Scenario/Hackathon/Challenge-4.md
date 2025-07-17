@@ -36,6 +36,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Use the same VS Code window which was created in Challenge 01 for the [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) GitHub repository.
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
+     
      >**Hint:** Use **@workspace**, **@vscode** and **@terminal** file references for the prompts.
 
 2. **Utilize the GitHub Copilot Workspace to create a new React app named Expense Tracker:**
@@ -45,9 +46,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Launch a new Visual Studio Code window and open the **DemoApp** folder inside the VS Code.
 
    - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/Users/azureuser/DemoApp`.
+     
      >**Hint:** Ask Copilot to create a workspace for a new Expense Tracker React application with all the necessary files and code.
 
    - Develop the individual components required in the Expense Tracker app outline using **GitHub Copilot's** transformative capabilities.
+     
      >**Hint:** Use **@workspace** file reference to add functionality to all the files.
 
    - Debug all the possible errors coming out while running the Expense tracker app using the GitHub Copilot Workspace.
@@ -61,6 +64,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       <validation step="76e12adb-fdce-4aea-a013-b0f721a72995" />
 
       <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
+
+      >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+
 
 3. **Utilize the capabilities of file referencing:**
 
@@ -93,3 +99,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Conclusion
 
 In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
