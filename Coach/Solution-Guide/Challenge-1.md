@@ -374,6 +374,10 @@ En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de
 
 1. GitHub Copilot también te ayuda a estructurar código para un nuevo espacio de trabajo, generar un nuevo cuaderno de Jupyter y varios tipos de documentación como Markdown y Javadoc.  
 
+### Conclusión
+
+En este desafío, configuraste correctamente GitHub Copilot en Visual Studio Code, configuraste las opciones de extensión e iniciaste sesión con tu cuenta de GitHub. También lograste crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las API de OpenWeatherMap. Además, perfeccionaste tus habilidades de programación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
+
 ### Haga clic en Siguiente >> para continuar con el próximo desafío.
 
 ![](../../media/next-page-spanish.png)
