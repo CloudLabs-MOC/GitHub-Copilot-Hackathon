@@ -347,7 +347,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
-1. Initiate a conversation with GitHub Copilot Chat by asking, "How can we add a search feature/functionality to our application?"
+1. Initiate a conversation with GitHub Copilot Chat by asking, **How can we add a search feature/functionality to our application?**
 
    ![](../../media/function.png)
 
@@ -402,11 +402,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Test the Search Functionality:
 
-1. Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
+1. Add a couple of contact entries to the application by clicking on the **Create New** button and filling in the Name and Email fields.
 
    ![](../../media/crud4.6.png)
 
-1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
+1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the **Search** button to execute the search.
 
    ![](../../media/crud4.07.png)
 
