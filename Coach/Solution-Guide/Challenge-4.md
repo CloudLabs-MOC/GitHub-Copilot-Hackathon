@@ -204,6 +204,10 @@ To do so, follow the below steps:
 
     ![](../../media/app-working-date.png)
 
+## Conclusion
+
+In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
+
 ### Click on Next >> to proceed with the next challenge.
 
    ![](../../media/next-page.png)
