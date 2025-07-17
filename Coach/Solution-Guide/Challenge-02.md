@@ -416,3 +416,6 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
 
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
