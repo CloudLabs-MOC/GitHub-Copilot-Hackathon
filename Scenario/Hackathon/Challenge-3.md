@@ -74,6 +74,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
 
+
      ![](../../media/challenge3-web-app-001.png)
 
       - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
@@ -105,3 +106,7 @@ Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** forma
 In this challenge,  you've demonstrated how AI can significantly aid in the development and deployment of applications, specifically through the use of GitHub Copilot. Not only did you develop a fully functional Contact Database application in the previous challenge, but you also effectively deployed it to Azure using an ARM template generated with the help of GitHub Copilot. You've utilized GitHub Copilot to streamline the creation of the ARM template, which is a powerful example of Infrastructure as Code (IaC), and also automated the build and testing process of your code by creating a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. Furthermore, you've produced comprehensive and accurate documentation for this challenge, serving as a valuable guide for future projects.
 
 Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
