@@ -5,10 +5,12 @@
 1. To access the Azure portal, open a private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
         
 1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+
+    * Password: <inject key="AzureAdUserPassword"></inject>
      
 1. If you see the pop-up **Stay Signed in?** click No.
 
@@ -167,7 +169,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
    ![](../../media/challenge3-custom-deploy.png)
 
-1. In your Edit Template tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
+1. In your **Edit Template** tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
 
    ![](../../media/challenge3-custom-deploy-save.png)
 
@@ -197,6 +199,7 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
    * **Runtime stack**: .NET
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
+
   
    ![](../../media/challenge3-deployment-center-01.png)
 
@@ -317,6 +320,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    * @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
 
+
 1. You'll notice that the GitHub Copilot generates brief documentation about your workspace's ARM template deployment to Azure, and the workings of the workflow file and a few config files.
 
    ```
@@ -365,7 +369,9 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    ![](../../media/workspace.png)
 
+### Click on Next >> to proceed with the next challenge.
 
+   ![](../../media/next-page.png)
 
 
 
