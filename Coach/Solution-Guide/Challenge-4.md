@@ -62,11 +62,13 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
 
-1. Open a new window in the **VS code** by choosing **File** from the topmost bar and then selecting **New Window**.
+1. Create a new folder named **DemoApp** in **C:/Users/azureuser**.
+   
+3. Open a new window in the **VS code** by choosing **File** from the topmost bar and then select **New Window**.
 
     ![](../../media/new-window.png)
 
-1. Now, select **Open Folder** from the **Welcome** page, browse to the DemoApp folder, and double-click to open it in your VS Code.
+1. Now, select **Open Folder** from the **Welcome** page, browse to the **C:\Users\azureuser\DemoApp** folder, and double-click to open it in your VS Code.
 
     ![](../../media/vscode-open-folder.png)
 
@@ -78,7 +80,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/@workspace.png)
 
-1. Provide the prompt, `**Create a workspace for the Expense Tracker application with all the necessary files and code**.` In the test box, select **Submit** to generate the complete workspace of your Expense Tracker React application, along with a couple of component files.
+1. Provide the prompt, **Create a workspace for the Expense Tracker application with all the necessary files and code**. In the test box, select **Submit** to generate the complete workspace of your Expense Tracker React application, along with a couple of component files.
 
     ![](../../media/expense-tracker-workspace.png)
 
@@ -201,3 +203,7 @@ To do so, follow the below steps:
 1. Run the app and verify the **Date** component is added and working properly.
 
     ![](../../media/app-working-date.png)
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
