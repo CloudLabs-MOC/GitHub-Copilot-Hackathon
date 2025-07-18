@@ -8,14 +8,14 @@ In this task, you'll utilize GitHub Copilot to generate sysadmin resource monito
 
    ![](../../media/sysadminchat.png)
 
-1. You'll notice that the GitHub Copilot generates a bash script that monitors CPU and memory usage for a certain threshold limit and also explains its usage.
+2. You'll notice that the GitHub Copilot generates a bash script that monitors CPU and memory usage for a certain threshold limit and also explains its usage.
 
-1. Now, ask the GitHub Copilot Chat to generate a sysadmin script that monitors disk usage with a threshold limit for a Windows VM and copy the script to a new file.
+3. Now, ask the GitHub Copilot Chat to generate a sysadmin script that monitors disk usage with a threshold limit for a Windows VM and copy the script to a new file.
 
    ![](../../media/sysadminchat1.png)
 
 
-1. You'll notice that the GitHub Copilot generates a PowerShell script that monitors disk usage for a certain threshold limit and also explains its usage.
+4. You'll notice that the GitHub Copilot generates a PowerShell script that monitors disk usage for a certain threshold limit and also explains its usage.
 
 ## Task 2: Refactor or debug the generated scripts
 

@@ -12,7 +12,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/Generatee.png)
 
-1. Accept the generated code from Copilot to reflect in the README.md file
+1. **Accept** the generated code from Copilot to reflect in the README.md file
 
    ![](../../media/Code3.png)
 
