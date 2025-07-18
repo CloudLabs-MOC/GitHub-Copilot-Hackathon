@@ -18,7 +18,7 @@
 
 ### Abrir Visual Studio y Clonar el Repositorio
 
-1. Inicie Visual Studio y haga clic en ""Clonar el repositorio Git".
+1. Inicie Visual Studio y haga clic en **Clonar el repositorio Git**.
 
    ![](../../media/Clone-Git-repo.png)
 
@@ -39,21 +39,23 @@
 
 3. Espere a que la extensión GitHub Copilot se descargue por completo (esto puede tardar unos minutos) y cierre el panel del Instalador de Visual Studio.
 
-  > **Nota:** Ignore el mensaje de error 'Couldn't install Microsoft.Net.4.8.1.FullRedist', esto no afectará los desafíos.
+    > **Nota:** Ignore el mensaje de error 'Couldn't install Microsoft.Net.4.8.1.FullRedist', esto no afectará los desafíos.
 
 4. Vuelva a iniciar Visual Studio y verifique que GitHub Copilot esté activo. Ahora se puede utilizar la ventana GitHub Copilot Chat.
 
 5. Una vez que se haya clonado el repositorio, busque y abra el archivo `MyMvcApp.sln` desde el Explorador de Soluciones.
 
-  ![](../../media/MyMvcApp_ss.png)
+    ![](../../media/MyMvcApp_ss.png)
 
 6. Vaya a Extensiones 
 
-  ![](../../media/Extension.png)
+    ![](../../media/Extension.png)
 
 7. Instale **Nuget Gallery** y **C# Dev Kit**
 
-  ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+    ![](../../media/NuGet.png)  
+    
+    ![](../../media/CAPP.png)
 
 8. Ejecute el siguiente comando en la consola.
 
@@ -72,6 +74,7 @@
 2. Utilice GitHub Copilot para generar código para cada método vacío en el archivo `UserController.cs`. Para generar código para cada método vacío con GitHub Copilot, seleccione o resalte las líneas del método vacío y luego haga clic derecho en las líneas resaltadas para abrir el menú contextual.
 
     ![](../../media/crud1.2.png)
+
     ![](../../media/crud1.3.png)
 
 3. En el menú contextual, seleccione la opción "Preguntar a Copilot". En el cuadro de mensaje, escriba "Fill in the Index method".
@@ -100,11 +103,11 @@
 
 ### Crear un Nuevo Contacto
 
-1. En el navegador web abierto, localice el botón "Create New" y haga clic en él.
+1. En el navegador web abierto, localice el botón **Create New** y haga clic en él.
 
     ![](../../media/crud1.7.png)
 
-2. Complete los campos obligatorios de Name y Email en el formulario proporcionado. Haga clic en el botón "Create" para enviar el formulario y crear un nuevo contacto.
+2. Complete los campos obligatorios de Name y Email en el formulario proporcionado. Haga clic en el botón **Create** para enviar el formulario y crear un nuevo contacto.
 
     ![](../../media/crud1.8.png)
 
@@ -112,11 +115,11 @@
 
 1. Después de crear un contacto, vuelva a la página de inicio.
 
-2. Busque el contacto que creó en la lista y localice el botón "Edit" asociado a él. Haga clic en el botón "Edit".
+2. Busque el contacto que creó en la lista y localice el botón **Edit** asociado a él. Haga clic en el botón **Edit**.
 
     ![](../../media/crud1.9.png)
 
-3. Modifique los detalles existentes (Name o Email) como desee. Guarde los cambios haciendo clic en el botón "Save".
+3. Modifique los detalles existentes (Name o Email) como desee. Guarde los cambios haciendo clic en el botón **Save**.
 
     ![](../../media/crud1.10.png)
 
@@ -124,7 +127,7 @@
 
 1. Una vez más, vuelva a la página de inicio.
 
-2. Localice el contacto cuyos datos desea verificar. Haga clic en el botón "Details" asociado a ese contacto.
+2. Localice el contacto cuyos datos desea verificar. Haga clic en el botón **Details** asociado a ese contacto.
 
     ![](../../media/crud1.11.png)
 
@@ -136,7 +139,7 @@
 
 1. Desde la página de inicio, busque el contacto que desea eliminar.
 
-2. Haga clic en el botón "Delete" asociado a ese contacto.
+2. Haga clic en el botón **Delete** asociado a ese contacto.
 
     ![](../../media/crud1.13.png)
 
@@ -202,17 +205,17 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
 
     ![](../../media/crud3.12.png)
 
-14. Ahora, solucionemos los problemas del archivo colocando el cursor sobre TestFixture y luego haciendo clic en las funciones Preguntar a Copilot (1) o Acciones rápidas y refactorizaciones... (2).
+14. Ahora, solucionemos los problemas del archivo colocando el cursor sobre TestFixture y luego haciendo clic en las funciones **Preguntar a Copilot (1)** o **Acciones rápidas y refactorizaciones (2)**.
   
     ![](../../media/ask-copilot.png)
 
     ![](../../media/quick-actions.png)
 
-15. Haga clic en "Instalar paquete NUnit" y luego en "Buscar e instalar la última versión".
+15. Haga clic en **Instalar paquete NUnit** y luego en **Buscar e instalar la última versión**.
 
     ![](../../media/crud3.14.png)
 
-16. De manera similar, pase el cursor sobre controller.Index(), haga clic en Mostrar posibles correcciones y, a continuación, haga clic en "Instalar paquete 'Microsoft.ASPNet.Mvc'" y luego en "Usar la versión local '5.2.7'"
+16. De manera similar, pase el cursor sobre controller.Index(), haga clic en Mostrar posibles correcciones y, a continuación, haga clic en **Instalar paquete 'Microsoft.ASPNet.Mvc'** y luego en **Usar la versión local '5.2.7'**
 
     ![](../../media/crud3.15.png)
 
@@ -240,21 +243,21 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
 
 ### Utilizar GitHub Copilot Chat para el Desarrollo de Funciones:
   
-1. clic en la opción "Ver" en el panel superior de Visual Studio. De las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
+1. clic en la opción **Ver** en el panel superior de Visual Studio. De las opciones, seleccione **Chat de GitHub Copilot** para abrir la ventana de GitHub Copilot Chat.
   
-        ![](../../media/crud3.5.png)
+    ![](../../media/crud3.5.png)
 
 ### Solicitar a GitHub Copilot Chat la Implementación de Funciones:
    
 1. Inicie una conversación con GitHub Copilot Chat preguntando "How can we add a search feature/functionality to our application?"
 
-        ![](../../media/crud4.1.png)
+    ![](../../media/crud4.1.png)
 
 2. Según la respuesta generada por GitHub Copilot, proceda a implementar el código sugerido.
   
 3. En este caso, GitHub Copilot sugirió agregar un nuevo método para aceptar una cadena de búsqueda como parámetro y filtrar la lista de usuarios según la cadena de búsqueda antes de pasarla a la vista.
 
-        ![](../../media/crud4.2.png)
+    ![](../../media/crud4.2.png)
   
 4. Copie y pegue el fragmento de código proporcionado en el archivo `UserController.cs` dentro del método de acción apropiado, generalmente el método `Index`. En este código, si se proporciona una cadena de búsqueda (searchString), la lista de usuarios se filtra para incluir solo los usuarios cuyos nombres contienen la cadena de búsqueda. Si no se proporciona ninguna cadena de búsqueda, se devuelven todos los usuarios.
 
@@ -272,11 +275,11 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
         }
         ```
 
-        ![](../../media/crud4.3.png)
+    ![](../../media/crud4.3.png)
 
 5. GitHub Copilot también sugirió modificar el archivo `Index.cshtml` ubicado en la ruta **Views\User\Index.cshtml** a fin de incluir un formulario para la cadena de búsqueda.
 
-        ![](../../media/crud4.4.png)
+    ![](../../media/crud4.4.png)
 
 6. Copie y pegue el fragmento de código proporcionado en el archivo `Index.cshtml`. Este formulario envía una solicitud GET al método de acción Index, pasando la cadena de búsqueda como un parámetro de cadena de consulta.
 
@@ -290,7 +293,7 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
         }
         ```
 
-        ![](../../media/crud4.5.png)
+    ![](../../media/crud4.5.png)
 
 ### Guardar los Cambios y Ejecutar la Aplicación:
 
@@ -298,21 +301,21 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
 
 2. Ejecute la aplicación haciendo clic en el botón IIS Express. Esta acción inicia la aplicación en localhost en un navegador web.
 
-        ![](../../media/crud1.6.png)
+    ![](../../media/crud1.6.png)
 
 ### Probar la Función de Búsqueda:
 
-1. Agregue un par de entradas de contacto a la aplicación haciendo clic en el botón "Create New" y rellenando los campos Name y Email.
+1. Agregue un par de entradas de contacto a la aplicación haciendo clic en el botón **Create New** y rellenando los campos Name y Email.
 
-        ![](../../media/crud4.6.png)
+    ![](../../media/crud4.6.png)
 
-2. Una vez que añadidos los contactos, pruebe la funcionalidad de búsqueda escribiendo el nombre de un contacto en el campo de búsqueda previamente añadido. Haga clic en el botón "Search" para ejecutar la búsqueda.
+2. Una vez que añadidos los contactos, pruebe la funcionalidad de búsqueda escribiendo el nombre de un contacto en el campo de búsqueda previamente añadido. Haga clic en el botón **Search** para ejecutar la búsqueda.
 
-        ![](../../media/crud4.7.png)
+    ![](../../media/crud4.7.png)
 
 3. Si la función se ha implementado correctamente, debería poder ver el contacto buscado en los resultados.
 
-        ![](../../media/crud4.8.png)
+    ![](../../media/crud4.8.png)
 
 Siguiendo estos pasos, puede utilizar GitHub Copilot de manera efectiva para implementar y probar nuevas características en su aplicación, mejorando su funcionalidad y usabilidad.
 
@@ -328,7 +331,7 @@ La nueva función Generated Commit Message utiliza GitHub Copilot AI para descri
 
     ![](../../media/crud5.2.png)
 
-3. GitHub Copilot analizará los cambios en los archivos de su confirmación, los resumirá y luego describirá cada cambio. Luego puede “Insert AI Suggestion” o “Discard”. Haga clic en Commit All.
+3. GitHub Copilot analizará los cambios en los archivos de su confirmación, los resumirá y luego describirá cada cambio. Luego puede **Insert AI Suggestion** o **Discard**. Haga clic en Commit All.
 
     ![](../../media/crud5.3.png)
 
@@ -344,4 +347,4 @@ La interacción con Copilot Chat ha enriquecido tu colaboración y proporcionado
 
 ### Haga clic en Siguiente >> para continuar con el próximo desafío.
 
-![](../../media/next-page.png)
+![](../../media/next-page-spanish.png)

@@ -1,6 +1,6 @@
 # Desafío 4: Usando el espacio de trabajo y la referencia de archivos de GitHub Copilot
 
-### Tiempo Estimado: 60 minutos
+### Tiempo Estimado: 60 Minutos
 
 ## Introducción
 
@@ -86,3 +86,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Conclusión
 
 En este desafío, ha adquirido una comprensión más profunda de cómo funcionan **Github Copilot Workspace y Referencias a Archivos** y cómo pueden mejorar su proceso de programación. Mediante el uso eficaz de estas características, puede mejorar significativamente su eficiencia de codificación y la calidad general de su código. Tanto si es un desarrollador experimentado como un principiante, estos conocimientos seguramente serán de gran utilidad en su proceso de programación.
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)

@@ -197,9 +197,9 @@ En esta tarea, generará un pipeline de flujo de trabajo de GitHub Actions media
    * **Versión**: v8.0
    * **Tipo de autenticación**: Autenticación básica
   
-   ![](../../media/challenge3-deployment-center-01.png)
+        ![](../../media/challenge3-deployment-center-01.png)
 
-   ![](../../media/challenge3-deployment-center-02.png)
+        ![](../../media/challenge3-deployment-center-02.png)
 
 1. También puede ver la configuración de su flujo de trabajo haciendo clic en el botón **Archivo de versión preliminar**.
 
@@ -315,7 +315,9 @@ En esta tarea, utilizará GitHub Copilot para generar documentación específica
 
 1. En su ventana GitHub Copilot Chat, solicite a GitHub Copilot que genere documentación que especifique la implementación de la plantilla ARM y el archivo de flujo de trabajo de GitHub Actions para implementar la aplicación web en Azure para su espacio de trabajo.
 
-   * @workspace genera documentación que incluirá el proceso de implementación de la plantilla ARM y el archivo de flujo de trabajo de GitHub Actions en el directorio .github/workflows para desplegar la aplicación web en Azure.
+    ```
+   @workspace genera documentación que incluirá el proceso de implementación de la plantilla ARM y el archivo de flujo de trabajo de GitHub Actions en el directorio .github/workflows para desplegar la aplicación web en Azure.
+    ```
 
 1. Notará que GitHub Copilot genera una breve documentación sobre la implementación de la plantilla ARM de su espacio de trabajo en Azure, así como sobre el funcionamiento del archivo de flujo de trabajo y de algunos archivos de configuración.
 
@@ -365,6 +367,9 @@ En esta tarea, utilizará GitHub Copilot para generar documentación específica
 
    ![](../../media/challenge3-copilot-doc-generate.png)
 
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
 
 
 
