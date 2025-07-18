@@ -6,7 +6,7 @@
 
 In this task, you will be utilizing the GitHub Copilot Workspace to enhance coding efficiency by providing contextually relevant code suggestions.
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub account details.
+1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub credentials.
 
     ![](../../media/vscode-launch.png)
 
@@ -14,19 +14,19 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/githubchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
+1. In the textbox, enter **@** and select **workspace** to start working with the **GitHub Copilot Workspace** agent.
 
     ![](../../media/file2.png)
 
 1. Now, you can provide your own prompts and select **Submit** to get the response. To start with, you can ask **GitHub Copilot Chat** how to start your current project by providing this prompt: `How do I start the current project?`. As you submit your prompt, Copilot will automatically analyze the current workspace files and directories, split into chunks of steps:
 
-    1. Scans the file or directory names to understand which of them are potentially relevant to providing a response.
+    -   Scans the file or directory names to understand which of them are potentially relevant to providing a response.
 
-    1. Reads file contents. Sometimes the whole file, sometimes only parts of them (due to the token memory limits).
+    -   Reads file contents. Sometimes the whole file, sometimes only parts of them (due to the token memory limits).
 
-    1. Creates context from everything it was able to collect.
+    -   Creates context from everything it was able to collect.
 
-    1. Starts responding, combining the context from the prompt with the one it was able to gain.
+    -   Starts responding, combining the context from the prompt with the one it was able to gain.
 
     ![](../../media/file3.png)
 

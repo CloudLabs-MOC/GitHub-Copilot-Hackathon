@@ -1,6 +1,6 @@
 # Challenge 4: Using GitHub Copilot workspace and file reference
 
-### Estimated Time: 60 minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
@@ -65,7 +65,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
-      >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+   >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
 
 
 3. **Utilize the capabilities of file referencing:**

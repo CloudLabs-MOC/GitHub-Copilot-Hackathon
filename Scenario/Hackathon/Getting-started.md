@@ -46,4 +46,6 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
     ![](../../media/github-hack-getting-6.png)
 
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. 
+
+Happy Learning!

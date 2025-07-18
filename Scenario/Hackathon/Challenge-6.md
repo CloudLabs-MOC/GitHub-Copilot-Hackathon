@@ -1,6 +1,6 @@
 # Challenge 6: Generate Scripts using GitHub Copilot
 
-### Estimated Time: 45 minutes
+### Estimated Time: 45 Minutes
 
 ## Introduction
 
@@ -49,3 +49,5 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Conclusion
 
 In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat, and verified that the generated scripts executed successfully.
+
+### You have successfully completed Hackathon.

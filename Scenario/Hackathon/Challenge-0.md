@@ -1,6 +1,6 @@
 # Challenge 00: Introduction to GitHub Copilot (Read Only)
 
-### Estimated Time: 20 minutes
+### Estimated Time: 20 Minutes
 
 >**Note:** This challenge is for read-only purposes and exploration only.
 

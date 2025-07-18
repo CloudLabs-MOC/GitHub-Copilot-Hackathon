@@ -40,9 +40,12 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
 In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
 
-1. Fork the **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repo On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Fork the **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Then click the **Code** **(2)** button located in the middle of the page.
 
-1. Click the **Codespaces (1)** tab on the box that pops up, and then click the **Create codespace on main (2)** button.
+   ![GitHub-Codespaces](../../media/CH1T3S1.png)
+
+
+1. Click the **Codespaces (1)** tab on the box that pops up, and then select the **Create codespace on main (2)** button.
 
    >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
@@ -309,11 +312,11 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       main()
    ```
 
-1. Accept the changes and Save the file and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
+1. Accept the changes and save the file. Run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
 
 1. Open the **card_draw.py** file by double-clicking on it.
 
-1. Select the entire code, right-click and click **Copilot**, and then click **Fix** to debug the selected code.
+1. Select the entire code, right-click and select **Copilot**, and then **Fix** to debug the selected code.
 
 1. You'll notice that GitHub Copilot has debugged and fixed the code.
 
@@ -336,7 +339,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       print(deck[i][0], "of", deck[i][1])
    ```
 
-1. Accept the changes and Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
+1. Accept the changes and save the file. Run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
 
 ## Task 7: Explore GitHub Copilot Features
 

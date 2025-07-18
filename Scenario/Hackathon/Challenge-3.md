@@ -1,6 +1,6 @@
 # Challenge 3: Deploy the App to Azure
 
-### Estimated Time: 60 minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
@@ -67,9 +67,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
-     ![](../../media/challenge3-github-workflow-edit.png)
+         ![](../../media/challenge3-github-workflow-edit.png)
 
-     ![](../../media/challenge3-github-workflow-edit-01.png)
+         ![](../../media/challenge3-github-workflow-edit-01.png)
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 

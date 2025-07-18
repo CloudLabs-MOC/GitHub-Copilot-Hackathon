@@ -1,6 +1,6 @@
 # Challenge 2: Develop an App with GitHub Copilot
 
-### Estimated Time: 60 mins
+### Estimated Time: 60 Minutes
   
 ## Introduction  
 
@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
-  >**Note**: If you get a message stating repository already exists. Please delete the existing repository and fork new one again.
+   >**Note**: If you get a message stating repository already exists. Please delete the existing repository and fork new one again.
 
 4. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
 
@@ -39,6 +39,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - You will be creating a CRUD application named **MyMvcApp**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
 
       - Explore Copilot's ability to understand your context and provide relevant code suggestions.
+
         >**Hint:** Utilize GitHub Copilot's **Start in Editor**, **Fix** and **GitHub Copilot chat** features to develop the necessary code.
 
       - Test the application thoroughly and ensure all functionalities work as expected.
@@ -49,7 +50,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="c7f107a0-97a2-4442-9cef-b14297fd5b7a" />
 
-   >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+  >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
 
 2. **Generate unit test case scripts and validate them**:
 
@@ -111,5 +112,7 @@ You've successfully navigated through the development process, from generating c
 
 The engagement with Copilot Chat has enriched your collaboration and provided insightful coding recommendations, showcasing how AI can be seamlessly integrated into the development workflow. The test cases generated with GitHub Copilot's assistance have ensured the robustness and reliability of your application. Your achievements in this challenge have demonstrated the potential of AI in software development and provided valuable insights into its practical implementation. You've shown that with the right tools, such as GitHub Copilot, the development process can be made more efficient and productive.
   
+### Click on Next >> to proceed with the next challenge.
 
+![](../../media/next-page.png)
 

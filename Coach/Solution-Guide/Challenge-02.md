@@ -45,11 +45,13 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
- - Click on the extension on the left hand side
- - Search for Nuget Gallery and C# Dev Kit
- - Click on install, post this the extensions should be installed.
+   - Click on the extension on the left hand side
+   - Search for Nuget Gallery and C# Dev Kit
+   - Click on install, post this the extensions should be installed.
 
-![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+   ![](../../media/NuGet.png) 
+   
+   ![](../../media/CAPP.png)
 
 ### Implement Methods using GitHub Copilot
  
@@ -69,13 +71,13 @@
    ![](../../media/Exx2.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Fix**
+1. From the context menu, choose the **Copilot** option and click on **Fix**.
 
  
    ![](../../media/github-hack-copilot-2.png)
 
  
-1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
 
  
    ![](../../media/Exxxx4.png)
@@ -83,19 +85,19 @@
  
 #### Scenario 2
  
-1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
+1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
 
  
    ![](../../media/Ex1.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**
+1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**.
 
    
    ![](../../media/github-hack-copilot-3.png)
 
      
-1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
 
  
    ![](../../media/accept.png)
@@ -103,18 +105,18 @@
  
 #### Scenario 3
  
-1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot.
+1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot.
  
-1. Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**
+1. Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**.
  
 
    ![](../../media/result.png)
 
  
-1. Copy the code and replace it in the UserController.cs file's code.
+1. Copy the code and replace it in the `UserController.cs` file's code.
 
  
-1. Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
+1. Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the `UserController.cs` file.
 
 ### Run and test the Application
 
@@ -151,7 +153,7 @@
 
 1. After creating a contact, return to the homepage.
 
-1. Find the contact you created in the list and locate the "Edit" button associated with it. Click on the **Edit** button.
+1. Find the contact you created in the list and locate the **Edit** button associated with it. Click on the **Edit** button.
 
    ![](../../media/crud1.9.png)
 
@@ -402,7 +404,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Test the Search Functionality:
 
-1. Add a couple of contact entries to the application by clicking on the **Create New** button and filling in the Name and Email fields.
+1. Add a couple of contact entries to the application by clicking on the **Create New** button and filling in the **Name** and **Email** fields.
 
    ![](../../media/crud4.6.png)
 
