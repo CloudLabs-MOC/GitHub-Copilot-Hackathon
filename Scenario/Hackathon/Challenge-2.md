@@ -1,6 +1,6 @@
 # Desafio 2: Criar uma applicação com GitHub Copilot
 
-### Tempo Estimado: 60 minutos
+### Tempo Estimado: 60 Minutos
   
 ## Introdução  
 
@@ -107,3 +107,7 @@ Neste desafio, você conseguiu desenvolver uma aplicação de para aceder a um b
 Você navegou com sucesso pelo processo de desenvolvimento, desde a geração de código para métodos vazios no arquivo UserController.cs até a construção de recursos essenciais para a aplicação. Você utilizou o GitHub Copilot para entender o seu contexto e fornecer sugestões de código relevantes, aprimorando sua experiência de escrita de código.
 
 O envolvimento com o Copilot Chat enriqueceu sua colaboração e forneceu recomendações de código perspicazes, mostrando como a IA pode ser integrada de forma fluida no fluxo de trabalho de desenvolvimento. Os casos de teste gerados com a assistência do GitHub Copilot garantiram a robustez e a confiabilidade da sua aplicação. Suas conquistas neste desafio demonstraram o potencial da IA no desenvolvimento de software e forneceram valiosas percepções sobre sua implementação prática. Você mostrou que, com as ferramentas certas, como o GitHub Copilot, o processo de desenvolvimento pode ser mais eficiente e produtivo.
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)

@@ -5,9 +5,11 @@
 1. Para acessar o portal do Azure, abra uma janela privada/incógnita no seu browser e navegue até **[Azure Portal](https://portal.azure.com)**.
 
 1. Na aba **Sign in to Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique **Next**. 
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
         
 1. Agora insira a seguinte senha e clique em **Sign in**.
+
    * Password: <inject key="AzureAdUserPassword"></inject>
      
 1. Se você vir o pop-up **Stay Signed in?** clique em Não.
@@ -132,7 +134,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. No VS Code, crie um novo arquivo **deploy.parameters.json** para definir os parâmetros a partir do seu arquivo *deploy.json*.
+1. No VS Code, crie um novo arquivo **deploy.parameters.json** para definir os parâmetros a partir do seu arquivo **deploy.json**.
 
    ```
    {
@@ -198,9 +200,9 @@ Nesta tarefa, você criará um workflow de GitHub Action usando o Deployment Cen
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
   
-   ![](../../media/challenge3-deployment-center-01.png)
+        ![](../../media/challenge3-deployment-center-01.png)
 
-   ![](../../media/challenge3-deployment-center-02.png)
+        ![](../../media/challenge3-deployment-center-02.png)
 
 1. Você também pode visualizar a configuração do seu workflow clicando no botão **Preview file**.
 
@@ -316,7 +318,9 @@ Nesta tarefa, você usará o GitHub Copilot para gerar uma documentação espec�
 
 1. Na janela de Chat do GitHub Copilot, peça ao GitHub Copilot para gerar a documentação que especifique o deployment do template ARM e o arquivo de workflow do GitHub Action para implementar a web app no Azure para o seu workspace.
 
-   * @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
+    ```
+    @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
+    ```
 
 1. Você notará que o GitHub Copilot gera uma breve documentação sobre o deployment do template ARM do seu workspace para o Azure, o funcionamento do arquivo de workflow e alguns arquivos de configuração.
 
@@ -366,7 +370,9 @@ Nesta tarefa, você usará o GitHub Copilot para gerar uma documentação espec�
 
    ![](../../media/challenge3-copilot-doc-generate.png)
 
+### Clique em Avançar >> para prosseguir com o próximo desafio.
 
+![](../../media/next-page-p.png)
 
 
 

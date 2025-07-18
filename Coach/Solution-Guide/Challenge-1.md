@@ -403,3 +403,6 @@ Nesta tarefa, você estará refatorando e efetuando debug de código Python mal 
 
 1. Salve o arquivo e execute alguns casos de teste para verificar se o código em que o GitHub Copilot efetuou debug está funcionando conforme o esperado.
 
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)

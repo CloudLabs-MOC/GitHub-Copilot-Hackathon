@@ -1,6 +1,6 @@
 # Desafio 5: Criar Documentação com GitHub Copilot
 
-### Tempo Estimado: 45 minutos
+### Tempo Estimado: 45 Minutos
 
 ## Introdução
 
@@ -63,3 +63,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 ## Conclusão
 
 Neste desafio, você utilizou o GitHub Copilot para gerar comentários e documentação em formato markdown para o aplicativo backend através dos recursos do GitHub Copilot. Você também melhorou sua nova documentação em markdown gerada para o aplicativo backend utilizando as sugestões do GitHub Copilot. Além disso, você explorou os vários estilos de documentação que o GitHub Copilot oferece, gerando documentos em markdown para implementar uma VNet no Azure e um Javadoc para criar uma calculadora do zero.
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)
