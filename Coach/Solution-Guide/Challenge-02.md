@@ -344,7 +344,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 1. Select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
 
 
-   ![](../../media/newchat.png)
+      ![](../../media/newchat.png)
 
 
 ### Ask GitHub Copilot Chat for Feature Implementation:

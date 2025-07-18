@@ -205,11 +205,11 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/signinapi.png)
 
-1. Create a new one to get the weather data using code by click on Create an Account.
+1. Create a new one to get the weather data using code by click on **Create an Account**.
 
    ![](../../media/createaaccount.png)
 
-1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the 'Create Account' button **(8)**.
+1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the **Create Account** button **(8)**.
 
    ![](../../media/weather-api-keys1.png)
 
