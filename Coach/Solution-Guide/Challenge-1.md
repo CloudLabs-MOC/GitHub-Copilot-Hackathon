@@ -44,7 +44,7 @@ En esta tarea, creará un nuevo codespace para su repositorio de GitHub y usará
 
 1. Haga clic en la pestaña **Codespaces (1)** en el cuadro emergente y luego haga clic en el botón **Create codespace on main (2)**.
 
-   >**Nota**: Si no aparece un mensaje emergente en el navegador para abrir Visual Studio Code, inicie Visual Studio Code manualmente desde el escritorio y ciérrelo. A continuación, vuelva al navegador, actualice la página e inicie el codespace creado anteriormente.
+   >**Nota:** Si no aparece un mensaje emergente en el navegador para abrir Visual Studio Code, inicie Visual Studio Code manualmente desde el escritorio y ciérrelo. A continuación, vuelva al navegador, actualice la página e inicie el codespace creado anteriormente.
 
    ![GitHub-Codespaces](../../media/github-codespaces.png)
 
@@ -60,7 +60,7 @@ En esta tarea, creará un nuevo codespace para su repositorio de GitHub y usará
 
 1. Luego, cuando aparezca la ventana emergente, haga clic en **Permitir**.
 
-   >**Nota**: Espere alrededor de 2 minutos para que el codespace se active por sí solo.
+   >**Nota:** Espere alrededor de 2 minutos para que el codespace se active por sí solo.
 
    ![](../../media/allow.png)
 
@@ -374,4 +374,11 @@ En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de
 
 1. GitHub Copilot también te ayuda a estructurar código para un nuevo espacio de trabajo, generar un nuevo cuaderno de Jupyter y varios tipos de documentación como Markdown y Javadoc.  
 
---- 
+### Conclusión
+
+En este desafío, configuraste correctamente GitHub Copilot en Visual Studio Code, configuraste las opciones de extensión e iniciaste sesión con tu cuenta de GitHub. También lograste crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las API de OpenWeatherMap. Además, perfeccionaste tus habilidades de programación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
+

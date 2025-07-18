@@ -201,3 +201,7 @@ Para ello, siga los pasos a continuación:
 1. Ejecute la aplicación y compruebe que el componente **Date** se ha añadido y que funciona correctamente.
 
     ![](../../media/app-working-date.png)
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)

@@ -1,6 +1,6 @@
 # Desafío 1: Primeros Pasos con GitHub Copilot
 
-### Tiempo Estimado: 45 minutos
+### Tiempo Estimado: 45 Minutos
 
 ## Introducción
 
@@ -122,3 +122,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ### Conclusión
 
 En este desafío, ha configurado con éxito GitHub Copilot en Visual Studio Code, ha configurado los ajustes de la extensión y ha iniciado sesión con su cuenta de GitHub. También ha logrado crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las APIs de OpenWeatherMap. Además, ha perfeccionado sus habilidades de programación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)

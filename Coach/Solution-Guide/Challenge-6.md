@@ -105,4 +105,8 @@ En esta tarea, ejecutará los scripts de administrador de sistemas generados por
 
    ![](../../media/execute-ps-script.png)
 
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
+
    

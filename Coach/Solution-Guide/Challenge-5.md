@@ -180,6 +180,9 @@ En esta tarea, explorará los distintos estilos de documentación que puede gene
        return a * b * c;
    }
    ```
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
 
 
 

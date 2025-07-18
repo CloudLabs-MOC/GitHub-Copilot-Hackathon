@@ -1,6 +1,6 @@
 # Desafío 2: Desarrollar una Aplicación con GitHub Copilot
 
-### Tiempo Estimado: 60 minutos
+### Tiempo Estimado: 60 Minutos
 
 ## Introducción
 
@@ -108,5 +108,8 @@ Ha navegado con éxito a través del proceso de desarrollo, desde la generación
 
 La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcionado recomendaciones de codificación útiles, mostrando cómo la IA puede integrarse perfectamente en el flujo de trabajo de desarrollo. Los casos de prueba generados con la ayuda de GitHub Copilot han garantizado la solidez y fiabilidad de su aplicación. Sus logros en este desafío han demostrado el potencial de la IA en el desarrollo de software y han proporcionado información valiosa sobre su implementación práctica. Ha demostrado que con las herramientas adecuadas, como GitHub Copilot, el proceso de desarrollo se puede volver más eficiente y productivo.
   
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
 
 
