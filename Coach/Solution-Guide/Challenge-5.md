@@ -181,7 +181,9 @@ Nesta tarefa, você explorará os vários estilos de documentação que pode ger
    }
    ```
 
+### Clique em Avançar >> para prosseguir com o próximo desafio.
 
+![](../../media/next-page-p.png)
 
 
 

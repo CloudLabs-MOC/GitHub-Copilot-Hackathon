@@ -1,6 +1,6 @@
 # Desafio 1: Primeiros passos com o GitHub Copilot
 
-### Tempo Estimado: 45 minutos
+### Tempo Estimado: 45 Minutos
 
 ## Introdução
 
@@ -20,7 +20,7 @@ Nesta série de desafios, você explorará as capacidades do **GitHub Copilot**,
 
 Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
-> **Nota**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para completar este hackathon.
+> **Observação**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para completar este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
@@ -46,7 +46,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 1. Em seguida, para obter o código de autenticação, faça login no Outlook (https://outlook.office365.com/mail/) com as credenciais do GitHub fornecidas na aba Environment da etapa anterior. Após fazer login no Outlook, encontre o email recente contendo o código de verificação. Insira o código de verificação e clique em **Verify**.
 
-   >**Nota:** O email contendo o código de verificação pode, às vezes, ir parar nas pastas de arquivamento/spam do seu Outlook.
+   >**Observação:** O email contendo o código de verificação pode, às vezes, ir parar nas pastas de arquivamento/spam do seu Outlook.
 
    ![](../../media/authgit.png)
 
@@ -74,6 +74,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 4. **Explorar as funcionalidades de GitHub Copilot:**
       - Experimente o Copilot em vários cenários de programação.
       - Use as sugestões do Copilot para acelerar seu processo de escrita de código.
+
         >**Dica:** Acesse a janela de Sugestões do GitHub Copilot usando o atalho **Ctrl+Enter** no seu VS Code.
 
 5. **Geração de Código com Copilot e Copilot Chat:**
@@ -91,9 +92,11 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 6. **Refactoring & Debugging de Código:**
 
       - Refatore o código `sum_elements.py` do seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** usando o Copilot, entendendo o processo de melhoria do código.
+
         >**Sugerencia:** Utilice la función Refactor de GitHub Copilot.
 
       - Depure o código `card_draw.py` de maneira eficaz a partir de seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** com a ajuda do Copilot, abordando e corrigindo problemas identificados.
+
          >**Sugerencia:** Utilice la función Corregir de GitHub Copilot.
 
 ## Critério de Sucesso:
@@ -113,3 +116,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 ### Conclusão
 
 Neste desafio, você configurou com sucesso o GitHub Copilot no Visual Studio Code, ajustou as configurações da extensão e fez login com sua conta do GitHub. Você também foi bem-sucedido na criação de código em Python/JS para uma calculadora e um aplicativo para buscar dados meteorológicos das APIs do OpenWeatherMap. Além disso, você melhorou suas habilidades de escrita de código ao refatorar trechos de código e depurar com a assistência do Copilot.
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)

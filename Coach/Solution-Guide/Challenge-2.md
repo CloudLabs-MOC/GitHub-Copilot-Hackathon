@@ -8,7 +8,8 @@
 
 ### Faça um Fork do repositório
 
-- Navegue até o link do repositório do GitHub fornecido: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
+- Navegue até o link do repositório do GitHub fornecido: 
+[MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
     ![](../../media/Repo-info.png)
 
@@ -39,7 +40,7 @@
 
 - Aguarde até que a extensão GitHub Copilot seja baixada completamente (isso pode levar alguns minutos) e feche a janela do Instalador do Visual Studio.
 
-  > **Nota:**  Ignore a mensagem de erro 'Couldn't install Microsoft.Net.4.8.1.FullRedist', isso não afetará os desafios.
+  > **Observação:**  Ignore a mensagem de erro 'Couldn't install Microsoft.Net.4.8.1.FullRedist', isso não afetará os desafios.
 
 - Reabra o Visual Studio e verifique se o GitHub Copilot está ativo. A janela de chat do GitHub Copilot agora pode ser utilizada.
 
@@ -57,7 +58,9 @@
 1. Procure por Nueget Gallery e C# Dev Kit
 1. Clique em instalar.
 
-  ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+    ![](../../media/NuGet.png) 
+  
+    ![](../../media/CAPP.png)
 
 - Execute o comando abaixo na consola
 
@@ -76,6 +79,7 @@
 - Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Para gerar código para cada método vazio usando o GitHub Copilot, selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito nas linhas destacadas para abrir o menu de contexto.
 
     ![](../../media/crud1.2.png)
+
     ![](../../media/crud1.3.png)
 
 - No menu de contexto, escolha a opção "Ask Copilot". Na caixa de prompt, digite "Fill in the Index method".
@@ -339,3 +343,7 @@ O novo recurso para gerar mensagens de Commit usa a IA do GitHub Copilot para de
 - Uma vez que o commit foi feito localmente, clique em Push para enviar as alterações para o repositório.
 
     ![](../../media/crud5.4.png)
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)

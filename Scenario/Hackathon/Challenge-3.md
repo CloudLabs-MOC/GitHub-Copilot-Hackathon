@@ -1,6 +1,6 @@
 # Desafio 3: Deployment de applicações para Azure
 
-### Tempo Estimado: 60 minutos
+### Tempo Estimado: 60 Minutos
 
 ## Introdução
 
@@ -18,7 +18,7 @@ Ao concluir este desafio, você pretende demonstrar à Contoso Ltd. como o **Git
 
 Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
-> **Nota**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para concluir este hackathon.
+> **Observação:** Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para concluir este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Conta GitHub](https://github.com/)
@@ -62,7 +62,8 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 2. **Gerar um workflow de GitHub Action usando o Deployment Center de Azure App Service do portal do Azure:**
    
       - Implemente e construa o workflow através do **Deployment Center** da sua Web App usando o repositório de GitHub **MyMvcApp-Contact-Database-Application** para iniciar o pipeline que implantará a applicação em Azure.
-       >**Nota:** A construção falhará devido ao caminho indefinido no seu arquivo YAML do workflow.
+
+         >**Observação:** A construção falhará devido ao caminho indefinido no seu arquivo YAML do workflow.
   
       - Especifique o caminho como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para os passos **dotnet publish** e **Upload artifact for deployment job** no seu workflow de GitHub Actions.
 
@@ -72,7 +73,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
    
       - Verifique se a construção do pipeline do GitHub Actions foi bem-sucedida e se o aplicativo está funcionando conforme o esperado através da Web App.
   
-     ![](../../media/challenge3-web-app-001.png)
+         ![](../../media/challenge3-web-app-001.png)
      
       - Verifique se os recursos implantados correspondem às especificações descritas no seu template ARM e se o aplicativo está funcionando no **Default Domain** da Azure Web App.
 
@@ -103,3 +104,7 @@ Forneca o username da conta de GitHub no formato **github-cloudlabsuser-XXXX** p
 Neste desafio, você demonstrou como a IA pode auxiliar significativamente no desenvolvimento e implementação de aplicações, especificamente através do uso do GitHub Copilot. Não apenas desenvolveu uma aplicação para aceder a um banco de dados de contatos totalmente funcional no desafio anterior, mas também a implementou de forma eficaz no Azure usando um ARM template gerado com a ajuda do GitHub Copilot. Você utilizou o GitHub Copilot para simplificar a criação do ARM template, que é um exemplo poderoso de Infraestrutura como Código (IaC), e também automatizou o processo de build e testes do seu código criando um pipeline do GitHub Actions, com o GitHub Copilot auxiliando na geração dos scripts necessários. Além disso, você produziu documentação abrangente e precisa para este desafio, servindo como um guia valioso para futuros projetos.
 
 Através deste desafio, você demonstrou para a Contoso Ltd. o potencial de integrar a IA no fluxo de trabalho de desenvolvimento. Mostrou como o GitHub Copilot pode auxiliar não apenas no desenvolvimento de aplicações, mas também na implementação e gestão de infraestrutura, destacando assim sua versatilidade e valor. Ao implementar com sucesso a aplicação de acesso ao banco de dados de contatos no Azure e verificar sua funcionalidade, você forneceu uma demonstração tangível dos benefícios da IA no desenvolvimento de software.
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)
