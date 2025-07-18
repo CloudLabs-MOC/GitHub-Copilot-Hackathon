@@ -18,6 +18,8 @@
 
 ### Open Visual Studio Code and Clone Repository
 
+1. Open the File explorer and create a folder named **GitHub Copilot** in **C:\Users\azureuser**. 
+
 1. Launch Visual Studio and click on **Clone Git repository**.
 
    ![](../../media/CloneRepo.png)
@@ -43,11 +45,13 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
- - Click on the extension on the left hand side
- - Search for Nuget Gallery and C# Dev Kit
- - Click on install, post this the extensions should be installed.
+   - Click on the extension on the left hand side
+   - Search for Nuget Gallery and C# Dev Kit
+   - Click on install, post this the extensions should be installed.
 
-![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+   ![](../../media/NuGet.png) 
+   
+   ![](../../media/CAPP.png)
 
 ### Implement Methods using GitHub Copilot
  
@@ -67,13 +71,13 @@
    ![](../../media/Exx2.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Fix**
+1. From the context menu, choose the **Copilot** option and click on **Fix**.
 
  
    ![](../../media/github-hack-copilot-2.png)
 
  
-1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
 
  
    ![](../../media/Exxxx4.png)
@@ -81,19 +85,19 @@
  
 #### Scenario 2
  
-1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
+1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
 
  
    ![](../../media/Ex1.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**
+1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**.
 
    
    ![](../../media/github-hack-copilot-3.png)
 
      
-1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
 
  
    ![](../../media/accept.png)
@@ -101,18 +105,18 @@
  
 #### Scenario 3
  
-1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot.
+1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot.
  
-1. Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**
+1. Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**.
  
 
    ![](../../media/result.png)
 
  
-1. Copy the code and replace it in the UserController.cs file's code.
+1. Copy the code and replace it in the `UserController.cs` file's code.
 
  
-1. Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
+1. Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the `UserController.cs` file.
 
 ### Run and test the Application
 
@@ -137,11 +141,11 @@
 
 ### Create a New Contact
 
-1. In the opened web browser, locate the "Create New" button and click on it.
+1. In the opened web browser, locate the **Create New** button and click on it.
 
    ![](../../media/crud1.7.png)
 
-1. Fill in the required fields for Name and Email in the form provided. Click on the "Create" button to submit the form and create a new contact.
+1. Fill in the required fields for Name and Email in the form provided. Click on the **Create** button to submit the form and create a new contact.
 
    ![](../../media/crud1.8.png)
 
@@ -149,11 +153,11 @@
 
 1. After creating a contact, return to the homepage.
 
-1. Find the contact you created in the list and locate the "Edit" button associated with it. Click on the "Edit" button.
+1. Find the contact you created in the list and locate the **Edit** button associated with it. Click on the **Edit** button.
 
    ![](../../media/crud1.9.png)
 
-1. Modify the existing details (Name or Email) as desired. Save the changes by clicking on the "Save" button.
+1. Modify the existing details (Name or Email) as desired. Save the changes by clicking on the **Save** button.
 
    ![](../../media/crud1.10.png)
 
@@ -161,7 +165,7 @@
 
 1. Once again, return to the homepage.
 
-1. Locate the contact whose details you want to verify. Click on the "Details" button associated with that contact.
+1. Locate the contact whose details you want to verify. Click on the **Details** button associated with that contact.
 
    ![](../../media/crud1.11.png)
 
@@ -173,7 +177,7 @@
 
 1. From the homepage, find the contact you wish to delete.
 
-1. Click on the "Delete" button associated with that contact.
+1. Click on the **Delete** button associated with that contact.
 
    ![](../../media/crud1.13.png)
 
@@ -188,8 +192,6 @@
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
 
 # Task 2: Generate Unit Test Cases
-
-1. Create a folder named **GitHub Copilot** in **C:\Users\azureuser**.
 
 1. Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
@@ -347,7 +349,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
-1. Initiate a conversation with GitHub Copilot Chat by asking, "How can we add a search feature/functionality to our application?"
+1. Initiate a conversation with GitHub Copilot Chat by asking, **How can we add a search feature/functionality to our application?**
 
    ![](../../media/function.png)
 
@@ -402,11 +404,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Test the Search Functionality:
 
-1. Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
+1. Add a couple of contact entries to the application by clicking on the **Create New** button and filling in the **Name** and **Email** fields.
 
    ![](../../media/crud4.6.png)
 
-1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
+1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the **Search** button to execute the search.
 
    ![](../../media/crud4.07.png)
 
@@ -416,3 +418,12 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
 
+## Conclusion  
+In this challenge, you've managed to develop a fully functional Contact Database application predominantly with the assistance of GitHub Copilot, demonstrating its practical usefulness in a real-world software development scenario.
+You've successfully navigated through the development process, from generating code for empty methods in the UserController.cs file to building essential features for the application. You've utilized GitHub Copilot to understand your context and provide relevant code suggestions, enhancing your coding experience.
+
+The engagement with Copilot Chat has enriched your collaboration and provided insightful coding recommendations, showcasing how AI can be seamlessly integrated into the development workflow. The test cases generated with GitHub Copilot's assistance have ensured the robustness and reliability of your application. Your achievements in this challenge have demonstrated the potential of AI in software development and provided valuable insights into its practical implementation. You've shown that with the right tools, such as GitHub Copilot, the development process can be made more efficient and productive.
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)

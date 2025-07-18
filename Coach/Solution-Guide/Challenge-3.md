@@ -2,17 +2,17 @@
 
 ## Accessing Azure Portal
 
-1. To access the Azure portal, open a private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
+1. To access the Azure portal, open a in- private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
         
 1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+
+    * Password: <inject key="AzureAdUserPassword"></inject>
      
 1. If you see the pop-up **Stay Signed in?** click No.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
    
@@ -133,7 +133,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In your VS Code, create a new file **deploy.parameters.json** to define the parameters from your *deploy.json* file.
+1. In your VS Code, create a new file **deploy.parameters.json** to define the parameters from your **deploy.json** file.
 
    ```
    {
@@ -159,7 +159,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In your Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
+1. In Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
 
    ![](../../media/challenge3-azure-custom.png)
 
@@ -167,7 +167,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
    ![](../../media/challenge3-custom-deploy.png)
 
-1. In your Edit Template tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
+1. In **Edit Template** tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
 
    ![](../../media/challenge3-custom-deploy-save.png)
 
@@ -197,10 +197,11 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
    * **Runtime stack**: .NET
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
-  
-   ![](../../media/challenge3-deployment-center-01.png)
 
-   ![](../../media/challenge3-deployment-center-02.png)
+  
+        ![](../../media/challenge3-deployment-center-01.png)
+
+        ![](../../media/challenge3-deployment-center-02.png)
 
 1. You can also view your workflow configuration by clicking on the **Preview file** button.
 
@@ -313,9 +314,11 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 In this task, you'll utilize GitHub Copilot to generate documentation specific to this challenge, which will include the ARM template and GitHub action workflow file to deploy the web app to Azure.
 
-1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate documentation that specifies the ARM template deployment and GitHub action workflow file to deploy the web app to Azure for your workspace.
+1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate documentation that specifies the ARM template deployment and GitHub action workflow file to deploy the web app to Azure for your workspace.
 
-   * @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
+    ```
+    @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
+    ```
 
 1. You'll notice that the GitHub Copilot generates brief documentation about your workspace's ARM template deployment to Azure, and the workings of the workflow file and a few config files.
 
@@ -365,7 +368,15 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    ![](../../media/workspace.png)
 
+## Conclusion
 
+In this challenge,  you've demonstrated how AI can significantly aid in the development and deployment of applications, specifically through the use of GitHub Copilot. Not only did you develop a fully functional Contact Database application in the previous challenge, but you also effectively deployed it to Azure using an ARM template generated with the help of GitHub Copilot. You've utilized GitHub Copilot to streamline the creation of the ARM template, which is a powerful example of Infrastructure as Code (IaC), and also automated the build and testing process of your code by creating a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. Furthermore, you've produced comprehensive and accurate documentation for this challenge, serving as a valuable guide for future projects.
+
+Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
 
 
 

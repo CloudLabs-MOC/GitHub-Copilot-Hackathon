@@ -1,6 +1,6 @@
 # Challenge 3: Deploy the App to Azure
 
-### Estimated Time: 60 minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
@@ -28,9 +28,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. To access the Azure portal, open a private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the following password and click on **Sign in**.
+
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. **Skip** the MFA registration if the pop-up appears while logging in to the Azure portal.
@@ -41,9 +43,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
 
-1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
+1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the navigate panel to see the resource groups.
 
-1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
+1. Confirm you have a resource group **GitHub-Copilot-Challenges** present. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
 
 ## Challenge Objectives:
 
@@ -60,23 +62,28 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
 
       - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
+        
        >**Note:** The build will fail due to the undefined path in your workflow YAML file.
 
       - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
-     ![](../../media/challenge3-github-workflow-edit.png)
+         ![](../../media/challenge3-github-workflow-edit.png)
 
-     ![](../../media/challenge3-github-workflow-edit-01.png)
+         ![](../../media/challenge3-github-workflow-edit-01.png)
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
+
+  >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task. 
 
 3. **Get the app working on Azure:**
 
       - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
 
+
      ![](../../media/challenge3-web-app-001.png)
 
       - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
+
 
 4. **Generate documentation with Copilot for the app:**
 
@@ -105,3 +112,7 @@ Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** forma
 In this challenge,  you've demonstrated how AI can significantly aid in the development and deployment of applications, specifically through the use of GitHub Copilot. Not only did you develop a fully functional Contact Database application in the previous challenge, but you also effectively deployed it to Azure using an ARM template generated with the help of GitHub Copilot. You've utilized GitHub Copilot to streamline the creation of the ARM template, which is a powerful example of Infrastructure as Code (IaC), and also automated the build and testing process of your code by creating a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. Furthermore, you've produced comprehensive and accurate documentation for this challenge, serving as a valuable guide for future projects.
 
 Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
+
+### Click on Next >> to proceed with the next challenge.
+
+   ![](../../media/next-page.png)
