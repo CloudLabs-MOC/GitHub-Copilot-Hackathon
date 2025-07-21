@@ -95,7 +95,7 @@ Nesta tarefa, você executará os scripts de administração de sistema gerados 
 
 1. Abra o command prompt e faça login na sua VM Linux.
 
-   > **Nota:** Insira o nome de usuário admin, a senha e o endereço IP público da sua VM Linux. 
+   > **Observação:** Insira o nome de usuário admin, a senha e o endereço IP público da sua VM Linux. 
 
 1. Execute cada comando do seu script bash, que monitora o uso de CPU e memória, e verifique os resultados.
 
@@ -105,4 +105,4 @@ Nesta tarefa, você executará os scripts de administração de sistema gerados 
 
    ![](../../media/execute-ps-script.png)
 
-   
+### Você concluiu o Hackathon com sucesso.   

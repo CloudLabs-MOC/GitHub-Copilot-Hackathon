@@ -1,6 +1,6 @@
 # Desafio 4: Usar GitHub Copilot workspace and referêencia a arquivos - Guia da Solução
 
->**Note:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
+>**Observação:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
 
 ### Task 1: Utilizar o GitHub Copilot Workspace
 
@@ -78,11 +78,11 @@ O GitHub Copilot Workspace não apenas fornece instruções, respostas ou trecho
 
     ![](../../media/@workspace.png)
 
-1. Use o seguinte prompt, `**Create a workspace for the Expense Tracker React application with all the necessary files and code**.` Na caixa de texto, selecione **Submit**  para gerar o workspace completo da sua aplicação React Expense Tracker, junto com alguns arquivos de componentes.
+1. Use o seguinte prompt, **Create a workspace for the Expense Tracker React application with all the necessary files and code**. Na caixa de texto, selecione **Submit**  para gerar o workspace completo da sua aplicação React Expense Tracker, junto com alguns arquivos de componentes.
 
     ![](../../media/expense-tracker-workspace.png)
 
-    >**Nota:** A versão atual do **Github Copilot Workspace** permite criar o workspace automaticamente com toda a estrutura de arquivos; basta clicar em **Create Workspace**.
+    >**Observação:** A versão atual do **Github Copilot Workspace** permite criar o workspace automaticamente com toda a estrutura de arquivos; basta clicar em **Create Workspace**.
 
 1. Agora, crie o workspace para sua aplicação **Expense Tracker** criando os arquivos e pastas necessários. Para isso, selecione **Explorer** no painel à esquerda e escolha os ícones de arquivo ou pasta apropriados para criar um novo arquivo ou pasta conforme a estrutura do workspace da sua aplicação.
 
@@ -102,13 +102,13 @@ O GitHub Copilot Workspace não apenas fornece instruções, respostas ou trecho
 
     ![](../../media/expense-form-completed.png)
 
-    >**Nota:** Leia a saída gerada pelo **Copilot** com atenção e certifique-se de instalar todos os pacotes necessários, se solicitado pelo Copilot, antes de executar sua aplicação.
+    >**Observação:** Leia a saída gerada pelo **Copilot** com atenção e certifique-se de instalar todos os pacotes necessários, se solicitado pelo Copilot, antes de executar sua aplicação.
 
 1. Faça o mesmo para todos os componentes necessários da sua aplicação sugeridos pelo **GitHub Copilot Workspace** no **GitHub Copilot Chat**, e complete todos os componentes.
 
 1. Certifique-se de utilizar o **GitHub Copilot Workspace** em caso de qualquer erro em algum dos componentes da sua aplicação. Por exemplo, se um problema aparecer no arquivo **app.js** da sua aplicação, você pode fornecer um prompt semelhante ao dado para descobrir a causa do erro e usar as capacidades avançadas do **GitHub Copilot Workspace** para corrigir o erro: `@workspace. Fix the issue in the app.js file.`
 
-    >**Nota:** Certifique-se de usar o comando **@workspace** na caixa de chat para utilizar a funcionalidade de workspace, para que ele possa analisar todos os arquivos e diretórios do seu workspace e fornecer a melhor solução para o erro, sem conflitar com outros componentes.
+    >**Observação:** Certifique-se de usar o comando **@workspace** na caixa de chat para utilizar a funcionalidade de workspace, para que ele possa analisar todos os arquivos e diretórios do seu workspace e fornecer a melhor solução para o erro, sem conflitar com outros componentes.
 
 1. Você receberá uma saída semelhante a esta:
 
@@ -201,3 +201,7 @@ Para fazer isso, siga os passos abaixo:
 1. Execute o aplicativo e verifique se o componente **Date** foi adicionado e está funcionando corretamente.
 
     ![](../../media/app-working-date.png)
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)

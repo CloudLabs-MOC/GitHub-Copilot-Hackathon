@@ -1,6 +1,6 @@
 # Desafio 6: Gerar Scripts usando GitHub Copilot
 
-### Tempo Estimado: 45 minutos
+### Tempo Estimado: 45 Minutos
 
 ## Introdução
 
@@ -50,3 +50,5 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 ## Conclusão
 
 Neste desafio, você utilizou com sucesso o GitHub Copilot para gerar scripts de monitorização de sysadmin para VMs Linux e Windows, melhorou os scripts usando as sugestões e o chat integrado do GitHub Copilot e verificou que os scripts gerados foram executados com sucesso.
+
+### Você concluiu o Hackathon com sucesso.

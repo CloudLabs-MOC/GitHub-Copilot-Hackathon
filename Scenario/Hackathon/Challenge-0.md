@@ -1,8 +1,8 @@
 # Desafio 00: Introdução ao GitHub Copilot
 
-### Tempo Estimado: 20 minutos
+### Tempo Estimado: 20 Minutos
 
->**Nota:** Este desafio é apenas para leitura e exploração.
+>**Observação:** Este desafio é apenas para leitura e exploração.
 
 O GitHub Copilot é a primeira ferramenta de desenvolvimento em larga escala baseada em IA do mundo, que pode ajudar você a escrever código mais rapidamente com menos esforço. O GitHub Copilot usa comentários e o contexto do código para sugerir instantaneamente linhas específicas de código e até mesmo funções inteiras.
 
@@ -115,6 +115,8 @@ Quando o acesso ao Copilot é ativado, recursos como a capacidade de usar o Copi
 - [Say hello to GitHub Copilot Enterprise!](https://www.youtube.com/watch?v=vUX5u_4B2AM)
 - [GitHub Copilot - KB Ghost](https://spektrasystems.sharepoint.com/:v:/s/CloudLabs-Services/EZzDsP1I9uVNirVAGKJ34sABMA02runzrXX1Bcc6DzUdbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sWSj9W)
 
-  >**Nota**: Você pode assistir aos vídeos acima para aprender sobre GitHub Copilot Enterprise e suas funcionalidades. Neste Hackathon, você estará usando o GitHub Copilot Business.
+  >**Observação:** Você pode assistir aos vídeos acima para aprender sobre GitHub Copilot Enterprise e suas funcionalidades. Neste Hackathon, você estará usando o GitHub Copilot Business.
   
+### Clique em Avançar >> para prosseguir com o próximo desafio.
 
+![](../../media/next-page-p.png)

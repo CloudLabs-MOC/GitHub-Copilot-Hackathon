@@ -1,6 +1,6 @@
 # Desafio 4: Usar GitHub Copilot workspace and referêencia a arquivos
 
-### Tempo Estimado: 60 minutos
+### Tempo Estimado: 60 Minutos
 
 ## Introdução
 
@@ -29,21 +29,24 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Objectivos do Desafio:
 
-1. Crie uma nova pasta chamada DemoApp em C:/Users/azureuser
+1. Crie uma nova pasta chamada **DemoApp** em **C:/Users/azureuser**.
 
 2. **Utilize o GitHub Copilot Workspace no aplicativo de Banco de Dados de Contatos existente:**
 
    - Entenda e explore como o recurso Workspace funciona.
 
    - Forneça alguns prompts ao agente do workspace no seu ambiente VS Code e revise suas saídas, como perguntar sobre coisas relevantes relacionadas ao seu workspace atual, gerar novas funcionalidades, identificar problemas em qualquer arquivo e mais.
+
      >**Dica:** Use referências de arquivos **@workspace**, **@vscode** e **@terminal** para os prompts.
 
 3. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
 
    - Crie a estrutura fundamental do workspace do zero usando o recurso **GitHub Copilot Workspace** em `C:/Users/azureuser/DemoApp`.
+
      >**Dica:** Peça ao Copilot para criar um workspace para um novo aplicativo React Expense Tracker com todos os arquivos e código necessários.
 
    - Desenvolva os componentes individuais necessários no esboço do aplicativo Expense Tracker usando as capacidades transformadoras do **GitHub Copilot**.
+
      >**Dica:** Use a referência de arquivo **@workspace** para adicionar funcionalidades a todos os arquivos.
 
    - Debug todos os possíveis erros que surgirem ao executar o aplicativo Expense Tracker usando o GitHub Copilot Workspace.
@@ -66,7 +69,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
       - output deve ser semelhante ao exemplo abaixo:
 
-      ![](../../media/app-working-date.png)
+         ![](../../media/app-working-date.png)
 
 ## Critério de Sucesso:
 
@@ -87,3 +90,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 ## Conclusão
 
 Neste desafio, você adquiriu uma compreensão mais profunda de como funcionam o **Github Copilot Workspace and File Referencing** e como eles podem melhorar seu processo de escrita de código. Ao utilizar essas funcionalidades de forma eficaz, você pode melhorar significativamente a sua eficiência na escrita de código e a qualidade geral do seu código. Seja você um desenvolvedor experiente ou iniciante, esses insights certamente serão valiosos em sua jornada enquanto desenvolvedor.
+
+### Clique em Avançar >> para prosseguir com o próximo desafio.
+
+![](../../media/next-page-p.png)
