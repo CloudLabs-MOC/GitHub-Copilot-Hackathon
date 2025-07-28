@@ -51,7 +51,7 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
 7. **Challenge 06: Generate Scripts using GitHub Copilot**
    
-    The objective of this challenge is to use GitHub Copilot to generate sys admin scripts for your projects. You'll leverage Copilot's AI capabilities to create sys admin scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and resource monitoring (such as CPU, memory and disk usage) and speeding up the development process through the generation of sys admin scripts.
+    The objective of this challenge is to use GitHub Copilot to generate sys admin scripts for your projects. You'll leverage Copilot's AI capabilities to create sys admin scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and resource monitoring **(such as CPU, memory and disk usage)** and speeding up the development process through the generation of sys admin scripts.
 
 Each challenge comes with its own set of tasks and objectives. Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
 
