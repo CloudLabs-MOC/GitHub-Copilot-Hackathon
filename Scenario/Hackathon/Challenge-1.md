@@ -26,9 +26,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 ## Login to GitHub
 
-1. On the LABVM desktop, double-tap **Microsoft Edge**.
+1. On the **LABVM desktop**, double-tap **Microsoft Edge**.
 
-1. Navigate to GitHub login page using the provided URL below:
+1. Navigate to **GitHub** login page using the provided URL below:
    
    ```
    https://github.com/login
@@ -49,12 +49,15 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Setup GitHub Copilot in VS Code:**
-   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **Install**
+   
+   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **Install**.
+     
    - Configure the extension settings to suit your preferences.
 
       <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
-2. **Login with a GitHub account:**
+3. **Login with a GitHub account:**
+   
       - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
 
       - On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
@@ -64,7 +67,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
 
-3. **Using GitHub Codespaces with Copilot:**
+4. **Using GitHub Codespaces with Copilot:**
 
       - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
 
@@ -75,7 +78,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
 
-4. **Copilot Function Test:**
+5. **Copilot Function Test:**
      
    - Create a New Python File:
      
@@ -98,7 +101,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
          > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
-5. **Code Generation with Copilot and Copilot Chat:**
+6. **Code Generation with Copilot and Copilot Chat:**
 
       - Create Python/JS-based code to build a calculator.
 
