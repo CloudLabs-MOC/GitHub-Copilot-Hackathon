@@ -32,10 +32,10 @@ Focused on making organizations more productive, secure, and fulfilled, GitHub C
 
 Here are some features you can expect from Copilot for Business:
 
- - A robust AI model: New modeling algorithms improve the quality of code suggestions.
- - AI-based security vulnerability filtering: GitHub Copilot automatically blocks common insecure code suggestions by targeting issues such as hardcoded credentials, SQL injections, and path injections.
- - VPN proxy support: GitHub Copilot works with VPNs, including self-signed certificates, so that developers can use it in any working environment.
- - Simple sign-up: Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
+ - **A robust AI model:** New modeling algorithms improve the quality of code suggestions.
+ - **AI-based security vulnerability filtering:** GitHub Copilot automatically blocks common insecure code suggestions by targeting issues such as hardcoded credentials, SQL injections, and path injections.
+ - **VPN proxy support:** GitHub Copilot works with VPNs, including self-signed certificates, so that developers can use it in any working environment.
+ - **Simple sign-up:** Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
 
 ## GitHub Copilot for Enterprise
 
