@@ -63,7 +63,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
         
-       >**Note:** The build will fail due to the undefined path in your workflow YAML file.
+      >**Note:** The build will fail due to the undefined path in your workflow YAML file.
 
       - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
@@ -73,7 +73,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-  >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task. 
+
+      >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task. 
 
 3. **Get the app working on Azure:**
 
