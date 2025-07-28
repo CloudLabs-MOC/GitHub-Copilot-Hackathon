@@ -8,12 +8,6 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 
 ![](../../media/GSS1.png)
 
-## Accessing Your GitHub credentials
-
-Once you are in the **Environment** tab, click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
-
-![](../../media/GSS2.png)
-
 ## Virtual Machine & Lab Guide
 
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
@@ -23,6 +17,12 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
 ![](../../media/GSS3.png)
+
+## Accessing Your GitHub credentials
+
+Once you are in the **Environment** tab, click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
+
+![](../../media/GSS2.png)
 
 ## Utilizing the Split Window Feature
 
