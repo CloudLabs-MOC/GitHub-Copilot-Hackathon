@@ -51,3 +51,21 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat, and verified that the generated scripts executed successfully.
 
 ### You have successfully completed Hackathon.
+
+Congratulations on completing the **GitHub Copilot Hackathon**.
+
+This lab offered a hands-on experience with GitHub Copilot, focusing on AI-assisted coding, debugging, deployment, and documentation. It covered:
+
+   - Setting up and using GitHub Copilot in Visual Studio Code.
+
+   - Generating and refining code with AI assistance.
+
+   - Developing, debugging, and testing applications.
+
+   - Deploying applications to Azure using ARM templates and GitHub Actions.
+
+   - Utilizing workspace and file references for contextual coding.
+   
+   - Creating documentation and sys admin scripts using Copilot.
+
+The lab provided a practical overview of how GitHub Copilot can simplify and enhance modern software development.
