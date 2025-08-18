@@ -81,7 +81,7 @@ Os proprietários da empresa podem permitir que algumas ou todas as organizaçõ
 | Authenticação SSO com SAML¹ |             ✕	             |  ✓                 |    ✓  |
 | Requer GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
 
-### Casos de usao para GitHub Copilot for Business 
+### Casos de uso para GitHub Copilot for Business 
 
 **GitHub Copilot** melhora a produtividade e a satisfação dos desenvolvedores, reduz interrupções, melhora o fluxo de trabalho e aumenta o tempo que um desenvolvedor passa realizando um trabalho gratificante. A seguir, estão os casos de uso de como o **GitHub Copilot for Business** pode ser utilizado:
 
@@ -121,4 +121,5 @@ Quando o acesso ao Copilot é habilitado, recursos como a capacidade de usar o C
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
 
 ![](../../media/next-page-p.png)
+
 
