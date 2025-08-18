@@ -1,4 +1,4 @@
-# Desafio 00: Desafio 00: Introdução ao GitHub Copilot (Somente Leitura)
+# Desafio 00: Introdução ao GitHub Copilot (Somente Leitura)
 
 ### Duração Estimada: 20 Minutos
 
@@ -121,5 +121,6 @@ Quando o acesso ao Copilot é habilitado, recursos como a capacidade de usar o C
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
 
 ![](../../media/next-page-p.png)
+
 
 
