@@ -1,61 +1,73 @@
-# Desafio 3: Deployment de applicações para Azure
+# Desafio 3: Implante a Aplicação no Azure
 
-### Tempo Estimado: 60 Minutos
+### Duração Estimada: 60 Minutos
 
 ## Introdução
 
-No desafio anterior, você desenvolveu com sucesso uma applicação: **MyMvcApp CRUD Application** totalmente funcional, principalmente com a assistência do **GitHub Copilot**, e também adquiriu conhecimento sobre como a IA pode ser integrada de forma eficiente ao fluxo de trabalho de desenvolvimento.
+No desafio anterior, você desenvolveu com sucesso uma aplicação: **MyMvcApp CRUD** totalmente funcional, principalmente com a assistência do **GitHub Copilot**, e também adquiriu conhecimento sobre como a IA pode ser integrada de forma eficiente ao fluxo de trabalho de desenvolvimento.
 
-Como desenvolvedor de software na **Contoso Ltd.**, uma empresa líder em desenvolvimento de software, você foi designado para explorar tecnologias e ferramentas inovadoras que podem aprimorar o processo de desenvolvimento de software e a gestão da infraestrutura da empresa. A **Contoso Ltd.** reconhece o potencial da Infraestrutura como Código (IaC) na gestão e provisão de seus recursos de computação e está particularmente interessada em templates do Azure Resource Manager (ARM) para implantar aplicações no Azure.
+Como desenvolvedor(a) de software na **Contoso Ltda**, uma empresa líder em desenvolvimento de software, você foi designado para explorar tecnologias e ferramentas inovadoras que podem aprimorar o processo de desenvolvimento de software e a gestão da infraestrutura da empresa. A **Contoso Ltda** reconhece o potencial da Infraestrutura como Código (IaC) na gestão e provisão de seus recursos de computação e está particularmente interessada em templates do Azure Resource Manager (ARM) para implantar aplicações no Azure.
 
-Neste desafio, você utilizará o **GitHub Copilot** para otimizar o desenvolvimento de um template do **Azure Resource Manager (ARM)** para implantar a aplicação **MyMvcApp CRUD Application** totalmente funcional que você desenvolveu anteriormente. Os templates ARM são arquivos de Infraestrutura como Código (IaC) usados para implantar e gerenciar recursos no Azure. Aproveitando as capacidades de geração de código do Copilot, você acelerará a criação de um template ARM para implantar uma aplicação no Azure. Além disso, você também automatizará os processos de construção e teste do seu código. Você criará um pipeline do GitHub Actions, com o **GitHub Copilot** auxiliando na geração dos scripts necessários. Para documentar o conhecimento e as percepções adquiridas com este exercício, você usará o GitHub Copilot para gerar uma documentação abrangente e precisa para este desafio. Esta documentação servirá como um guia para a criação do template ARM, configuração do pipeline do GitHub Actions e implantação da **MyMvcApp CRUD Application** no Azure.
+Neste desafio, você utilizará o **GitHub Copilot** para otimizar o desenvolvimento de um template do **Azure Resource Manager (ARM)** para implantar a aplicação **MyMvcApp CRUD Application** totalmente funcional que você desenvolveu anteriormente. Os templates ARM são arquivos de Infraestrutura como Código (IaC) usados para implantar e gerenciar recursos no Azure. 
 
-Ao concluir este desafio, você pretende demonstrar à Contoso Ltd. como o **GitHub Copilot** pode otimizar o desenvolvimento de templates ARM, automatizar processos de construção e teste com GitHub Actions e gerar uma documentação esclarecedora. Isso destacará ainda mais o valor da integração da IA no fluxo de trabalho de desenvolvimento, seguindo o desenvolvimento bem-sucedido da aplicação de banco de dados de contatos no desafio anterior.
+Aproveitando as capacidades de geração de código do Copilot, você acelerará a criação de um template ARM para implantar uma aplicação no Azure. Além disso, você também automatizará os processos de construção e teste do seu código. Você criará um pipeline do GitHub Actions, com o **GitHub Copilot** auxiliando na geração dos scripts necessários. Para documentar o conhecimento e as percepções adquiridas com este exercício, você usará o GitHub Copilot para gerar uma documentação abrangente e precisa para este desafio. Esta documentação servirá como um guia para a criação do template ARM, configuração do pipeline do GitHub Actions e implantação da **MyMvcApp CRUD Application** no Azure.
 
+Com certeza. Segue a tradução do texto, mantendo a formatação e a precisão técnica necessárias para o desafio.
 
+Desafio 3: Implante a Aplicação no Azure
+Tempo Estimado: 60 Minutos
+
+Introdução
+No desafio anterior, você desenvolveu com sucesso uma Aplicação CRUD MyMvcApp totalmente funcional, principalmente com a assistência do GitHub Copilot, e também obteve insights valiosos sobre como a IA pode ser integrada de forma transparente ao fluxo de trabalho de desenvolvimento.
+
+Como desenvolvedor(a) de software na Contoso Ltd., uma empresa líder no setor, você tem a tarefa de explorar tecnologias e ferramentas inovadoras que possam aprimorar o processo de desenvolvimento de software e o gerenciamento de infraestrutura da empresa. A Contoso Ltd. reconhece o potencial da Infraestrutura como Código (IaC) no gerenciamento e provisionamento de seus recursos computacionais e está particularmente interessada em templates do Azure Resource Manager (ARM) para implantar aplicações no Azure.
+
+Neste desafio, você utilizará o GitHub Copilot para otimizar o desenvolvimento de um template do Azure Resource Manager (ARM) para implantar a Aplicação CRUD MyMvcApp totalmente funcional que você desenvolveu anteriormente. Os templates ARM são arquivos de Infraestrutura como Código (IaC) usados para implantar и gerenciar recursos no Azure. Ao aproveitar as capacidades de geração de código do Copilot, você acelerará a criação de um template ARM para implantar uma aplicação no Azure. Além disso, você também automatizará os processos de build e teste do seu código. Você criará um pipeline do GitHub Actions, com o GitHub Copilot auxiliando na geração dos scripts necessários. Para documentar o conhecimento e os insights obtidos neste exercício, você usará o GitHub Copilot para gerar uma documentação abrangente e precisa para este desafio. Essa documentação servirá como um guia para criar o template ARM, configurar o pipeline do GitHub Actions e implantar a Aplicação CRUD MyMvcApp no Azure.
+
+Ao concluir este desafio, seu objetivo é demonstrar à **Contoso Ltda** como o **GitHub Copilot** pode otimizar o desenvolvimento de templates ARM, automatizar processos de build e teste com o GitHub Actions e gerar documentação perspicaz. Isso destacará ainda mais o valor da integração da IA ao fluxo de trabalho de desenvolvimento, seguindo o sucesso do desenvolvimento da aplicação de Banco de Dados de Contatos no desafio anterior.
 
 ## Pré-requisitos
 
-Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
 > **Observação:** Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para concluir este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Conta GitHub](https://github.com/)
+- [Conta do GitHub](https://github.com/)
 - [Extensão GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) instalada no VS Code.
-- Certifique-se de implantar o web app no grupo Resource Group existente com o nome **GitHub-Copilot-Challenges**.
+- Certifique-se de implantar o aplicativo web no grupo de recursos existente chamado **GitHub-Copilot-Challenges**.
 
-## Aceder ao Azure Portal
+## Acessando o Portal do Azure
 
-1. Para acessar o portal do Azure, abra uma janela privada/incógnita no seu browser e navegue até **[Azure Portal](https://portal.azure.com)**.
+1. Para acessar o portal do Azure, abra uma janela privada/anônima no seu navegador e navegue até o **[Portal do Azure](https://portal.azure.com)**.
 
-1. Na aba **Sign in to Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+1. Na aba **Entrar no Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/usuário e clique **Avançar**. 
+   * E-mail/Usuário: <inject key="AzureAdUserEmail"></inject>
         
 1. Agora insira a seguinte senha e clique em **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   * Senha: <inject key="AzureAdUserPassword"></inject>
 
 1. **Ignore** o registro MFA se o pop-up aparecer enquanto faz login no portal do Azure.
 
-1. Se você vir o pop-up **Stay Signed in?** clique em **Não**.
+1. Se aparecer o pop-up **Permanecer conectado?**, clique em **Não**.
 
-1. Se você vir o pop-up **You have free Azure Advisor recommendations!**, feche a janela para continuar o laboratório.
+1. Se aparecer o pop-up **Você tem recomendações gratuitas do Azure Advisor!**, feche a janela para continuar o laboratório.
 
-1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Cancel** para pular o tour.
+1. Se aparecer uma janela pop-up **Bem-vindo ao Microsoft Azure**, clique em **Cancelar** para ignorar o tour.
    
-1. Agora você verá o Painel do Portal do Azure. Clique em **Resource groups** no painel de navegação para ver os resource groups.
+1. Agora você verá o Painel do Portal do Azure. Clique em **Grupos de Recursos** no painel de navegação para ver os grupos de recursos.
   
-1. Confirme que você tem um resource group com o nome **GitHub-Copilot-Challenges** presente, conforme mostrado na captura de tela abaixo. Você precisará usar o resource group **GitHub-Copilot-Challenges** ao longo deste desafio.
+1. Confirme que você tem um grupo de recursos chamado **GitHub-Copilot-Challenges**. Você precisará usar o grupo de recursos **GitHub-Copilot-Challenges** ao longo deste desafio.
 
-## Challenge Objectives:
+## Objetivos do Desafio:
 
-1. **Desenvolva um template ARM para implantar um aplicativo no Azure:**
+1. **Desenvolver um template ARM para implantar uma aplicação no Azure:**
    
-   - Utilize o GitHub Copilot para ajudá-lo a gerar a estrutura inicial de um template ARM para implantar o **MyMvcApp CRUD Application** no Azure.
+   - Use o GitHub Copilot para auxiliá-lo(a) na geração da estrutura inicial de um template ARM para implantar a aplicação **MyMvcApp CRUD** no Azure.
      
-   - Defina os recursos necessários do Azure no template ARM, ou seja, uma **Web App** presente nos **Azure App Services** necessário para implantar a sua aplicação.
+   - Defina os recursos necessários do Azure no template ARM, ou seja, um **Aplicativo Web** presente nos **Serviços de Aplicativos do Azure** necessário para implantar sua aplicação. 
      
-   - Salve os arquivos do template ARM e dos parâmetros no seu repositório do GitHub **MyMvcApp CRUD Application** como **deploy.json** e **deploy.parameters.json** no branch **master**.
+   - Salve os arquivos do template ARM e de parâmetros no seu repositório GitHub da aplicação **MyMvcApp CRUD** como arquivos **deploy.json** e **deploy.parameters.json** na branch **master**.
 
    <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
@@ -106,5 +118,6 @@ Neste desafio, você demonstrou como a IA pode auxiliar significativamente no de
 Através deste desafio, você demonstrou para a Contoso Ltd. o potencial de integrar a IA no fluxo de trabalho de desenvolvimento. Mostrou como o GitHub Copilot pode auxiliar não apenas no desenvolvimento de aplicações, mas também na implementação e gestão de infraestrutura, destacando assim sua versatilidade e valor. Ao implementar com sucesso a aplicação de acesso ao banco de dados de contatos no Azure e verificar sua funcionalidade, você forneceu uma demonstração tangível dos benefícios da IA no desenvolvimento de software.
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
+
 
 ![](../../media/next-page-p.png)
