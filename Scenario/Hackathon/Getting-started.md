@@ -1,6 +1,6 @@
-# Introdução ao workshop do Microsoft Copilot Hackathon
+# Introdução ao workshop: GitHub Copilot Hackathon
 
-Bem-vindo ao workshop do Microsoft Copilot Hackathon! Preparamos um ambiente integrado para você explorar e aprender sobre os serviços Microsoft Copilot. Vamos começar aproveitando ao máximo esta experiência:
+Bem-vindo(a) ao workshop GitHub Copilot Hackathon! Preparamos um ambiente integrado para você explorar e aprender sobre os serviços Microsoft Copilot. Vamos começar aproveitando ao máximo esta experiência:
 
 ## Acessando seu ambiente de laboratório
 
@@ -14,13 +14,13 @@ Quando estiver na guia **Ambiente**, clique na opção **GitHub Credentials** pa
 
 ![](../../media/PGSS2.png)
 
-### Máquina Virtual e Guia de Laboratório
+### Máquina Virtual e Guia do Laboratório
 
-Sua máquina virtual é seu carro-chefe durante todo o workshop. O guia de laboratório é o seu roteiro para o sucesso.
+Sua máquina virtual é sua principal ferramenta de trabalho ao longo do workshop. O guia do laboratório é seu roteiro para o sucesso.
 
-## Explorando os recursos do seu laboratório
+## Explorando os recursos do seu Laboratório
 
-Para entender melhor os recursos e credenciais do seu laboratório, navegue até a guia **Ambiente**.
+Para entender melhor os recursos e credenciais do seu laboratório, navegue até a aba **Ambiente**.
 
 ![](../../media/PGSS3.png)
 
@@ -32,12 +32,11 @@ Por conveniência, você pode abrir o guia de laboratório em uma janela separad
 
 ## Gerenciando sua máquina virtual
 
-1. Sinta-se à vontade para iniciar, parar ou reiniciar sua máquina virtual conforme necessário na guia **Recursos**. Sua experiência está em suas mãos!
+1. Sinta-se à vontade para iniciar, parar ou reiniciar sua máquina virtual conforme necessário, na partir da aba **Recursos**. Sua experiência está em suas mãos!
 
     ![](../../media/PGSS4.png)
 
-
-Agora você está pronto para explorar o poderoso mundo da tecnologia. Sinta-se à vontade para entrar em contato se tiver alguma dúvida ao longo do caminho. Aproveite sua oficina!
+Agora está tudo pronto para você explorar o poderoso mundo da tecnologia.
 
 ## Contato de Suporte
 
