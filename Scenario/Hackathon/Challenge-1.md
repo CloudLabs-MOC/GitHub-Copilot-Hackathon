@@ -56,7 +56,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
-3. **Login with a GitHub account:**
+2. **Login with a GitHub account:**
    
       - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
 
@@ -67,7 +67,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
 
-4. **Using GitHub Codespaces with Copilot:**
+3. **Using GitHub Codespaces with Copilot:**
 
       - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
 
@@ -78,7 +78,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
 
-5. **Copilot Function Test:**
+4. **Copilot Function Test:**
      
    - Create a New Python File:
      
@@ -101,7 +101,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
          > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
-6. **Code Generation with Copilot and Copilot Chat:**
+5. **Code Generation with Copilot and Copilot Chat:**
 
       - Create Python/JS-based code to build a calculator.
 
@@ -126,7 +126,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
-7. **Code Refactoring & Debugging:**
+6. **Code Refactoring & Debugging:**
       
       - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
 
@@ -136,7 +136,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
         >**Hint:** Utilize GitHub Copilot's **Fix** feature.
 
-8. **Explore GitHub Copilot Features:**
+7. **Explore GitHub Copilot Features:**
       - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
 
       - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
