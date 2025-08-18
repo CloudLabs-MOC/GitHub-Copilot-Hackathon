@@ -50,63 +50,95 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
    ![](../../media/authgit.png)
 
-## Objectivos do Desafio:
+## Objetivos do Desafio:
 
 1. **Configurar o GitHub Copilot no VS Code:**
+   
       - Abra o Visual Studio Code, navegue até Extensões, procure por GitHub Copilot e clique em Instalar.
       - Configure as definições da extensão de acordo com suas preferências.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Fazer login com uma conta do GitHub:**
-      - Faça login no GitHub dentro do Visual Studio Code usando as credenciais do GitHub fornecidas. Você pode encontrar essas credenciais em **Environment > GitHub Credentials**.
+   
+      - Faça login no GitHub dentro do Visual Studio Code usando as credenciais do GitHub fornecidas. Você pode encontrar essas credenciais na aba **Ambiente > Credenciais do GitHub**.
       - Na página de login do GitHub, insira suas credenciais do GitHub e clique em **Sign in**.
-      - Para verificar o login da sua conta do GitHub, faça login no **Outlook** no Lab VM através de uma janela Privada (https://outlook.office365.com/mail/) usando suas credenciais do GitHub. Localize o email contendo o código de verificação e selecione **Verify**.
-      - Clique em Authorize Visual Studio Code para fornecer permissões adicionais ao GitHub para o VS Code.
+      - Para verificar o login da sua conta do GitHub, faça login no **Outlook** no Lab VM através de uma janela Privada (https://outlook.office365.com/mail/) usando suas credenciais do GitHub. Localize o e-mail contendo o código de verificação e selecione **Verify**.
+      - Clique em **Authorize Visual Studio Code** para fornecer permissões adicionais ao GitHub para o VS Code.
 
-3. **Utilizar GitHub Codespaces com Copilot:**
-      - Crie um Codespace para o seu repositório GitHub.
-        >**Nota:** Navegue al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque (haga fork) este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo Codespace.
+3. **Usando o GitHub Codespaces com o Copilot:**
+   
+      - Crie um Codespace para seu repositório GitHub. Navegue até o repositório **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** e faça um fork deste repositório para a conta do GitHub fornecida pela CloudLabs para criar um novo codespace.
       - Clone o repositório bifurcado acima no Visual Studio Code usando a conta GitHub fornecida pelo CloudLabs.
       - Entenda como o Copilot pode ser utilizado em um ambiente de codificação colaborativo.
       - Use o GitHub Codespaces para fazer push/commit dos arquivos locais do VS Code para o GitHub nos próximos desafios.
 
-4. **Explorar as funcionalidades de GitHub Copilot:**
-      - Experimente o Copilot em vários cenários de programação.
-      - Use as sugestões do Copilot para acelerar seu processo de escrita de código.
+4. **Teste de Função do Copilot:**
+     
+   - Crie um Novo Arquivo Python:
+     
+      - Abra o Visual Studio Code e crie um novo arquivo chamado `hello.py`.
 
-        >**Dica:** Acesse a janela de Sugestões do GitHub Copilot usando o atalho **Ctrl+Enter** no seu VS Code.
+   - Utilizando o GitHub Copilot:
+   
+     - Pressione **Ctrl + I** para solicitar sugestões de código ao GitHub Copilot.
+     - Na minijanela do Copilot, digite "Gerar um programa 'Olá, Mundo!' básico em Python".
+     - Revise o código gerado, que deve ser semelhante a:
+
+         ```
+         print("Hello, World!")
+         ```
+
+     - Clique em Aceitar para inserir o código em seu arquivo.
+
+         > **Dica**: Acesse a janela de Sugestões do GitHub Copilot pressionando Ctrl + Enter no Visual Studio Code.
 
 5. **Geração de Código com Copilot e Copilot Chat:**
+   
       - Crie código baseado em Python/JS para construir uma calculadora.
-         - Utilize o GitHub Copilot para gerar código em Python ou JavaScript que cria uma calculadora básica.
-         - Depois de escrever o código, salve o arquivo como calculator.py se estiver usando Python, ou calculator.js se estiver usando JavaScript, e envie-o para seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring**.
-         - Experimente diferentes operações matemáticas e interações com o usuário.
-      - Crie um aplicativo baseado em Python/JS para obter dados meteorológicos das APIs do OpenWeatherMap.
-         - Inscreva-se no site do OpenWeatherMap (https://openweathermap.org/).
-         - Utilize o Copilot para gerar código Python/JS que interage com as APIs de clima para recuperar dados meteorológicos.
-         - Salve este arquivo como weather_script.py para Python ou weather_script.js para JavaScript e envie-o para seu repositório GitHub bifurcado do CloudLabsAI-Azure/Code-Generation-Refactoring.
+         
+         - Utilize o GitHub Copilot para auxiliar na geração do código. Comece digitando um comentário como `# Crie uma calculadora básica` para solicitar que o Copilot sugira trechos de código.
+         - Implemente várias operações matemáticas, como adição, subtração, multiplicação e divisão, bem como interações com o usuário para receber entradas e exibir resultados.
+         - Após escrever o código, salve o arquivo como **calculator.py** se estiver usando Python, ou calculator.js se estiver usando JavaScript, e envie-o para o seu repositório bifucado **CloudLabsAI-Azure/Code-Generation-Refactoring** no GitHub.
+         - Sinta-se à vontade para experimentar recursos adicionais, como lidar com múltiplos cálculos ou melhorar a interface do usuário.
+           
+      - Crie um aplicativo em Python/JS para obter dados meteorológicos das APIs do OpenWeatherMap.
 
+         - Primeiro, crie uma conta no site do OpenWeatherMap (https://openweathermap.org/).
+
+         >**Observação:** Se você já possui uma conta no OpenWeatherMap, por favor, continue usando a mesma conta.
+
+         - Use o GitHub Copilot para gerar o código que se conecta à API do OpenWeatherMap. Comece escrevendo um comentário como `# Buscar dados meteorológicos da API do OpenWeatherMap`, o que ajudará o Copilot a entender seu objetivo e fornecer trechos de código relevantes.
+         - Garanta que o código inclua a funcionalidade para fazer requisições à API e processar os dados recebidos para exibir informações meteorológicas como temperatura, umidade e condições do tempo.
+         - Salve este arquivo como **weather_script.py** para Python ou **weather_script.js** para JavaScript, e envie-o para o seu repositório bifucado **CloudLabsAI-Azure/Code-Generation-Refactoring** no GitHub.
+         - Teste o aplicativo inserindo diferentes locais para ver como ele busca e apresenta os dados meteorológicos.
+       
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
-6. **Refactoring & Debugging de Código:**
+6. **Refatoração e Depuração de Código:**
 
-      - Refatore o código `sum_elements.py` do seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** usando o Copilot, entendendo o processo de melhoria do código.
+      - Refatore o código `sum_elements.py` do seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** no GitHub usando o Copilot, compreendendo o processo de melhoria de código.
 
-        >**Sugerencia:** Utilice la función Refactor de GitHub Copilot.
+        >**Dica:** Utilize o recurso **Refatorar** do GitHub Copilot.
 
-      - Depure o código `card_draw.py` de maneira eficaz a partir de seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** com a ajuda do Copilot, abordando e corrigindo problemas identificados.
+      - Depure o código `card_draw.py` de maneira eficaz a partir de seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** no GitHub de forma eficaz com a ajuda do Copilot, abordando e corrigindo os problemas identificados.
 
-         >**Sugerencia:** Utilice la función Corregir de GitHub Copilot.
+         >**Dica:**  Utilize o recurso **Corrigir** do GitHub Copilot.
+         
+7. **Explore os Recursos do GitHub Copilot:**
+      - Experimente fornecer contexto ou restrições específicas em seus comentários. Isso ajuda o Copilot a gerar trechos de código mais personalizados que se ajustam ao seu estilo de codificação ou aos requisitos do projeto.
 
-## Critério de Sucesso:
+      - Use o Copilot para ajudá-lo a pensar em casos extremos, pedindo para ele gerar código para cenários que talvez não sejam imediatamente óbvios. Isso pode aprimorar suas habilidades de resolução de problemas e garantir que seu código lide com várias entradas de forma eficaz.
 
-- Verifique se o GitHub Copilot está instalado e configurado corretamente no Visual Studio Code e se você está logado.
-- Explore com sucesso a integração do GitHub Codespaces e compreenda seus recursos de colaboração.
-- Experimente o Copilot em cenários de desenvolvimento, verificando suas capacidades de geração de código.
-- Verifique se o código em Python/JS para uma calculadora e um aplicativo para obter dados meteorológicos usando o Copilot foram criados e executados com sucesso.
-- Verifique se o código escolhido foi refatorado com sucesso, com melhoria na legibilidade e qualidade geral.
-- Verifique se um trecho de código com erros intencionais foi corrigido com sucesso usando as sugestões do Copilot.
+        >**Dica:** Acesse a janela de Sugestões do GitHub Copilot com o atalho **Ctrl+Enter** no seu VS Code.
+
+## Critérios de Sucesso:
+
+- Verificar se o GitHub Copilot foi instalado, configurado e logado com sucesso no Visual Studio Code.
+- Ter explorado com sucesso a integração com o GitHub Codespaces e compreendido seus recursos de colaboração.
+- Ter experimentado com sucesso o Copilot em cenários de codificação, testando suas capacidades de geração de código.
+- Verificar se o código em Python/JS para uma calculadora e um aplicativo para obter dados meteorológicos foi criado e executado com sucesso usando o Copilot.
+- Verificar se o trecho de código escolhido foi refatorado com sucesso, com legibilidade e qualidade geral aprimoradas.
 
 ## Recursos Adicionais:
 
@@ -115,9 +147,10 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
 ### Conclusão
 
-Neste desafio, você configurou com sucesso o GitHub Copilot no Visual Studio Code, ajustou as configurações da extensão e fez login com sua conta do GitHub. Você também foi bem-sucedido na criação de código em Python/JS para uma calculadora e um aplicativo para buscar dados meteorológicos das APIs do OpenWeatherMap. Além disso, você melhorou suas habilidades de escrita de código ao refatorar trechos de código e depurar com a assistência do Copilot.
+Neste desafio, você configurou com sucesso o GitHub Copilot no Visual Studio Code, ajustou as configurações da extensão e fez login com sua conta do GitHub. Você também obteve sucesso na criação de código em Python/JS para uma calculadora e um aplicativo para buscar dados meteorológicos das APIs do OpenWeatherMap. Além disso, você aprimorou suas habilidades de codificação ao refatorar trechos de código e depurar com a ajuda do Copilot.
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
 
 
 ![](../../media/next-page-p.png)
+
