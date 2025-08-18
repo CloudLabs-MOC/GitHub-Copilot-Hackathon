@@ -1,64 +1,64 @@
-# Desafio 1: Primeiros passos com o GitHub Copilot
+# Desafio 1: Primeiros Passos com o GitHub Copilot
 
-### Tempo Estimado: 45 Minutos
+### Duração Estimada: 45 Minutos
 
 ## Introdução
 
-Como desenvolvedor de software na **Contoso Ltd.**, uma empresa líder em desenvolvimento de software, você é encarregado de pesquisar e implementar ferramentas e tecnologias inovadoras para melhorar o processo de desenvolvimento e a produtividade da empresa. A empresa está especialmente interessada em soluções que possam melhorar a eficiência do código, otimizar o processo de desenvolvimento e aprimorar a colaboração entre suas equipes distribuídas globalmente.
+Como desenvolvedor(a) de software na **Contoso Ltda**, uma empresa líder em desenvolvimento de software, você tem a tarefa de pesquisar e implementar ferramentas e tecnologias inovadoras para aprimorar o processo de codificação e a produtividade da empresa. A empresa está particularmente interessada em soluções que possam melhorar a eficiência do código, otimizar o processo de desenvolvimento e fortalecer a colaboração entre suas equipes distribuídas globalmente.
 
-A **Contoso Ltd.** identificou o  **GitHub Copilot**, um assistente de desenvolvimento com IA, como uma solução em potencial e inscreveu você em uma série de desafios para explorar e entender suas capacidades. Sua missão é começar a utilizar o  **GitHub Copilot**, configurá-lo em seu ambiente de desenvolvimento, explorar seus recursos e usá-lo para geração de código e sugestões. O **GitHub Copilot** é um companheiro de desenvolvimento inovador, alimentado por IA e integrado perfeitamente no Visual Studio Code, projetado para aprimorar sua experiência de desenvolvimento. Aproveitando os modelos de Machine Learning, o Copilot auxilia os desenvolvedores na criação de código, sugerindo inteligentemente conclusões e gerando trechos de código contextualmente relevantes.
+A **Contoso Ltda** identificou o **GitHub Copilot**, um assistente de programação baseado em IA, como uma solução em potencial e inscreveu você em uma série de desafios para explorar e entender suas capacidades. Sua missão é dar os primeiros passos com o **GitHub Copilot**, configurando-o em seu ambiente de desenvolvimento, explorando seus recursos e utilizando-o para geração e sugestão de código. 
 
-Imagine navegar em um projeto de desenvolvimento complexo e encontrar desafios que exigem atenção meticulosa aos detalhes. O **GitHub Copilot** entra em cena como seu aliado na programação, oferecendo sugestões perspicazes e autocompletação adaptada ao contexto do código. Isso não apenas aumenta a eficiência do desenvolvimento, mas também serve como uma ferramenta valiosa de aprendizado, proporcionando um entendimento mais profundo das estruturas e padrões de programação.
+O **GitHub Copilot** é um revolucionário companheiro de programação baseado em IA, perfeitamente integrado ao **Visual Studio Code**, projetado para aprimorar sua experiência de codificação. Ao aproveitar o aprendizado de máquina, o Copilot auxilia os desenvolvedores na criação de código, sugerindo conclusões de forma inteligente e gerando trechos de código contextualmente relevantes.
 
-Você irá experimentar o **GitHub Copilot** em vários cenários de desenvolvimento, como a criação de uma calculadora baseada em Python/JavaScript e um aplicativo que busca dados meteorológicos de APIs. Também utilizará o GitHub Copilot para refatorar trechos de código fornecidos e depurar código intencionalmente defeituoso, entendendo assim o processo de melhoria de código e depuração eficaz. Além disso, você explorará a integração do **GitHub Copilot** com o GitHub Codespaces, um recurso que amplia o potencial colaborativo do seu ambiente de desenvolvimento. Isso permitirá que você entenda como o Copilot pode ser utilizado em um ambiente de desenvolvimento colaborativo, permitindo que equipes trabalhem em projetos de forma integrada, independentemente das fronteiras geográficas.
+Imagine navegar em um projeto de desenvolvimento complexo e encontrar desafios que exigem atenção meticulosa aos detalhes. O **GitHub Copilot** entra em cena como seu aliado na programação, oferecendo sugestões perspicazes e autocompletação adaptada ao contexto do código. Isso não apenas aumenta a eficiência do desenvolvimento, mas também serve como uma ferramenta valiosa de aprendizado, proporcionando uma compreensão mais profunda das estruturas e padrões de código.
 
-In this challenge series, you'll dive into **GitHub Copilot's** capabilities, starting with the setup and exploration of its features. From collaborative coding with GitHub Codespaces to experimenting with Copilot's suggestions and creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant. By the end of this challenge, you aim to demonstrate how **GitHub Copilot** can be effectively used to enhance coding productivity, improve code quality, and streamline the software development process at **Contoso Ltd**.
+Você experimentará o **GitHub Copilot** em vários cenários de desenvolvimento, como a criação de uma calculadora baseada em Python/JavaScript e uma aplicação que busca dados meteorológicos de APIs. Você também usará o GitHub Copilot para refatorar trechos de código fornecidos e depurar código intencionalmente defeituoso, entendendo assim o processo de melhoria de código e depuração eficaz. Além disso, você explorará a integração do **GitHub Copilot** com o GitHub Codespaces, um recurso que amplia o potencial colaborativo do seu ambiente de desenvolvimento. Isso permitirá que você entenda como o Copilot pode ser utilizado em um ambiente de desenvolvimento colaborativo, permitindo que equipes trabalhem em projetos de forma integrada, independentemente das fronteiras geográficas.
 
-Nesta série de desafios, você explorará as capacidades do **GitHub Copilot**, começando pela configuração e exploração de seus recursos. Desde o desenvolvimento colaborativo com o GitHub Codespaces até a experimentação das sugestões do Copilot e a criação de código para diversas tarefas, você embarcará em uma jornada para aproveitar todo o potencial deste assistente de desenvolvimento revolucionário. Ao final deste desafio, você terá como objetivo demonstrar como o **GitHub Copilot** pode ser utilizado de forma eficaz para aumentar a produtividade na desenvolvimento, melhorar a qualidade do código e otimizar o processo de desenvolvimento de software na **Contoso Ltd**.
+Nesta série de desafios, você explorará as capacidades do **GitHub Copilot**, começando pela configuração e exploração de seus recursos. Desde o desenvolvimento colaborativo com o GitHub Codespaces até a experimentação das sugestões do Copilot e a criação de código para diversas tarefas, você embarcará em uma jornada para aproveitar todo o potencial deste assistente de desenvolvimento revolucionário. Ao final deste desafio, você terá como objetivo demonstrar como o **GitHub Copilot** pode ser utilizado de forma eficaz para aumentar a produtividade na desenvolvimento, melhorar a qualidade do código e otimizar o processo de desenvolvimento de software na **Contoso Ltda**.
 
 ## Pré-requisitos
 
-Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
 > **Observação**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para completar este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub account](https://github.com/)
-- Módulos Python e NodeJs estão instalados em seu Lab-VM no diretório **C:\Program Files**.
+- [Conta do GitHub](https://github.com/)
+- Módulos Python e NodeJs estão instalados na sua Lab-VM no diretório **C:\Program Files**.
 
 ## Login no GitHub
 
-1. No desktop do LABVM, procure por **Microsoft Edge** **(1)**, clique no browser **Microsoft Edge** **(2)**.
+1. Na área de trabalho da LABVM, procure por **Microsoft Edge** **(1)** e dê um duplo clique no navegador **Microsoft Edge** **(2)**.
 
    ![](../../media/Edge.png)
 
-1. Navegue até a página de login do GitHub usando o URL fornecido abaixo:
+1. Navegue até a página de login do GitHub usando a URL fornecida abaixo:
 
    ```
    https://github.com/login
    ```
 
-1. Na aba **Sign in to GitHub**, você verá a tela de login. Nessa tela, insira o seguinte email **email** **(1)** e a password **password** **(2)**. Em seguida, clique em **Sign in** **(3)**.
+1. Na aba **Sign in to GitHub**, você verá a tela de login. Nessa tela, insira o e-mail **email** **(1)** e a senha **password** **(2)**. Em seguida, clique em **Sign in** **(3)**.
 
-   >**Nota**:Para obter as credenciais do GitHub, navegue até a aba **Environment Details** e clique na opção **GitHub Credentials** para visualizar os pares de chave-valor do **GitHub UserEmail**, w **GitHub Password**. Você pode usar os botões de copiar na coluna de ações para ter os valores copiados instantaneamente. Alternativamente, é sugerido copiar os valores para um bloco de notas para fácil acessibilidade.
+   >**Observação**:Para obter as credenciais do GitHub, navegue até a aba **Detalhes do Ambiente** e clique na opção **Credenciais do GitHub** para visualizar os pares de chave-valor do **GitHub UserEmail** e **GitHub Password**. Você pode usar os botões de copiar na coluna de ações para ter os valores copiados instantaneamente. Alternativamente, sugere-se copiar os valores para um bloco de notas para fácil acesso.
 
    ![](../../media/github-login.png)
 
-1. Em seguida, para obter o código de autenticação, faça login no Outlook (https://outlook.office365.com/mail/) com as credenciais do GitHub fornecidas na aba Environment da etapa anterior. Após fazer login no Outlook, encontre o email recente contendo o código de verificação. Insira o código de verificação e clique em **Verify**.
+1. Em seguida, para obter o código de autenticação, faça login no Outlook (https://outlook.office365.com/mail/) com as credenciais do GitHub da etapa anterior, localizadas na aba Ambiente. Após fazer login no Outlook, encontre o e-mail recente contendo o código de verificação. Insira o código de verificação e clique em **Verify**.
 
-   >**Observação:** O email contendo o código de verificação pode, às vezes, ir parar nas pastas de arquivamento/spam do seu Outlook.
+   >**Observação:** O e-mail com o código de verificação pode, ocasionalmente, ser direcionado para as pastas de lixo eletrônico ou arquivamento do seu Outlook.
 
    ![](../../media/authgit.png)
 
 ## Objectivos do Desafio:
 
 1. **Configurar o GitHub Copilot no VS Code:**
-      - Instalar a extensão do GitHub Copilot a partir do VS Code Marketplace.
-      - Configurar a extensão de acordo com a suas preferências.
+      - Abra o Visual Studio Code, navegue até Extensões, procure por GitHub Copilot e clique em Instalar.
+      - Configure as definições da extensão de acordo com suas preferências.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
-2. **Login com uma conta do GitHub:**
+2. **Fazer login com uma conta do GitHub:**
       - Faça login no GitHub dentro do Visual Studio Code usando as credenciais do GitHub fornecidas. Você pode encontrar essas credenciais em **Environment > GitHub Credentials**.
       - Na página de login do GitHub, insira suas credenciais do GitHub e clique em **Sign in**.
       - Para verificar o login da sua conta do GitHub, faça login no **Outlook** no Lab VM através de uma janela Privada (https://outlook.office365.com/mail/) usando suas credenciais do GitHub. Localize o email contendo o código de verificação e selecione **Verify**.
@@ -118,5 +118,6 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 Neste desafio, você configurou com sucesso o GitHub Copilot no Visual Studio Code, ajustou as configurações da extensão e fez login com sua conta do GitHub. Você também foi bem-sucedido na criação de código em Python/JS para uma calculadora e um aplicativo para buscar dados meteorológicos das APIs do OpenWeatherMap. Além disso, você melhorou suas habilidades de escrita de código ao refatorar trechos de código e depurar com a assistência do Copilot.
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
+
 
 ![](../../media/next-page-p.png)
