@@ -35,7 +35,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
     <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
 
-     >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+    
+      
+    >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
 
 2. **Enhance and refine documentation:**
 
@@ -47,7 +49,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
     <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
-     >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+    
+    >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
 
 3. **Explore Various Documentation Styles:**
 
