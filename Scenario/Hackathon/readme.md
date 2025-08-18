@@ -44,7 +44,7 @@ Você também irá desenvolver e testar funcionalidades essenciais da aplicaçã
 
     O objetivo é compreender como a inteligência artificial pode otimizar o desenvolvimento de software, aumentar a produtividade e oferecer assistência contextual na codificação. O desafio será considerado concluído quando todos os métodos estiverem implementados, as funcionalidades funcionarem corretamente, os casos de teste forem aprovados e o Copilot tiver sido aplicado de forma eficiente.
 
-4. **Desafio 03: Implantação de applicações no Azure**
+4. **Desafio 03: Implante uma aplicação no Azure**
 
    O objetivo deste desafio é utilizar o GitHub Copilot para facilitar o desenvolvimento de um template do Azure Resource Manager (ARM), que é essencial para implantar e gerenciar recursos no Azure. Você usará as capacidades de geração de código do Copilot para criar um template ARM e definir os recursos necessários do Azure. Adicionalmente, você arquitetará um pipeline do GitHub Actions, uma ferramenta popular no cenário de DevOps, com o GitHub Copilot auxiliando na geração dos scripts necessários.
 
