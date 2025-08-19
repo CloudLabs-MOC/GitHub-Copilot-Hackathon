@@ -1,36 +1,34 @@
-# Desafio 3: Deployment de applicações para Azure - Guia da Solução
+# Desafio 3: Implante uma aplicação no Azure - Guia da Solução
 
-## Aceder ao Portal de Azure
+## Acessando o Portal do Azure
 
-1. Para acessar o portal do Azure, abra uma janela privada/incógnita no seu browser e navegue até **[Azure Portal](https://portal.azure.com)**.
+1. Para acessar o portal do Azure, abra uma janela privada/anônima em seu navegador e navegue até **[Portal do Azure](https://portal.azure.com)**.
 
-1. Na aba **Sign in to Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique **Next**. 
+1. Na aba **Entrar no Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique em **Avançar**. 
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * E-mail/Usuário: <inject key="AzureAdUserEmail"></inject>
         
-1. Agora insira a seguinte senha e clique em **Sign in**.
+1. Agora, insira a seguinte senha e clique em **Entrar**.
 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   * Senha: <inject key="AzureAdUserPassword"></inject>
      
-1. Se você vir o pop-up **Stay Signed in?** clique em Não.
+1. Se aparecer o pop-up **Permanecer conectado?**, clique em **Não**.
 
-1. Se você vir o pop-up **You have free Azure Advisor recommendations!**, feche a janela para continuar o laboratório.
-
-1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Cancel** para pular o tour.
+1. Se aparecer o pop-up de **Bem-vindo ao Microsoft Azure**, clique em **Cancelar** para ignorar o tour.
    
-1. Agora você verá o Painel do Portal do Azure. Clique em **Resource groups** no painel de navegação para ver os resource groups.
+1. Agora você verá o Painel do Portal do Azure. Clique em **Grupos de Recursos** no painel de navegação para ver os grupos de recursos.
   
-1. Confirme que você tem um resource group com o nome **GitHub-Copilot-Challenges** presente, conforme mostrado na captura de tela abaixo. Você precisará usar o resource group **GitHub-Copilot-Challenges** ao longo deste desafio.
+1. Confirme que você tem um grupo de recursos **GitHub-Copilot-Challenges**, como mostrado na captura de tela abaixo.  Você precisará usar o grupo de recursos **GitHub-Copilot-Challenges** ao longo deste desafio.
 
-## Task 1: Desenvolva um template ARM para implantar um aplicativo no Azure
+## Tarefa 1: Desenvolva um template ARM para implantar um aplicativo no Azure
 
-In this task, you'll be generating an ARM template to deploy a web application to Azure using Azure App Services and defining the necessary resources.
+Nesta tarefa, você gerará um template ARM para implantar uma aplicação web no Azure usando os Serviços de Aplicativos do Azure e definirá os recursos necessários.
 
-1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled).
+1. Na janela do seu Chat do GitHub Copilot, peça ao GitHub Copilot para gerar um template ARM para implantar um aplicativo web com os recursos necessários definidos (plano de preços básico/gratuito, autenticação básica habilitada e configuração de GitHub Actions desabilitada).
 
    ![](../../media/challenge3-generate-arm.png)
 
-1. O GitHub Copilot gerará um ARM template básico (que pode não ser preciso). Copie e cole o ARM template em um novo arquivo chamado **deploy.json** e utilize as Sugestões e o Chat do GitHub Copilot para refatorar o template de acordo com suas especificações. Seu ARM template deve se assemelhar ao mostrado abaixo, com os recursos e especificações.
+1. O GitHub Copilot gerará um template ARM básico (que pode não ser preciso). Copie e cole o template ARM em um novo arquivo chamado **deploy.json** e utilize as Sugestões e o Chat do GitHub Copilot para refatorar o template de acordo com suas especificações. O template ARM gerado deve corresponder ao exemplo abaixo, com os recursos e especificações indicados.
 
    ```
    {
@@ -160,90 +158,90 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
   
-1. No Portal de Azure, procure pelo serviço **Deploy a custom template**. Você usará este serviço do Azure para implementar seu ARM template personalizado.
+1. No Portal de Azure, procure pelo serviço **Implantar um modelo personalizado**. Você usará este serviço do Azure para implementar seu template ARM personalizado.
 
    ![](../../media/challenge3-azure-custom.png)
 
-1. Na aba Custom deployment, clique em **Build your own template in editor**.
+1. Na sua aba de implantação personalizada, clique em **Criar seu próprio modelo no editor**.
 
    ![](../../media/challenge3-custom-deploy.png)
  
-1. Na aba Edit Template, exclua o ARM template básico existente, cole o novo ARM template gerado usando o GitHub Copilot e clique em **Save**.
+1. Na aba Editar modelo, exclua o template ARM template existente, copie e cole o template ARM recém-gerado usando o GitHub Copilot e clique em **Salvar**.
 
    ![](../../media/challenge3-custom-deploy-save.png)
 
-1. Insira as especificações para implementar o seu aplicativo web. Certifique-se de implementar o aplicativo web no resource group existente chamado **GitHub-Copilot-Challenges**.
+1. Insira as especificações para implantar seu aplicativo web. Certifique-se de implantar o aplicativo web no grupo de recursos existente chamado **GitHub-Copilot-Challenges**.
 
-1. Depois de especificar todos os parâmetros, clique em **Review + Create**, e depois em **Create**.
+1. Assim que tiver especificado todos os parâmetros, clique em **Revisar + Criar** e, em seguida, em **Criar**.
 
-   ![](../../media/challenge3-custom-deploy-verify.png) 
-1. Aguarde o final da implementação com sucesso e verifique se os recursos Web App e App Service Plan existem no resource group.
+   ![](../../media/challenge3-custom-deploy-verify.png)
+   
+1. Aguarde a conclusão da implantação e verifique se os recursos do seu serviço de aplicativo web e do plano de serviço de aplicativo existem no grupo de recursos.
 
    ![](../../media/challenge3-custom-deploy-verify.png)
 
-## Task 2: Gerar um workflow de GitHub Action usando o Deployment Center de Azure App Service do portal do Azure
+## Tarefa 2: Gerar um Workflow do GitHub Actions usando o Centro de Implantação do Aplicativo Web no portal do Azure
 
-Nesta tarefa, você criará um workflow de GitHub Action usando o Deployment Center da Web App no portal do Azure.
+Nesta tarefa, você gerará um pipeline de workflow do GitHub Actions usando o Centro de Implantação do Aplicativo Web no portal do Azure.
 
-1. Navegue até o serviço do seu app service, e nas configurações de **Deployment**, selecione **Deployment Center**.
+1. Navegue até o seu serviço de aplicativo web e, em **Implantação**, selecione **Centro de Implantação**.
 
    ![](../../media/challenge3-deployment-center.png)
 
-1. Especifique as seguintes configurações para gerar um arquivo YAML relativo ao workflow de GitHub Action e clique **Save**:
+1. Especifique as seguintes configurações para gerar um arquivo YAML relativo ao workflow de GitHub Action e clique em **Salvar**:
 
-   * **Source**: GitHub
-   * **Signed in as**: A sua conta de GitHub Account
-   * **Organization**: A sua organização de GitHub
-   * **Repository**: O seu repositório de Github (**MyMvcApp-Contact-Database-Application**)
+   * **Origem**: GitHub
+   * **Logado como**: A sua conta de GitHub Account
+   * **Organização**: A sua organização de GitHub
+   * **Repositório**: O seu repositório de Github (**MyMvcApp-Contact-Database-Application**)
    * **Branch**: O seu Branch
    * **Runtime stack**: .NET
-   * **Version**: v8.0
-   * **Authentication type**: Basic authentication
+   * **Versão**: v8.0
+   * **Tipo de autenticação**: Basic authentication
   
         ![](../../media/challenge3-deployment-center-01.png)
 
         ![](../../media/challenge3-deployment-center-02.png)
 
-1. Você também pode visualizar a configuração do seu workflow clicando no botão **Preview file**.
+1. Você também pode visualizar a configuração do seu workflow clicando no botão **Visualizar arquivo**.
 
-1. Navegue até o seu repositório do GitHub e, na tab **Actions**, você verá que a build da susa web app web foi iniciada.
+1. Navegue até o seu repositório do GitHub e, na aba **Ações**, você notará que o build foi iniciado para o seu aplicativo web.
 
    ![](../../media/challenge3-github-build.png)
 
-1. O workflow falhará com um erro de **build**, indicando que o processo foi concluído com o exit code 1 devido a um problema de caminho indefinido no arquivo YAML do seu workflow.
+1. O workflow falhará com um erro de **build**, informando que o processo foi concluído com o código de saída 1 devido ao problema de caminho não definido no seu arquivo YAML do workflow.
 
    ![](../../media/challenge3-github-build-fail.png)
 
    ![](../../media/challenge3-github-build-fail-error.png)
 
-1. Agora, vamos navegar até o arquivo YAML do workflow, e editar o arquivo e definindo os caminhos para os passos **dotnet publish** e **Upload artifact for deployment job**.
-Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
+1. Agora, vamos navegar até o arquivo YAML do workflow, editando o arquivo e definindo os caminhos para as etapas **dotnet publish** e **Upload artifact for deployment job**.
 
    ![](../../media/challenge3-github-workflow-edit.png)
 
-1. Localize os passos **dotnet publish** e **Upload artifact for deployment job** no seu arquivo de workflow e substitua os caminhos **${{env.DOTNET_ROOT}}/myapp** por **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** e clique em **Commit changes**.
+1. Localize as etapas **dotnet publish** e **Upload artifact for deployment job** em seu arquivo de workflow e substitua os caminhos **${{env.DOTNET_ROOT}}/myapp** por **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** e clique em **Fazer commit das alterações**.
 
    ![](../../media/challenge3-github-workflow-edit-01.png)
 
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
-1. Volte para a tab **Actions**. Você notará que a build da sua web app reiniciou após a definição dos caminhos. Aguarde até que a build do workflow seja concluída com sucesso.
+1. Navegue de volta a aba **Ações**. você notará que o build foi reiniciado para o seu aplicativo web após a definição dos caminhos. Aguarde a conclusão bem-sucedida do build do workflow.
 
    ![](../../media/challenge3-github-build-succeed.png)
 
-## Task 3: Coloque a aplicação a funcionar no Azure
+## Tarefa 3: Fazer a aplicação funcionar no Azure
 
-Nesta tarefa, você verificará se a build do pipeline do GitHub Action foi concluída com sucesso, se o arquivo de workflow foi criado e se sua  web app está funcionando conforme o esperado no Azure.
+Nesta tarefa, você verificará se o build do pipeline do GitHub Actions foi bem-sucedido, se o arquivo de workflow foi criado e se seu aplicativo web está funcionando como esperado no Azure.
 
-1. Nas configurações de Actions do seu repositório GitHub, verifique se a build do pipeline de ambos os jobs foi concluída com sucesso **(1)**.
+1. Nas configurações de Ações do seu repositório do GitHub, verifique se o build de ambos os jobs foi concluído com sucesso **(1)**.
 
    ![](../../media/challenge3-github-build-verify.png)
 
-1. Verifique se a sua web app está funcionando conforme o esperado navegando até a web application **(2)** em uma nova tab.
+1. Verifique se seu aplicativo web está funcionando como esperado navegando até a aplicação web **(2)** em outra aba.
 
    ![](../../media/challenge3-web-app-001.png)
 
-1. Além disso, verifique se seu arquivo de workflow foi criado em um novo diretório **.github/workflows**.
+1. Além disso, verifique se o seu arquivo de workflow foi criado em um novo diretório **.github/workflows**.
 
    ![](../../media/challenge3-github-workflows.png)
 
@@ -308,21 +306,21 @@ Nesta tarefa, você verificará se a build do pipeline do GitHub Action foi conc
              publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
-1. Você também pode verificar o funcionamento da sua web app navegando até o portal do Azure, App Service, Overview e clicando em **Default Domain**.
+1. Você também pode verificar o funcionamento do seu aplicativo web navegando até o portal do Azure, Serviço de Aplicativo, na configuração de Visão Geral e clicando no **Domínio Padrão**.
 
    ![](../../media/challenge3-default-domain.png)
 
-## Task 4: Gerar documentação com Copilot para o aplicativo
+## Tarefa 4: Gerar documentação com o Copilot para o aplicativo
 
-Nesta tarefa, você usará o GitHub Copilot para gerar uma documentação específica para este desafio, que incluirá o template ARM e o arquivo de workflow do GitHub Action para implementar a web app no Azure.
+Nesta tarefa, você utilizará o GitHub Copilot para gerar documentação específica para este desafio, que incluirá o template ARM e o arquivo de workflow do GitHub Actions para implantar o aplicativo web no Azure.
 
-1. Na janela de Chat do GitHub Copilot, peça ao GitHub Copilot para gerar a documentação que especifique o deployment do template ARM e o arquivo de workflow do GitHub Action para implementar a web app no Azure para o seu workspace.
+1. Na janela do Chat do GitHub Copilot, peça ao GitHub Copilot para gerar uma documentação que especifique a implantação do template ARM e o arquivo de workflow do GitHub Actions para implantar o aplicativo web no Azure para o seu workspace.
 
     ```
     @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
     ```
 
-1. Você notará que o GitHub Copilot gera uma breve documentação sobre o deployment do template ARM do seu workspace para o Azure, o funcionamento do arquivo de workflow e alguns arquivos de configuração.
+1. Você notará que o GitHub Copilot gera uma breve documentação sobre a implantação do template ARM do seu workspace no Azure, o funcionamento do arquivo de workflow e alguns arquivos de configuração.
 
    ```
    # Deployment of Web Application to Azure
@@ -370,21 +368,15 @@ Nesta tarefa, você usará o GitHub Copilot para gerar uma documentação espec�
 
    ![](../../media/challenge3-copilot-doc-generate.png)
 
+## Conclusão
+
+Neste desafio, você demonstrou como a IA pode auxiliar significativamente no desenvolvimento e na implantação de aplicações, especificamente através do uso do GitHub Copilot. Você não apenas desenvolveu uma aplicação de Banco de Dados de Contatos totalmente funcional no desafio anterior, mas também a implantou eficazmente no Azure usando um template ARM gerado com a ajuda do GitHub Copilot. Você utilizou o GitHub Copilot para otimizar a criação do template ARM, que é um exemplo poderoso de Infraestrutura como Código (IaC), e também automatizou o processo de build e teste do seu código criando um pipeline do GitHub Actions, com o GitHub Copilot auxiliando na geração dos scripts necessários. Além disso, você produziu uma documentação abrangente e precisa para este desafio, servindo como um guia valioso para projetos futuros.
+
+Através deste desafio, você demonstrou à Contoso Ltd. o potencial de integrar a IA ao fluxo de trabalho de desenvolvimento. Você mostrou como o GitHub Copilot pode auxiliar não apenas no desenvolvimento de aplicações, mas também na implantação e gerenciamento de infraestrutura, destacando assim sua versatilidade e valor. Ao implantar com sucesso a aplicação de Banco de Dados de Contatos no Azure e verificar sua funcionalidade, você forneceu uma demonstração tangível dos benefícios da IA no desenvolvimento de software.
+
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
 
 ![](../../media/next-page-p.png)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
