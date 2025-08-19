@@ -1,6 +1,6 @@
 # Desafio 2: Desenvolva uma applicação com o GitHub Copilot - Guia da Solução
 
-## Task 1: Desenvolver uma aplicação
+## Tarefa 1: Desenvolver uma aplicação
 
 ### Login no GitHub
 
@@ -19,8 +19,6 @@
 
 ### Abra o Visual Studio e Clone o Repositório
 
-1. Abra o Explorador de Arquivos e crie uma pasta chamada **GitHub Copilot** em **C:\Users\azureuser**.
-
 1. Inicie o Visual Studio e clique em **Clonar repositório Git**.
 
    ![](../../media/Clone-Git-repo.png)
@@ -33,14 +31,41 @@
 
     ![](../../media/Cloned-rep.png)
 
-### Configurando o Visual Studio Code
+### Configurando o Visual Studio 2022
 
-1. Navegue até **Extensões**.
+- No Visual Studio, navegue e clique na opção **GitHub Copilot** localizada no canto superior direito e selecione **Instalar Copilot**.
 
-1. Instale o **Nuget Gallery** e o **C# Dev Kit**.
-    - Clique no ícone de extensões no lado esquerdo.
-    - Procure por Nuget Gallery e C# Dev Kit.
-    - Clique em instalar; após isso, as extensões estarão instaladas.
+    >**Observação:** Se a pasta **GitHub Copilot** não estiver disponível, crie uma nova.
+
+- No painel do Instalador do Visual Studio, certifique-se de que o **GitHub Copilot** está selecionado e clique em **Instalar**. Isso fechará a aplicação do Visual Studio.
+
+- Aguarde o download completo da extensão GitHub Copilot (isso pode levar alguns minutos) e feche o painel do Instalador do Visual Studio.
+
+  > **Observação:** Ignore a mensagem de erro `Não foi possível instalar Microsoft.Net.4.8.1.FullRedist`, isso não afetará a execução dos desafios.
+
+- Reinicie o Visual Studio e verifique se o GitHub Copilot está ativo. A janela do Chat do GitHub Copilot agora pode ser utilizada.
+
+- Assim que o repositório for clonado, localize e abra o arquivo `MyMvcApp.sln` no Gerenciador de Soluções.
+
+  ![](../../media/MyMvcApp_ss.png)
+
+- Navegue até Extensões.
+
+  ![](../../media/Extension.png)
+
+- Instale o **Nuget Gallery** e **C# Dev Kit**
+
+  - Clique em extensões no lado esquerdo.
+  - Procure por Nuget Gallery e C# Dev Kit.
+  - Clique em instalar.
+
+- Execute o comando abaixo no console.
+
+    ```
+    Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+    ```
+
+    ![](../../media/crud5.6.png)
 
 ### Implementar Métodos usando o GitHub Copilot
 
@@ -48,69 +73,35 @@
 
     ![](../../media/crud2.7.png)
 
-#### Cenário 1
-
-1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Para gerar o código, selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito nas linhas destacadas para abrir o menu de contexto.
+1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Para isso, selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito nas linhas destacadas para abrir o menu de contexto.
 
     ![](../../media/crud1.2.png)
 
     ![](../../media/crud1.3.png)
 
-1. No menu de contexto, escolha a opção **Copilot** e clique em **Corrigir**.
+1. No menu de contexto, escolha a opção **Perguntar ao Copilot**. Na caixa de prompt, digite "Preencha o método Index".
 
     ![](../../media/crud1.4.png)
 
-1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida pelo GitHub Copilot e você pode optar por aceitar ou descartar a sugestão com base em sua relevância para seus requisitos.
+1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida e você pode escolher **Aceitar** ou **Descartar** a sugestão com base em sua relevância para seus requisitos.
 
     ![](../../media/crud1.5.png)
 
-1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida e você pode escolher **Aceitar** ou **Descartar** a sugestão com base em sua relevância para seus requisitos.
+1. Repita este processo para cada método vazio no arquivo `UserController.cs` até que todos os métodos estejam implementados.
 
-#### Cenário 2
-
-1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito para abrir o menu de contexto.
-
-   ![](../../media/Ex1.png)
-
-1. No menu de contexto, escolha a opção **Copilot** e clique em **Chat Integrado do Editor**.
-
-   ![](../../media/github-hack-copilot-3.png)
-
-1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida e você pode escolher **Aceitar** ou **Descartar** com base em sua relevância.
-
-   ![](../../media/accept.png)
-
-#### Cenário 3
-
-1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`.
-
-1. Abra o chat do GitHub Copilot e peça ao Copilot para **Gerar o código para o arquivo UserController.cs**.
-
-   ![](../../media/result.png)
-
-1. Copie o código e substitua-o no arquivo `UserController.cs`.
-
-1. Seguir esses passos permitirá que você utilize eficientemente o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`.
+>**Observação:** Seguir esses passos permitirá que você utilize eficientemente o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`.
 
 ### Executar e testar a Aplicação
 
-1. Localize o arquivo do aplicativo **MyMvcApp.csproj** e clique com o botão direito em Abrir no Terminal Integrado.
+- Localize o botão do IIS Express (um botão verde - play) na barra de ferramentas e clique nele. Esta ação inicia a aplicação em localhost em um navegador web.
 
-    ![](../../media/OpenTerminal.png)
+    ![](../../media/crud1.6.png)
 
-1. Execute o comando abaixo para rodar a aplicação em localhost. 
+- Ao executar a aplicação em um navegador local pelo IIS Express, alguns pop-ups serão exibidos solicitando permissão para que a aplicação seja executada com um certificado autoassinado gerado pelo próprio IIS Express.
 
-    ```
-    dotnet run
-    ```
+    ![](../../media/ssl-yes.png)
 
-1. Uma execução bem-sucedida se parecerá com isto.
-
-   ![](../../media/Coderun.png)
-
-1. Assim que o código for executado e o build for bem-sucedido, você pode navegar para a URL do aplicativo.
-  
-   ![](../../media/apprun.png)
+    ![](../../media/ssl-yes01.png)
 
 ### Criar um Novo Contato
 
@@ -166,29 +157,29 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
 # Tarefa 2: Gerar Casos de Teste Unitário
 
-- Para gerar casos de teste unitários, precisamos adicionar um novo projeto. No Solution Explorer, clique com o botão direito na Solução.
+- Para gerar casos de teste unitário, precisamos adicionar um novo projeto. No Gerenciador de Soluções, clique com o botão direito na Solução.
 
     ![](../../media/crud3.1.png)
 
-- Clique em Add, e depois em New Project.
+- Clique em Adicionar e, em seguida, em Novo Projeto.
 
     ![](../../media/crud3.2.png)
 
-- Agora, pesquise por Unit test na caixa de pesquisa, selecione Unit Test Project (.Net Framework)  e clique em Next.
+- Agora, pesquise por "Unit test" na caixa de pesquisa, selecione **Projeto de Teste de Unidade (.Net Framework)**  e clique em Próximo.
 
     ![](../../media/crud3.3.png)
 
-- Nomeie o projeto como Usercontrollertest e clique em Create.
+- Nomeie o projeto como `Usercontrollertest` e clique em Criar.
 
     ![](../../media/crud3.4.png)
 
-- Renomeie o arquivo UnitTest1.cs para UserControllerTests.cs.
+- Renomeie o arquivo `UnitTest1.cs` para `UserControllerTests.cs`.
 
-- Agora vamos pedir ao GitHub Copilot Chat para gerar casos de teste. Clique na opção "View" no painel superior do Visual Studio. Nas opções, selecione "GitHub Copilot Chat" para abrir a janela do GitHub Copilot Chat.
+- Agora, vamos pedir ao Chat do GitHub Copilot para gerar casos de teste. Clique na opção "Exibir" no painel superior do Visual Studio. Nas opções, selecione "GitHub Copilot Chat" para abrir a janela correspondente.
 
     ![](../../media/crud3.5.png)
 
-- Abra o arquivo UserController.cs e selecione/destaque todo o código nele.
+- Abra o arquivo `UserController.cs` e selecione todo o seu conteúdo.
 
     ![](../../media/crud3.6.png)
 
@@ -200,7 +191,7 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
     ![](../../media/crud3.8.png)
 
-- Agora copie o código fornecido pelo GitHub Copilot clicando no ícone de copiar.
+- Agora, copie o código fornecido pelo GitHub Copilot clicando no ícone de cópia.
 
     ![](../../media/crud3.9.png)
 
@@ -208,69 +199,69 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
     ![](../../media/crud3.10.png)
 
-- Agora vamos adicionar referências ao projeto. Localize References para UserControllertest e clique com o botão direito sobre elas. Em seguida, clique em Add Reference.
+- Agora vamos adicionar referências ao projeto. Localize References para `UserControllertest` e clique com o botão direito sobre elas. Em seguida, clique em **Adicionar Referência**.
 
     ![](../../media/crud3.11.png)
 
-- Na seção Projects, marque a caixa de seleção e clique em OK.
+- Na seção Projetos, marque a caixa de seleção e clique em OK.
 
     ![](../../media/crud3.12.png)
 
-- Agora vamos corrigir os problemas no arquivo passando o cursor sobre o Test Fixture e clicando nas opções Ask Copilot ou Quick Actions and Refactoring... (2) features.
+- Agora vamos corrigir os problemas no arquivo passando o cursor sobre o `Test Fixture` e clicando nos recursos **Perguntar ao Copilot (1)** ou **Ações Rápidas e Refatorações... (2)**.
   
     ![](../../media/ask-copilot.png)
 
     ![](../../media/quick-actions.png)
 
-- Clique em "Install package NUnit" e depois em "Find and install latest version".
+- Clique em "Instalar pacote NUnit" e, em seguida, em "Encontrar e instalar a versão mais recente".
 
     ![](../../media/crud3.14.png)
 
-- Da mesma forma, passe o cursor sobre controller.Index() clique em Show potential fixes, e depois em "Install package 'Microsoft.ASPNet.Mvc'" e clique em "Use Local version '5.2.7'"
+- Da mesma forma, passe o cursor sobre `controller.Index()`, clique em "Mostrar possíveis correções", depois em "Instalar pacote 'Microsoft.ASPNet.Mvc'" e, por fim, em "Usar versão local '5.2.7'".
 
     ![](../../media/crud3.15.png)
 
-- Novamente, para RouteValues, passe o cursor e clique em click on show potential fixes, e depois clique em Add reference.
+- Novamente, para os `RouteValues`, passe o cursor, clique em "mostrar possíveis correções" e, em seguida, em "Adicionar referência".
 
     ![](../../media/crud3.16.png)
 
-- Novamente, para Assert, passe o cursor e clique em click on show potential fixes e depois clique em using Assert.
+- Mais uma vez, para o `Assert`, passe o cursor, clique em "mostrar possíveis correções" e, em seguida, em "using Assert".
 
     ![](../../media/crud3.17.png)
 
-- Após resolver todos os problemas no arquivo, clique na opção Test no painel superior do Visual Studio. Em seguida, clique em Test Explorer. 
+- Após resolver todos os problemas no arquivo, clique na opção "Testar" no painel superior do Visual Studio. Em seguida, clique em "Gerenciador de Testes"
 
     ![](../../media/crud3.18.png)
 
-- No Test Explorer, clique no botão Run All para executar os casos de teste.
+- No Gerenciador de Testes, clique no botão "Executar Todos" para rodar os casos de teste.
 
     ![](../../media/crud3.19.png)
 
-- Verifique se todos os casos de teste foram aprovados.
+- Verifique se todos os casos de teste passaram.
 
     ![](../../media/crud3.20.png)
 
-# Task 3: Desenvolver e testar funcionalidades
+# Tarefa 3: Desenvolver e Testar Funcionalidades
 
-### Utilize o GitHub Copilot Chat para Desenvolvimento de Funcionalidades:
+### Utilize o Chat do GitHub Copilot para o Desenvolvimento de Funcionalidades:
   
-   - Clique na opção "View" no painel superior do Visual Studio. Nas opções, selecione "GitHub Copilot Chat" para abrir a janela do GitHub Copilot Chat.
+   - Clique na opção "Exibir" no painel superior do Visual Studio. Nas opções, selecione "GitHub Copilot Chat" para abrir a janela correspondente.
   
         ![](../../media/crud3.5.png)
 
-### Usar o GitHub Copilot Chat para Implementar Funcionalidades:
+### Peça ao Chat do GitHub Copilot pela Implementação da Funcionalidade:
    
-   - Inicie uma conversa com o GitHub Copilot Chat perguntando: "How can we add a search feature/functionality to our application?"
+   - Inicie uma conversa com o Chat do GitHub Copilot perguntando: "Como podemos adicionar uma funcionalidade de busca à nossa aplicação?"
 
         ![](../../media/crud4.1.png)
 
    - Com base na resposta gerada pelo GitHub Copilot, prossiga com a implementação do código sugerido.
   
-   - Neste caso, o GitHub Copilot sugeriu adicionar um novo método para aceitar uma string de busca como parâmetro e filtrar a lista de usuários com base na string de busca antes de passá-la para a view.
+   - Neste caso, o GitHub Copilot sugeriu adicionar um novo método para aceitar uma string de busca como parâmetro e filtrar a lista de usuários com base nessa string antes de passá-la para a view.
 
         ![](../../media/crud4.2.png)
   
-   - Copie e cole o trecho de código fornecido no arquivo `UserController.cs` dentro do método na Action apropriado, geralmente o método `Index`. Neste código, se uma searchString for fornecida, a lista de usuários é filtrada para incluir apenas usuários cujos nomes contêm a searchString. Se nenhuma searchString for fornecida, todos os usuários são retornados.
+   - Copie e cole o trecho de código fornecido no arquivo `UserController.cs` dentro do método de ação apropriado, geralmente o método `Index`. Neste código, se uma `searchString` for fornecida, a lista de usuários é filtrada para incluir apenas os usuários cujos nomes contêm a `searchString`. Se nenhuma `searchString` for fornecida, todos os usuários são retornados.
 
         ```
         // GET: User
@@ -292,7 +283,7 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
         ![](../../media/crud4.4.png)
 
-   - Copie e cole o trecho de código fornecido no arquivo `Index.cshtml`. Este formulário envia um pedido GET para o método da Action Index, passando a string de busca como um parâmetro de query string.
+   - Copie e cole o trecho de código fornecido no arquivo `Index.cshtml`. Este formulário envia um pedido GET para o método da `Action Index`, passando a string de busca como um parâmetro de query string.
 
         ```
         @using (Html.BeginForm("Index", "User", FormMethod.Get))
@@ -310,17 +301,17 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
    - Salve os arquivos `UserController.cs` e `Index.cshtml` após fazer as alterações necessárias.
 
-   - Execute o aplicativo clicando no botão do IIS Express. Essa ação inicia o aplicativo no localhost no seu browser.
+   - Execute o aplicativo clicando no botão do IIS Express. Essa ação inicia o aplicativo no localhost em um navegador web.
 
         ![](../../media/crud1.6.png)
 
 ### Testar a Funcionalidade de Busca:
 
-   - Adicione algumas entradas de contato ao aplicativo clicando no botão "Create New" e preenchendo os campos Name e Email.
+   - Adicione algumas entradas de contato na aplicação clicando no botão "Criar Novo" e preenchendo os campos Nome e E-mail.
 
         ![](../../media/crud4.6.png)
 
-   - Após adicionar os contatos, teste a funcionalidade de busca digitando o nome de um contato no campo de busca que foi adicionado anteriormente. Clique no botão "Search" para executar a busca.
+   - Assim que os contatos forem adicionados, teste a funcionalidade de busca digitando o nome de um contato no campo de busca que foi adicionado anteriormente. Clique no botão "Procurar" para executar a busca.
 
         ![](../../media/crud4.7.png)
 
@@ -328,29 +319,28 @@ Seguindo esses passos meticulosamente, você pode testar completamente as funcio
 
         ![](../../media/crud4.8.png)
 
-Seguindo esses passos, você poderá utilizar efetivamente o GitHub Copilot para implementar e testar novas funcionalidades na sua aplicação, aprimorando sua funcionalidade e usabilidade.
+Seguindo esses passos, você pode utilizar eficazmente o GitHub Copilot para implementar e testar novas funcionalidades em sua aplicação, aprimorando sua funcionalidade e usabilidade.
 
-# Task 4: Gerar Mensagens de Commit
+# Tarefa 4: Gerando Mensagens de Commit
 
-O novo recurso para gerar mensagens de Commit usa a IA do GitHub Copilot para descrever as alterações no seu código. Isso torna a escrita de mensagens de commit descritivas e úteis tão fácil quanto clicar em um botão e adicionar sua explicação.
+O novo recurso de Geração de Mensagem de Commit usa a IA do GitHub Copilot para descrever suas alterações de código. Isso torna a escrita de mensagens de commit descritivas e úteis tão fácil quanto clicar em um botão e, em seguida, adicionar sua explicação.
 
-- Localize Git Changes and e clique nele.
+- Localize a janela de Alterações do Git e clique nela.
 
     ![](../../media/crud5.1.png)
 
-- Use o novo ícone de caneta com brilho “Add AI Generated Commit Message” na janela Git Changes para gerar uma sugestão.
+- Use o novo ícone de caneta com brilhos "Adicionar Mensagem de Commit Gerada por IA" na janela de Alterações do Git para gerar uma sugestão.
 
     ![](../../media/crud5.2.png)
 
-- O GitHub Copilot analisará as alterações nos arquivos do seu commit, resumirá e descreverá cada mudança. Você pode então escolher “Insert AI Suggestion” ou “Discard”. Clique em Commit All.
+- O GitHub Copilot analisará as alterações de arquivo em seu commit, as resumirá e descreverá cada alteração. Você pode então "Inserir Sugestão da IA" ou "Descartar". Clique em "Fazer Commit de Tudo".
 
     ![](../../media/crud5.3.png)
 
-- Uma vez que o commit foi feito localmente, clique em Push para enviar as alterações para o repositório.
+- Uma vez que o commit seja feito localmente, clique em "Push" para enviar as alterações para o repositório.
 
     ![](../../media/crud5.4.png)
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
-
 
 ![](../../media/next-page-p.png)
