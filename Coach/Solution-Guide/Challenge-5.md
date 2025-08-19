@@ -1,28 +1,28 @@
-# Desafio 5: Criar Documentação com GitHub Copilot - Guia da Solução
+# Desafio 5: Crie Documentação usando o GitHub Copilot - Guia da Solução
 
-## Task 1: Gerar documentação com o Copilot
+## Tarefa 1: Gerar documentação com o Copilot
 
-Nesta tarefa, você utilizará o GitHub Copilot para gerar documentação em markdown para a aplicação backend do repositório [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) do GitHub e também fará uso dos recursos do GitHub Copilot para gerar comentários.
+Nesta tarefa, você utilizará o GitHub Copilot para gerar documentação em markdown para a aplicação backend do repositório Github [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) e também fará uso dos recursos do GitHub Copilot para gerar comentários.
 
-1. Abra o Visual Studio Code e efetue um clone do seguinte repositorio [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
+1. Abra o Visual Studio Code e clone o repositório do GitHub [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. Navegue até ao directório **C:\Users\azureuser\azure-search-openai-demo\app\backend** e crie um novo arquivo com o nome README.md
+1. Navegue até a pasta **C:\Users\azureuser\azure-search-openai-demo\app\backend** e crie um novo arquivo com o nome **README.md**.
 
-1. No arquivo README.md vazio, clique em Ctrl+I para abrir a janela do Copilot Chat e peça ao Copilot para gerar um arquivo README.md no diretório app/backend.
+1. No arquivo README.md vazio, clique em **Ctrl+I** para abrir a janela do Copilot Chat e peça ao Copilot para gerar um arquivo README.md no diretório app/backend.
 
    ![](../../media/Generatee.png)
 
-1. Aceite o código gerado pelo Copilot para ser introduzido no arquivo README.md
+1. **Aceite** o código gerado pelo Copilot para ser introduzido no arquivo README.md.
 
    ![](../../media/Code3.png)
 
    ![](../../media/Code2.png)
 
-1. avegue até o arquivo app/backend/requirements.txt e examine os requisitos. 
+1. Navegue até o arquivo app/backend/requirements.txt e examine os requisitos. 
 
    ![](../../media/backend-requirements.png)
 
-1. Agora selecione o arquivo inteiro, clique com o botão direito e selecione **Copilot** e **Generate Docs**.
+1. Agora, selecione o arquivo inteiro, clique com o botão direito e, em seguida, **Copilot** e **Gerar Documentos**.
 
    ![](../../media/backend-requirements-generate-docs.png)
 
@@ -30,9 +30,9 @@ Nesta tarefa, você utilizará o GitHub Copilot para gerar documentação em mar
 
    ![](../../media/backend-requirements-list.png)
 
-1. Navegue até o arquivo *app/backend/approaches/approach.py*. Pode verificar que não tem comentários em módulos, funções ou classes.
+1. Navegue até o arquivo *app/backend/approaches/approach.py*. Você notará que não há comentários para nenhum dos módulos, funções ou classes.
 
-1. Agora selecione o arquivo inteiro, clique com o botão direito e selecione **Copilot** e **Start in Editor**. Peça ao GitHub Copilot para gerar comentários para o código selecionado.
+1. Agora selecione o arquivo inteiro, clique com o botão direito e selecione **Copilot** e **Chat Integrado do Editor**. Peça ao GitHub Copilot para gerar comentários para o código selecionado.
 
    ![](../../media/snap.png)
 
@@ -40,13 +40,13 @@ Nesta tarefa, você utilizará o GitHub Copilot para gerar documentação em mar
 
 1. Observe como o GitHub Copilot gera comentários no código.
 
-## Task 2: Melhorar e refinar a documentação
+## Tarefa 2: Melhorar e Refinar a Documentação
 
-Nesta tarefa, você irá melhorar a sua documentação README.md utilizando o recurso de Sugestões do GitHub Copilot
+Nesta tarefa, você aprimorará e refinará sua documentação do README.md utilizando o recurso de Sugestões do GitHub Copilot.
 
 1. Abra seu arquivo **README.md**, que você salvou na tarefa anterior.
 
-1. Selecione toda a documentação e clique em **Ctrl+Enter** para ver as sugestões fornecidas pelo GitHub Copilot para melhorar a documentação.
+1. Selecione toda a documentação e clique em **Ctrl+Enter** para visualizar as sugestões fornecidas pelo GitHub Copilot para aprimorar a documentação.
 
    ![](../../media/backend-readme-suggestions.png)
 
@@ -58,9 +58,9 @@ Nesta tarefa, você irá melhorar a sua documentação README.md utilizando o re
 
 Nesta tarefa, você explorará os vários estilos de documentação que pode gerar utilizando o GitHub Copilot.
 
-1. No VS Code, crie um novo arquivo, clique com o botão direito em qualquer lugar do novo arquivo, selecione **Copilot** e **Start Inline Chat**.
+1. No VS Code, crie um novo arquivo, clique com o botão direito em qualquer lugar do novo arquivo, selecione **Copilot** e **Iniciar Chat Integrado**.
 
-1. Peça ao GitHub Copilot para gerar uma documentação em markdown para implementar uma VNet no Azure e clique em **Accept**.
+1. Peça ao GitHub Copilot para gerar uma documentação em markdown para implementar uma VNet no Azure e clique em **Aceitar**.
 
 1. Você notará que o GitHub Copilot gerou uma documentação em markdown passo a passo para implantar uma VNet no Azure.
 
@@ -180,19 +180,13 @@ Nesta tarefa, você explorará os vários estilos de documentação que pode ger
        return a * b * c;
    }
    ```
+## Conclusão
+
+Neste desafio, você utilizou o GitHub Copilot para gerar comentários e documentação em markdown para a aplicação backend através dos recursos do GitHub Copilot. Você também aprimorou e refinou sua documentação em markdown recém-gerada para a aplicação backend através das Sugestões do GitHub Copilot. Além disso, você explorou os vários estilos de documentação que o GitHub Copilot oferece, gerando documentos em markdown para implantar uma VNet no Azure e um Javadoc para criar uma calculadora do zero.
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
 
 ![](../../media/next-page-p.png)
-
-
-
-
-
-
-
-
-
 
 
 
