@@ -1,118 +1,124 @@
-# Desafio 2: Criar uma applicação com GitHub Copilot - Guia da Solução
+# Desafio 2: Desenvolva uma applicação com o GitHub Copilot - Guia da Solução
 
-## Task 1: Desenvolver a aplicação
+## Task 1: Desenvolver uma aplicação
 
 ### Login no GitHub
 
-- Faça login no [GitHub](https://github.com/login) com a conta do GitHub fornecida pela CloudLabs. Certifique-se de que você está conectado à conta correta do GitHub fornecida para este laboratório.
+1. Faça login no [GitHub](https://github.com/login) com a conta do GitHub fornecida pela CloudLabs. Certifique-se de que você está conectado à conta correta do GitHub fornecida para este laboratório.
 
-### Faça um Fork do repositório
+### Faça o Fork do repositório
 
-- Navegue até o link do repositório do GitHub fornecido: 
+1. Navegue até o link do repositório do GitHub fornecido: 
 [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
     ![](../../media/Repo-info.png)
 
-- Faça um fork do repositório para a conta do GitHub fornecida pelo CloudLabs.
+1. Faça um fork do repositório para a conta do GitHub fornecida pelo CloudLabs.
 
     ![](../../media/Fork-repo.png)
 
 ### Abra o Visual Studio e Clone o Repositório
 
-- Inicie o Visual Studio e clique em "Clone Git repository".
+1. Abra o Explorador de Arquivos e crie uma pasta chamada **GitHub Copilot** em **C:\Users\azureuser**.
+
+1. Inicie o Visual Studio e clique em **Clonar repositório Git**.
 
    ![](../../media/Clone-Git-repo.png)
 
-- Insira a URL do repositório Git e pressione Enter.
+1. Na barra de pesquisa, insira a URL do Repositório Git e pressione Enter.
 
     ![](../../media/URL-Repo.png)
 
-- A janela ficará assim:
+1. A janela ficará assim:
 
     ![](../../media/Cloned-rep.png)
 
+### Configurando o Visual Studio Code
 
-### Configurando o Visual Studio 2022
+1. Navegue até **Extensões**.
 
-- No Visual Studio, navegue e clique na opção **GitHub Copilot** localizada no canto superior direito e selecione **Install Copilot**.
+1. Instale o **Nuget Gallery** e o **C# Dev Kit**.
+    - Clique no ícone de extensões no lado esquerdo.
+    - Procure por Nuget Gallery e C# Dev Kit.
+    - Clique em instalar; após isso, as extensões estarão instaladas.
 
-- Na janela do Instalador do Visual Studio, certifique-se de que **GitHub Copilot** esteja selecionado e clique em **Install**. Isso fechará o Visual Studio.
+### Implementar Métodos usando o GitHub Copilot
 
-- Aguarde até que a extensão GitHub Copilot seja baixada completamente (isso pode levar alguns minutos) e feche a janela do Instalador do Visual Studio.
-
-  > **Observação:**  Ignore a mensagem de erro 'Couldn't install Microsoft.Net.4.8.1.FullRedist', isso não afetará os desafios.
-
-- Reabra o Visual Studio e verifique se o GitHub Copilot está ativo. A janela de chat do GitHub Copilot agora pode ser utilizada.
-
-- Uma vez que o repositório esteja clonado, localize e abra o arquivo `MyMvcApp.sln` no Solution Explorer.
-
-  ![](../../media/MyMvcApp_ss.png)
-
-- Navegue até Extensões 
-
-  ![](../../media/Extension.png)
-
-- Instale **Nuget Gallery** e **C# Dev Kit**
-
-1. Clique em extensões no lado esquerdo
-1. Procure por Nueget Gallery e C# Dev Kit
-1. Clique em instalar.
-
-    ![](../../media/NuGet.png) 
-  
-    ![](../../media/CAPP.png)
-
-- Execute o comando abaixo na consola
-
-    ```
-    Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
-    ```
-
-    ![](../../media/crud5.6.png)
-
-### Implemente Métodos usando o GitHub Copilot
-
-- Navegue até ao arquivo `UserController.cs` na pasta `Controllers`.
+1. Navegue até o arquivo `UserController.cs` dentro da pasta `Controllers`.
 
     ![](../../media/crud2.7.png)
 
-- Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Para gerar código para cada método vazio usando o GitHub Copilot, selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito nas linhas destacadas para abrir o menu de contexto.
+#### Cenário 1
+
+1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Para gerar o código, selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito nas linhas destacadas para abrir o menu de contexto.
 
     ![](../../media/crud1.2.png)
 
     ![](../../media/crud1.3.png)
 
-- No menu de contexto, escolha a opção "Ask Copilot". Na caixa de prompt, digite "Fill in the Index method".
+1. No menu de contexto, escolha a opção **Copilot** e clique em **Corrigir**.
 
     ![](../../media/crud1.4.png)
 
-- O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida pelo GitHub Copilot e você pode optar por aceitar ou descartar a sugestão com base em sua relevância para seus requisitos.
+1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida pelo GitHub Copilot e você pode optar por aceitar ou descartar a sugestão com base em sua relevância para seus requisitos.
 
     ![](../../media/crud1.5.png)
 
-- Repita esse processo para cada método vazio no arquivo UserController.cs até que todos os métodos estejam implementados.
+1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida e você pode escolher **Aceitar** ou **Descartar** a sugestão com base em sua relevância para seus requisitos.
 
-- Seguir esses passos permitirá que você utilize o GitHub Copilot de forma eficiente para gerar código para cada método vazio no arquivo UserController.cs.
+#### Cenário 2
+
+1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`. Selecione ou destaque as linhas do método vazio e, em seguida, clique com o botão direito para abrir o menu de contexto.
+
+   ![](../../media/Ex1.png)
+
+1. No menu de contexto, escolha a opção **Copilot** e clique em **Chat Integrado do Editor**.
+
+   ![](../../media/github-hack-copilot-3.png)
+
+1. O GitHub Copilot gerará uma sugestão de código com base no contexto do método. Revise a sugestão fornecida e você pode escolher **Aceitar** ou **Descartar** com base em sua relevância.
+
+   ![](../../media/accept.png)
+
+#### Cenário 3
+
+1. Use o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`.
+
+1. Abra o chat do GitHub Copilot e peça ao Copilot para **Gerar o código para o arquivo UserController.cs**.
+
+   ![](../../media/result.png)
+
+1. Copie o código e substitua-o no arquivo `UserController.cs`.
+
+1. Seguir esses passos permitirá que você utilize eficientemente o GitHub Copilot para gerar código para cada método vazio no arquivo `UserController.cs`.
 
 ### Executar e testar a Aplicação
 
-- Localize o botão do IIS Express button (um botão verde de play) na barra de ferramentas e clique nele. Essa ação inicia a aplicação no localhost num web browser.
+1. Localize o arquivo do aplicativo **MyMvcApp.csproj** e clique com o botão direito em Abrir no Terminal Integrado.
 
-    ![](../../media/crud1.6.png)
+    ![](../../media/OpenTerminal.png)
 
-- Uma vez que você execute o aplicativo em um browser local através do IIS Express, alguns pop-ups aparecerão permitindo que a aplicação seja executada com um certificado self-signed gerado pelo IIS Express.
+1. Execute o comando abaixo para rodar a aplicação em localhost. 
 
-    ![](../../media/ssl-yes.png)
+    ```
+    dotnet run
+    ```
 
-    ![](../../media/ssl-yes01.png)
+1. Uma execução bem-sucedida se parecerá com isto.
+
+   ![](../../media/Coderun.png)
+
+1. Assim que o código for executado e o build for bem-sucedido, você pode navegar para a URL do aplicativo.
+  
+   ![](../../media/apprun.png)
 
 ### Criar um Novo Contato
 
-- No browser aberto, localize o botão "Create New" e clique nele.
+- o navegador aberto, localize o botão **Criar Novo** e clique nele.
 
     ![](../../media/crud1.7.png)
 
-- Preencha os campos obrigatórios para Name e Email no formulário fornecido. Clique no botão "Create" para enviar o formulário e criar um novo contato.
+- Preencha os campos obrigatórios de Nome e E-mail no formulário. Clique no botão Criar para enviar o formulário e criar um novo contato.
 
     ![](../../media/crud1.8.png)
 
@@ -120,11 +126,11 @@
 
 - Após criar um contato, retorne à página inicial.
 
-- Encontre o contato que você criou na lista e localize o botão "Edit" associado a ele. Clique no botão "Edit".
+- Encontre o contato que você criou na lista e localize o botão **Editar** associado a ele. Clique no botão **Editar**.
 
     ![](../../media/crud1.9.png)
 
-- Modifique os detalhes existentes (Name or Email) conforme desejado. Salve as alterações clicando no botão "Save".
+- Modifique os detalhes existentes (Nome ou E-mail) conforme desejado. Salve as alterações clicando no botão **Salvar**.
 
     ![](../../media/crud1.10.png)
 
@@ -132,7 +138,7 @@
 
 - Mais uma vez, retorne à página inicial.
 
-- Localize o contato cujos detalhes você deseja verificar. Clique no botão "Details" associado a esse contato.
+- Localize o contato cujos detalhes você deseja verificar. Clique no botão **Detalhes** associado a esse contato.
 
     ![](../../media/crud1.11.png)
 
@@ -140,25 +146,25 @@
 
     ![](../../media/crud1.12.png)
 
-### Apagar um Contato
+### Excluir um Contato
 
-- Na página inicial, encontre o contato que você deseja apagar.
+- Na página inicial, encontre o contato que deseja excluir.
 
-- Clique no botão "Delete" associado a esse contato.
+- Clique no botão **Excluir** associado a esse contato.
 
     ![](../../media/crud1.13.png)
 
-- Uma caixa de diálogo de confirmação aparecerá perguntando se você tem certeza de que deseja apagar o contato. Confirme a ação.
+- Uma caixa de diálogo de confirmação aparecerá perguntando se você tem certeza de que deseja excluir o contato. Confirme a ação.
 
     ![](../../media/crud1.14.png)
 
-- Certifique-se de que o contato foi removido da lista.
+- Certifique-se de que o contato seja removido da lista após a exclusão.
 
     ![](../../media/crud1.15.png)
 
-Seguindo estes passos meticulosamente, você poderá testar de forma completa as funcionalidades CRUD (Create, Read, Update, Delete) da aplicação e garantir seu funcionamento adequado.
+Seguindo esses passos meticulosamente, você pode testar completamente as funcionalidades CRUD (Criar, Ler, Atualizar, Excluir) da aplicação e garantir seu funcionamento adequado.
 
-# Task 2: Gerar scripts para teste unitários
+# Tarefa 2: Gerar Casos de Teste Unitário
 
 - Para gerar casos de teste unitários, precisamos adicionar um novo projeto. No Solution Explorer, clique com o botão direito na Solução.
 
@@ -345,5 +351,6 @@ O novo recurso para gerar mensagens de Commit usa a IA do GitHub Copilot para de
     ![](../../media/crud5.4.png)
 
 ### Clique em Avançar >> para prosseguir com o próximo desafio.
+
 
 ![](../../media/next-page-p.png)
