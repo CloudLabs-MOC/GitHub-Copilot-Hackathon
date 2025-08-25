@@ -14,7 +14,6 @@ In this task, you'll utilize GitHub Copilot to generate sysadmin resource monito
 
    ![](../../media/sysadminchat1.png)
 
-
 4. You'll notice that the GitHub Copilot generates a PowerShell script that monitors disk usage for a certain threshold limit and also explains its usage.
 
 ## Task 2: Refactor or debug the generated scripts
