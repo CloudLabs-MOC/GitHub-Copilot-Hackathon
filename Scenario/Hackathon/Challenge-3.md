@@ -73,7 +73,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-
    >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task. 
 
 3. **Get the app working on Azure:**
@@ -83,7 +82,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
          ![](../../media/challenge3-web-app-001.png)
 
       - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
-
 
 4. **Generate documentation with Copilot for the app:**
 
@@ -116,4 +114,3 @@ Through this challenge, you've showcased to Contoso Ltd. the potential of integr
 ### Click on Next >> to proceed with the next challenge.
 
    ![](../../media/next-page.png)
-
