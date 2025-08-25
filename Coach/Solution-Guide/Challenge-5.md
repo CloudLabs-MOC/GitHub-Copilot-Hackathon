@@ -2,13 +2,13 @@
 
 ## Task 1: Generate Documentation with Copilot
 
-In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for codes.
+In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for code.
 
 1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
 1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new **README.md** file
 
-1. On the empty README.md file click Ctrl+I to get Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
+1. On the empty README.md file, click Ctrl+I to get the Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
 
    ![](../../media/Generatee.png)
 
@@ -62,7 +62,7 @@ In this task, you'll explore the various styles of documentation that you can ge
 
 1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
 
-1. You'll notice that the GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
+1. You'll notice that GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
    ```
    # Deploy a Virtual Network (VNet) in Azure
@@ -188,19 +188,3 @@ In this challenge, you've utilized GitHub Copilot to generate comments and markd
 ### Click on Next >> to proceed with the next challenge.
 
 ![](../../media/next-page.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
