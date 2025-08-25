@@ -1,4 +1,4 @@
-# Challenge 2: Develop an App with GitHub Copilot - Solution Guide
+# Challenge 02: Develop an App with GitHub Copilot - Solution Guide
 
 ## Task 1: Develop an App
 
@@ -339,3 +339,7 @@ The new Generated Commit Message feature uses GitHub Copilot AI to describe your
 - Once it is committed locally, click on Push to push the changes into the repository.
 
     ![](../../media/crud5.4.png)
+
+Now, click on Next from the lower right corner to move on to the next challenge.
+
+![](../../media/next-page.png)
