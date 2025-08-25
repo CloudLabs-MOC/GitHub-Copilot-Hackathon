@@ -6,7 +6,7 @@
 
 In this task, you will be utilizing the GitHub Copilot Workspace to enhance coding efficiency by providing contextually relevant code suggestions.
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub credentials.
+1. Open your project in VS Code, where you are signed in using the CloudLabs-provided GitHub credentials.
 
     ![](../../media/vscode-launch.png)
 
@@ -22,7 +22,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     -   Scans the file or directory names to understand which of them are potentially relevant to providing a response.
 
-    -   Reads file contents. Sometimes the whole file, sometimes only parts of them (due to the token memory limits).
+    -   Reads file contents. Sometimes the whole file, sometimes only parts of it (due to the token memory limits).
 
     -   Creates context from everything it was able to collect.
 
@@ -60,7 +60,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
     
 ### Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
-The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
+The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the steps below:
 
 1. Create a new folder named **DemoApp** in **C:/Users/azureuser**.
    
@@ -84,7 +84,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/expense-tracker-workspace.png)
 
-    >**Note:** The currrent version of **Github Copilot Workspace** allows you to create the workspace automatically with all the file structure, just click on **Create Workspace**.
+    >**Note:** The current version of **Github Copilot Workspace** allows you to create the workspace automatically with all the file structure. Just click on **Create Workspace**.
 
 1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
@@ -124,7 +124,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/run-app.png)
 
-1. You can also check if all the pre-requisites required to run your **Expense Tracker** app are already in place by providing the Copilot with the prompt `@workspace. What are the prerequisites I should install to run this app?`
+1. You can also check if all the prerequisites required to run your **Expense Tracker** app are already in place by providing the Copilot with the prompt `@workspace. What are the prerequisites I should install to run this app?`
 
     ![](../../media/app-prerequisites.png)
 
@@ -140,9 +140,9 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on; it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. **GitHub Copilot's** ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
 
-In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the below steps:
+In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the steps below:
 
-1. Open your Expense Tracker project in **VS Code**, where you are signed in using the CloudLabs provided Github account details.
+1. Open your Expense Tracker project in **VS Code**, where you are signed in using the CloudLabs-provided Github account details.
 
     ![](../../media/vscode-launch.png)
 
@@ -176,11 +176,11 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
     
 #### **Adding a new feature in the application using File Reference:**
 
-In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you, will be able to sort the expenses by date in the **ExpenseList** component.
+In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you will be able to sort the expenses by date in the **ExpenseList** component.
 
-To do so, follow the below steps:
+To do so, follow the steps below:
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided Github account details.
+1. Open your project in VS Code, where you are signed in using the CloudLabs-provided Github account details.
 
     ![](../../media/vscode-launch.png)
 
