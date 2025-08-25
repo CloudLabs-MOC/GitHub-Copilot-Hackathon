@@ -1,4 +1,4 @@
-# Challenge 6: Generate Scripts Using GitHub Copilot - Solution Guide
+# Challenge 06: Generate Scripts Using GitHub Copilot - Solution Guide
 
 ## Task 1: Generate Sysadmin Scripts
 
