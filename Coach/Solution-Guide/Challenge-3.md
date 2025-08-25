@@ -1,4 +1,4 @@
-# Challenge 3: Deploy the App to Azure - Solution Guide
+# Challenge 03: Deploy the App to Azure - Solution Guide
 
 ## Accessing Azure Portal
 
