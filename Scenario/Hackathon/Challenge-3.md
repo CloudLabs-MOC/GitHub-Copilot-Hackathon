@@ -39,8 +39,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. If you see the pop-up **Stay Signed in?** click **No**.
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
 
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the navigate panel to see the resource groups.
@@ -114,4 +112,5 @@ Through this challenge, you've showcased to Contoso Ltd. the potential of integr
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
+
 
