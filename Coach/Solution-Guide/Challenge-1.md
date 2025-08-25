@@ -1,4 +1,4 @@
-# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
+# Challenge 01: Getting Started with GitHub Copilot - Solution Guide
 
 ## Task 1: Setup Github Copilot in VS Code
 
@@ -392,6 +392,6 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You were also successful in creating Python/JS code for a calculator and an app to fetch weather data from OpenWeatherMap APIs. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance.
 
-### Click on Next >> to proceed with the next challenge.
+### Now, click on Next from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
