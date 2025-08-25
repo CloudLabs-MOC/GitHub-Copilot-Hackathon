@@ -1,10 +1,10 @@
 # Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
-## Task 1: Setup Github Copilot in VS Code
+## Task 1: Set up Github Copilot in VS Code
 
 In this task, you'll be installing the GitHub Copilot extension in VS Code.
 
-1. Open Visual Studio Code from the desktop screen.
+1. Open **Visual Studio Code** from the desktop screen.
    
    ![Picture1](../../media/task1.1.png)
 
@@ -44,10 +44,9 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    ![GitHub-Codespaces](../../media/CH1T3S1.png)
 
-
 1. Click the **Codespaces (1)** tab on the box that pops up, and then select the **Create codespace on main (2)** button.
 
-   >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
+   >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
    ![GitHub-Codespaces](../../media/git-07.png)
 
@@ -61,13 +60,13 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-1. Next, once you get the popup, click on **Allow**.
+1. Next, once you get the pop-up, click on **Allow**.
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
    ![](../../media/allow.png)
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS Code tab appears in the browser.
 
 1. Verify your codespace is running.
 
@@ -82,6 +81,7 @@ In this task, you will evaluate the functionality of GitHub Copilot by generatin
    ![](../../media/createfile.png)
 
 1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
+
 1. When the Copilot mini window appears, request Copilot to generate a simple Python code.
 
    ![](../../media/checkpy.png)
@@ -110,7 +110,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    >**Note:** The output may vary in your case. It won't be exactly the same, but it will be similar to the image provided.
 
-1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
+1. Notice how GitHub Copilot creates code to build a calculator in both Python and JavaScript. Save the files to run tests.
 
    - Python code to build a calculator:
      ```
@@ -205,7 +205,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/signinapi.png)
 
-1. Create a new one to get the weather data using code by click on **Create an Account**.
+1. Create a new one to get the weather data using code by clicking on **Create an Account**.
 
    ![](../../media/createaaccount.png)
 
@@ -213,9 +213,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/weather-api-keys1.png)
 
-1. Then Sign-in using same usernmae and credentials.
+1. Then sign in using the same username and credentials.
 
-   >**Note:** Please user OLD username and password.
+   >**Note:** Please use the OLD username and password.
 
 1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
 
@@ -225,9 +225,10 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/copilot-weather-api.png)
 
-1. Notice how GitHub Copilot creates codes to get weather data from weather APIs in both Python and JS languages.
+1. Notice how GitHub Copilot creates code to get weather data from weather APIs in both Python and JavaScript.
 
    - Python:
+
      ```
      import requests
 
@@ -244,7 +245,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
      city = input("Enter the city: ")
      get_weather(city)
      ```
+
    - JS:
+
      ```
      async function getWeather(city) {
         const API_KEY = 'ENTER YOUR WEATHER API KEY HERE';
@@ -259,6 +262,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
      const city = 'Mumbai';  // Replace with the city you want to get the weather for
      getWeather(city);
      ```
+
    > **Note:** Enter the name of the city before running tests through JS.
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
@@ -267,11 +271,11 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 ## Task 6: Code Refactoring & Debugging
 
-In this task, you'll be refactoring and debugging the poorly written Python codes using GitHub Copilot and testing out a few scenarios.
+In this task, you'll be refactoring and debugging the poorly written Python code using GitHub Copilot and testing out a few scenarios.
 
 1. Open the **sum_elements.py** file by double-clicking on it.
 
-1. Select the entire code, right-click, and click **Refactor** and select *Modify using copilot*, and ask the Copilot to refactor the selected code.
+1. Select the entire code, right-click, and click **Refactor** and select *Modify using Copilot*, and ask the Copilot to refactor the selected code.
 
 1. You'll notice that GitHub Copilot has refactored and fixed the code.
 
@@ -386,7 +390,7 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
    ![](../../media/copilot-features-chatupd.png)
 
-1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
+1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation, like Markdown and Javadoc.
 
 ### Conclusion
 
