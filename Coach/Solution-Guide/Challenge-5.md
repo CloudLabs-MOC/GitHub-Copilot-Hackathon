@@ -1,4 +1,4 @@
-# Challenge 5: Create Documentation Using GitHub Copilot - Solution Guide
+# Challenge 05: Create Documentation Using GitHub Copilot - Solution Guide
 
 ## Task 1: Generate Documentation with Copilot
 
