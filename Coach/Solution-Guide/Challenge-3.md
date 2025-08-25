@@ -12,7 +12,7 @@
 
     * Password: <inject key="AzureAdUserPassword"></inject>
      
-1. If you see the pop-up **Stay Signed in?** click No.
+1. If you see the pop-up **Stay Signed in?**, click No.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
    
@@ -28,8 +28,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
    ![](../../media/codechat.png)
 
-
-1. GitHub Copilt will generate a basic ARM template (which might not be accurate). Copy and paste the ARM template in a new file named **deploy.json**, and utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble what is given below, with the resources and specifications.
+1. GitHub Copilot will generate a basic ARM template (which might not be accurate). Copy and paste the ARM template into a new file named **deploy.json**, and utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble what is given below, with the resources and specifications.
 
    ```
    {
@@ -159,7 +158,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
    }
    ```
 
-1. In Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
+1. In the Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
 
    ![](../../media/challenge3-azure-custom.png)
 
@@ -167,7 +166,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
    ![](../../media/challenge3-custom-deploy.png)
 
-1. In **Edit Template** tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
+1. In the **Edit Template** tab, delete the existing skeleton ARM template, copy & paste the newly generated ARM template using GitHub Copilot, and click **Save**.
 
    ![](../../media/challenge3-custom-deploy-save.png)
 
@@ -198,7 +197,6 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
 
-  
         ![](../../media/challenge3-deployment-center-01.png)
 
         ![](../../media/challenge3-deployment-center-02.png)
@@ -225,7 +223,7 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
-1. Navigate back to the **Actions** tab, you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
+1. Navigate back to the **Actions** tab, and you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
 
    ![](../../media/challenge3-github-build-succeed.png)
 
@@ -245,7 +243,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
    ![](../../media/challenge3-github-workflows.png)
 
-1. Your GitHub workflow file will be in the below format:
+1. Your GitHub workflow file will be in the format below:
 
    ```
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
@@ -331,7 +329,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    ### ARM Template File - deploy.json
 
-   This file contains the Azure Resource Manager (ARM) template which describes the resources that are needed for the application.
+   This file contains the Azure Resource Manager (ARM) template, which describes the resources that are needed for the application.
 
    ### Parameters File - deploy.parameters.json
 
@@ -346,7 +344,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
 
    #### Workflow File - .github/workflows/workflow.yml
 
-   This file contains the GitHub Actions workflow that automates the deployment process. It is triggered on a push to the main branch and it runs the Azure CLI command to deploy the ARM template.
+   This file contains the GitHub Actions workflow that automates the deployment process. It is triggered on a push to the main branch, and it runs the Azure CLI command to deploy the ARM template.
 
    In this workflow, replace ExampleDeployment and ExampleGroup with your actual deployment name and resource group name. Also, make sure to store your Azure credentials as a secret in your GitHub repository.
 
@@ -377,18 +375,3 @@ Through this challenge, you've showcased to Contoso Ltd. the potential of integr
 ### Click on Next >> to proceed with the next challenge.
 
    ![](../../media/next-page.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
