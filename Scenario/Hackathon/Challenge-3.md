@@ -1,4 +1,4 @@
-# Challenge 3: Deploy the App to Azure
+# Challenge 03: Deploy the App to Azure
 
 ### Estimated Time: 60 Minutes
 
@@ -38,8 +38,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. **Skip** the MFA registration if the pop-up appears while logging in to the Azure portal.
 
 1. If you see the pop-up **Stay Signed in?** click **No**.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
 
@@ -111,6 +109,8 @@ In this challenge,  you've demonstrated how AI can significantly aid in the deve
 
 Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
 
-### Click on Next >> to proceed with the next challenge.
+### Now, click on Next from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
+
+
