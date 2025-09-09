@@ -1,6 +1,6 @@
 # Desafío 3: Implementar la Aplicación en Azure
 
-### Tiempo Estimado: 60 minutos
+### Tiempo Estimado: 60 Minutos
 
 ## Introducción
 
@@ -28,6 +28,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 1. Para acceder al portal de Azure, abra una ventana privada o de incógnito en su navegador y navegue hasta **[Portal de Azure](https://portal.azure.com)**.
 
 1. En la pestaña **Iniciar sesión en Microsoft Azure**, verá una pantalla de inicio de sesión. Ingrese el siguiente correo electrónico o nombre de usuario y, a continuación, haga clic en **Siguiente**. 
+
    * Correo Electrónico/Nombre de Usuario: <inject key="AzureAdUserEmail"></inject>
         
 1. Ahora ingrese la siguiente contraseña y haga clic en **Iniciar sesión**.
@@ -60,7 +61,8 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 2. **Generar un flujo de trabajo de GitHub Actions mediante el Centro de Implementación desde la Aplicación Web en el portal de Azure:**
 
       - Implemente y construya el código del flujo de trabajo desde el **Centro de Implementación** de su Aplicación Web para el repositorio fuente de GitHub **MyMvcApp-Contact-Database-Application** para iniciar la canalización del flujo de trabajo a fin de desplegar su Aplicación Web en Azure.
-       >**Nota:** build fallará debido a una ruta no definida en el archivo YAML del flujo de trabajo.
+       
+         >**Nota:** build fallará debido a una ruta no definida en el archivo YAML del flujo de trabajo.
 
       - Especifique la ruta como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para los pasos **dotnet publish** y **Upload artifact for deployment job** en su archivo de flujo de trabajo.
 
@@ -101,3 +103,7 @@ Proporcione el parámetro de Nombre de Usuario de GitHub en el formato **github-
 En este desafío, ha demostrado cómo la IA puede ayudar significativamente en el desarrollo y la implementación de aplicaciones, específicamente mediante el uso de GitHub Copilot. No solo ha desarrollado una aplicación de Base de Datos de Contactos completamente funcional en el desafío anterior, sino que también la ha desplegado de manera efectiva en Azure utilizando una plantilla ARM generada con la ayuda de GitHub Copilot. Ha utilizado GitHub Copilot para agilizar la creación de la plantilla ARM, que es un poderoso ejemplo de Infraestructura como código (IaC), y también ha automatizado el proceso de construcción y prueba de su código mediante la creación de un pipeline de GitHub Actions, con la ayuda de GitHub Copilot para generar los scripts necesarios. Además, ha elaborado una documentación completa y precisa para este desafío, la cual le servirá de valiosa guía para proyectos futuros.
 
 A través de este desafío, ha mostrado a Contoso Ltd. el potencial de integrar la IA en el flujo de trabajo de desarrollo. Ha demostrado cómo GitHub Copilot puede ayudar no solo en el desarrollo de aplicaciones, sino también en la implementación y administración de la infraestructura, destacando así su versatilidad y valor. Al desplegar con éxito la aplicación de la Base de Datos de Contactos en Azure y verificar su funcionalidad, ha proporcionado una demostración tangible de los beneficios de la IA en el desarrollo de software.
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)

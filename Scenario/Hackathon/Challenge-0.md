@@ -1,6 +1,6 @@
-# Desafío 00: Introducción a GitHub Copilot
+# Desafío 00: Introducción a GitHub Copilot (Solo lectura)
 
-### Tiempo estimado: 20 minutos
+### Tiempo estimado: 20 Minutos
 
 >**Nota:** Este desafío es para fines de lectura y exploración únicamente.
 
@@ -116,4 +116,8 @@ Cuando se ha habilitado el acceso a Copilot, se pueden configurar funciones como
 - [GitHub Copilot - KB Ghost](https://spektrasystems.sharepoint.com/:v:/s/CloudLabs-Services/EZzDsP1I9uVNirVAGKJ34sABMA02runzrXX1Bcc6DzUdbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sWSj9W)
 
   >**Nota**: Puede consultar los videos anteriores para ver y aprender, los cuales cubren la Introducción a GitHub Copilot Enterprise y sus características. En este Hackathon, usará GitHub Copilot Business.
+
+### Haga clic en Siguiente >> para continuar con el próximo desafío.
+
+![](../../media/next-page-spanish.png)
 

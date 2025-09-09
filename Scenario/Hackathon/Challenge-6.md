@@ -49,3 +49,5 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Conclusión
 
 En este desafío, utilizó con éxito GitHub Copilot para generar scripts de monitoreo de administración de sistemas para MVs Linux y Windows, mejoró los scripts con las sugerencias y el chat en línea de GitHub Copilot y verificó que los scripts generados se ejecutaran correctamente.
+
+### Has completado el Hackathon con éxito.
