@@ -2,6 +2,9 @@
 
 ## Tarea 1: Desarrollar una Aplicación
 
+En esta tarea, creará y probará una aplicación Contact Database MVC utilizando GitHub Copilot en Visual Studio. Implica bifurcar y clonar un repositorio, configurar extensiones, generar métodos de controlador con Copilot y ejecutar la aplicación. Finalmente, las operaciones CRUD de creación, lectura, actualización y eliminación se prueban para garantizar una funcionalidad adecuada.
+
+
 ### Iniciar sesión en GitHub
 
 - Inicie sesión en [GitHub](https://github.com/login) con la cuenta de GitHub proporcionada por CloudLabs. Asegúrese de haber iniciado sesión en la cuenta de GitHub correcta proporcionada para esta sesión de laboratorio.
@@ -18,7 +21,7 @@
 
 ### Abrir Visual Studio y Clonar el Repositorio
 
-- Inicie Visual Studio y haga clic en ""Clonar el repositorio Git".
+- Inicie Visual Studio y haga clic en "Clonar el repositorio Git".
 
    ![](../../media/Clone-Git-repo.png)
 
