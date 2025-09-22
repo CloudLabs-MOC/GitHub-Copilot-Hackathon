@@ -8,7 +8,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new **README.md** file
 
-1. On the empty README.md file, click Ctrl+I to get the Copilot Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
+1. On the empty README.md file, click Ctrl+I to get the Copilot Chat window and ask Copilot to generate a README.md file for the directory app/backend.
 
    ![](../../media/Generatee.png)
 
@@ -22,9 +22,9 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/backend-requirements.png)
 
-1. Now select the entire file, right-click, and then select **Copilot** and **Generate Docs**.
+1. Now select the entire file, right-click, and then select **Generate Code (1)** and **Generate Docs (2)**.
 
-   ![](../../media/backend-requirements-generate-docsupd.png)
+   ![](../../media/docs.png)
 
 1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
 
@@ -32,9 +32,9 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Navigate to ***app/backend/approaches/approach.py*** file. You will notice that there are no comments for either of the modules, functions, or classes.
 
-1. Now select the entire file, right-click, and then select **Copilot** and **Editor Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
+1. Now select the entire file, right-click and select **Open Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/CH5T1S9.png)
+   ![inline](../../media/inline1.png)
 
    ![](../../media/snap2.png)
 
@@ -58,9 +58,9 @@ In this task, you'll enhance and refine your README.md documentation by utilizin
 
 In this task, you'll explore the various styles of documentation that you can generate by utilizing GitHub Copilot.
 
-1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Copilot** and **Start Inline Chat**.
+1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Open Inline Chat**.
 
-1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
+1. Ask the GitHub Copilot to `generate markdown documentation to deploy a VNet in Azure` and click **Accept**.
 
 1. You'll notice that GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
