@@ -1,6 +1,6 @@
 # Challenge 03: Deploy the App to Azure
 
-### Estimated Time: 60 Minutes
+### Estimated Time: 90 Minutes
 
 ## Introduction
 
@@ -112,5 +112,6 @@ Through this challenge, you've showcased to Contoso Ltd. the potential of integr
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
+
 
 
