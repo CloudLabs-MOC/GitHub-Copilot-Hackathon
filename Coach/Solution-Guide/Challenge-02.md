@@ -30,7 +30,7 @@ In this task you will be creating and testing a Contact Database MVC application
 
    ![](../../media/CloneURL.png)
 
-1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination and click **Slect as Repository Destination**.
+1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination and click **Select as Repository Destination**.
 
    ![](../../media/Folder.png)
 
