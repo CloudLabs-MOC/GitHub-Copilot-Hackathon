@@ -225,7 +225,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/API.png)
 
-1. Copy the **API Key** and save it your notebook, it will be required in furher task.
+1. Copy the **API Key** and save it your notebook, it will be required in further steps.
 
    ![](../../media/apikey.png)
 
