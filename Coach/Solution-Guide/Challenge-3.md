@@ -24,7 +24,7 @@
 
 In this task, you'll be generating an ARM template to deploy a web application to Azure using Azure App Services and defining the necessary resources.
 
-1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled).
+1. In your GitHub Copilot Chat window, ask the GitHub Copilot to **Generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled)**.
 
    ![](../../media/codechat.png)
 
@@ -162,7 +162,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
    ![](../../media/challenge3-azure-custom.png)
 
-1. In your Custom deployment tab, click on **Build your own template in editor**.
+1. In your Custom deployment tab, click on **Build your own template in the editor**.
 
    ![](../../media/challenge3-custom-deploy.png)
 
@@ -182,7 +182,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 In this task, you'll generate a GitHub Action workflow pipeline using the Deployment Center from the Web App in the Azure portal.
 
-1. Navigate to your web app service, and under the **Deployment** settings, select **Deployment Center**.
+1. Navigate to your web app service, and under the **Deployment (1)** settings, select **Deployment Center (2)**.
 
    ![](../../media/challenge3-deployment-center.png)
 
@@ -200,6 +200,22 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
         ![](../../media/challenge3-deployment-center-01.png)
 
         ![](../../media/challenge3-deployment-center-02.png)
+
+    >**Note:** If you see **Authorize** click on it under Signed in as
+
+    ![auth](../../media/auth.png)
+
+    - Enter the Github credentials **Username or email (1)**, **Password (2)** and click on **Sign in (3)**.
+
+        ![auth](../../media/gitauth.png)
+    
+    - Enter the verification code sent to the github user credentials from the outlook and click on **Verify**.
+
+        ![auth](../../media/verify.png)
+
+    - Click on **Authorize AzureAppService**.
+
+        ![auth](../../media/auth1.png)
 
 1. You can also view your workflow configuration by clicking on the **Preview file** button.
 
@@ -231,11 +247,11 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
 In this task, you'll verify that the GitHub action pipeline build has succeeded, the workflow file has been created, and your  web app is working as expected on Azure.
 
-1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)**.
+1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)** and see that the deploy status is in succeeded **(2)**. 
 
    ![](../../media/challenge3-github-build-verify.png)
 
-1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
+1. Verify that your web app is working as expected by navigating to the **web application** in a different tab.
 
    ![](../../media/challenge3-web-app-001.png)
 
@@ -304,7 +320,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
              publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
-1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
+1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the **Overview** setting and clicking on the **Default Domain**.
 
    ![](../../media/challenge3-default-domain.png)
 

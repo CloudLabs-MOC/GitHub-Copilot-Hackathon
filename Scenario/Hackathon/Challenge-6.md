@@ -1,6 +1,6 @@
-# Challenge 6: Generate Scripts using GitHub Copilot
+# Challenge 06: Generate Scripts using GitHub Copilot
 
-### Estimated Time: 45 Minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
@@ -12,7 +12,7 @@ At **Contoso Ltd.**, a leading software development company, you are given the t
 
 ## Prerequisites
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Make sure you have the following from the CloudLabs provided integrated environment:
 
 > **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 

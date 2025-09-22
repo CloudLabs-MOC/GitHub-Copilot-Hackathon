@@ -4,7 +4,7 @@ Welcome to your GitHub Copilot Hackathon Workshop! We've prepared a seamless env
 
 ## Accessing Your Lab Environment
 
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and lab **guide** will be right at your fingertips within your web browser.
 
 ![](../../media/GSS1.png)
 
@@ -34,13 +34,13 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![](../../media/git-04.png)
+![](../../media/labzoom.png)
 
 ## Managing Your Virtual Machine
 
 1. Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-    ![](../../media/git-05.png)
+    ![](../../media/resourcetab.png)
 
 
 Now you're all set to explore the powerful world of technology.  
@@ -51,5 +51,9 @@ The CloudLabs support team is available via email and live chat to ensure seamle
 
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
+
+### Now, click on Next from the lower right corner to move on to the next challenge.
+
+![](../../media/next-page.png)
 
 ### Happy Learning!

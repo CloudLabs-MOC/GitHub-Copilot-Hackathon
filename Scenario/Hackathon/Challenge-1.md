@@ -1,6 +1,6 @@
 # Challenge 01: Getting Started with GitHub Copilot
 
-### Estimated Time: 45 Minutes
+### Estimated Time: 90 Minutes
 
 ## Introduction
 
@@ -27,6 +27,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Login to GitHub
 
 1. On the **LABVM desktop**, double-tap **Microsoft Edge**.
+
+   ![](../../media/edge.png)
 
 1. Navigate to **GitHub** login page using the provided URL below:
    
