@@ -1,6 +1,6 @@
 # Challenge 06: Generate Scripts using GitHub Copilot
 
-### Estimated Time: 45 Minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
