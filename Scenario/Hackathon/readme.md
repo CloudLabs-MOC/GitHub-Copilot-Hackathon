@@ -1,6 +1,6 @@
 # GitHub Copilot Hackathon - Explore the Future of AI Coding
 
-## Overall Estimated Duration: 4 Hours
+## Overall Estimated Duration: 8 Hours
 
 Welcome to the GitHub Copilot Hackathon! Embark on a coding adventure where you'll harness the capabilities of GitHub Copilot to revolutionize your coding experience. This event is designed to immerse you in the innovative world of AI-powered coding, with a focus on leveraging Copilot's advanced code generation and collaboration features within Visual Studio Code and Visual Studio.
 
