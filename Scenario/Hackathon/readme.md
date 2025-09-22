@@ -1,5 +1,7 @@
 # GitHub Copilot Hackathon - Explore the Future of AI Coding
 
+## Overall Estimated Duration: 4 Hours
+
 Welcome to the GitHub Copilot Hackathon! Embark on a coding adventure where you'll harness the capabilities of GitHub Copilot to revolutionize your coding experience. This event is designed to immerse you in the innovative world of AI-powered coding, with a focus on leveraging Copilot's advanced code generation and collaboration features within Visual Studio Code and Visual Studio.
 
 ## Introduction
@@ -54,3 +56,7 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
     The objective of this challenge is to use GitHub Copilot to generate sys admin scripts for your projects. You'll leverage Copilot's AI capabilities to create sys admin scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and resource monitoring **(such as CPU, memory and disk usage)** and speeding up the development process through the generation of sys admin scripts.
 
 Each challenge comes with its own set of tasks and objectives. Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
+
+### Now, click on Next from the lower right corner to move on to the next challenge.
+
+![](../../media/next-page.png)
