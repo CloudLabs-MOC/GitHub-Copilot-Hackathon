@@ -26,6 +26,10 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
    
    ![Sign in to GitHub](../../media/signingit.png)
    
+   >**Note:** If you see **Signed out** click on it then select **Sign in to use Copilot** and sign-in with Github credentials provided in the environment tab.
+
+      ![signcop](../../media/sigcop.png)
+
 1. Click on **Allow** in the popup.
 
    ![Allow](../../media/allow.png)
@@ -48,15 +52,15 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-   ![GitHub-Codespaces](../../media/git-07.png)
+   ![GitHub-Codespaces](../../media/code1.png)
 
 1. If the Codespace does not open in your Visual Studio Code, then navigate to your GitHub repository, click on **Code**, click on the **ellipsis** button for your current codespace and then click on **Open in Visual Studio Code**.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
    ![](../../media/open.png)
 
-   ![](../../media/codespacesupd.png)
+   ![](../../media/instexuri.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
@@ -76,17 +80,17 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
 In this task, you will evaluate the functionality of GitHub Copilot by generating a simple code snippet using Copilot Chat.
 
-1. Create a file with any name of your choice.
+1. Create a python with .py extension, with any name of your choice.
 
    ![](../../media/createfile.png)
 
-1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
+1. Press **Ctrl + I** to prompt GitHub Copilot to write code for you.
 
-1. When the Copilot mini window appears, request Copilot to generate a simple Python code.
+1. When the Copilot mini window appears, request Copilot to **Create a simple python code** .
 
    ![](../../media/checkpy.png)
 
-1. A basic "Hello World" code will be generated. Click "Accept" to insert it into the newly created file.
+1. A basic "Hello World" code will be generated. Click **Accept** to insert it into the newly created file.
 
    ![](../../media/checkpy2.png)
 
@@ -98,13 +102,13 @@ This confirms that the Copilot functionality is working properly.
 
 In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get weather data from weather APIs.
 
-1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator using the below prompt.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)** and ask GitHub Copilot to create a Python/JS code to build a calculator using the below prompt.
 
    ```
    Create a Python/JS based code to build a calculator 
    ```
 
-   ![](../../media/copilotchat.png)
+   ![tog](../../media/togchat.png)
 
    ![](../../media/copilot-calculatorupd.png)
 
@@ -201,7 +205,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 
-1. To access weather data using the OpenWeatherMap API, sign in to your account on their website: [https://openweathermap.org/](https://openweathermap.org/).
+1. To access weather data using the OpenWeatherMap API, **Sign in** to your account on their website: [https://openweathermap.org/](https://openweathermap.org/).
 
    ![](../../media/signinapi.png)
 
@@ -209,7 +213,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](../../media/createaaccount.png)
 
-1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the **Create Account** button **(8)**.
+1. To create a new OpenWeather account, the user fills in their **username (1)**, **email address (2)**, **password (3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the **Create Account** button **(8)**.
 
    ![](../../media/weather-api-keys1.png)
 
@@ -217,11 +221,21 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    >**Note:** Please use the OLD username and password.
 
-1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
+1. Click on the user drop-down and select **My API Keys**.
+
+   ![](../../media/API.png)
+
+1. Copy the **API Key** and save it your notebook, it will be required in furher task.
+
+   ![](../../media/apikey.png)
+
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)** and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
 
    ```
    Create a Python/JS based app to get weather data from weather APIs
    ```
+
+   ![tog](../../media/togchat.png)
 
    ![](../../media/copilot-weather-api.png)
 
@@ -320,7 +334,9 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Open the **card_draw.py** file by double-clicking on it.
 
-1. Select the entire code, right-click and select **Copilot**, and then **Fix** to debug the selected code.
+1. Select the entire code, right-click and select **Generate code (1)**, and then **Fix (2)** to debug the selected code.
+
+   ![fix](../../media/fix.png)
 
 1. You'll notice that GitHub Copilot has debugged and fixed the code.
 
@@ -364,9 +380,9 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. Select the entire code, right-click, and view the **Copilot** features.
 
-   ![](../../media/CopilotFeaturesupd.png)
+   ![](../../media/explain.png)
 
-1. **Editor Inline Chat(1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
+1. **Open Inline Chat(1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
 
 1. **Explain (2)** feature gives a detailed explanation of how the code works and its functionality.
 
