@@ -4,7 +4,7 @@
 
 En esta tarea, instalará la extensión GitHub Copilot en VS Code.
 
-1. Abra Visual Studio Code desde la pantalla del escritorio.
+1. Abra **Visual Studio Code** desde la pantalla del escritorio.
    
    ![Picture1](../../media/task1.1.png)
 
@@ -25,7 +25,11 @@ En esta tarea, iniciará sesión en su cuenta de GitHub a través de la extensi�
 1. Después de la instalación, en la esquina inferior derecha, haga clic en el mensaje **Sign in to GitHub**.
    
    ![Iniciar sesión en GitHub](../../media/signingit.png)
-   
+
+   >**Nota:** Si ve Cerrar sesión, haga clic en él y luego seleccione Iniciar sesión para usar Copilot e inicie sesión con las credenciales de Github proporcionadas en la pestaña de entorno.
+
+   ![signcop](../../media/sigcop.png)
+
 1. Haga clic en **Permitir** en la ventana emergente.
 
    ![Permitir](../../media/allow.png)
