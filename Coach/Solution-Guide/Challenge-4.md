@@ -10,11 +10,11 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/vscode-launch.png)
 
-1. Next to the search bar, select the **Copilot** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)**.
 
-    ![](../../media/githubchat.png)
+    ![](../../media/togchat.png)
 
-1. In the textbox, enter **@** and select **workspace** to start working with the **GitHub Copilot Workspace** agent.
+1. In the textbox, enter **@** **(1)** and select **workspace** **(2)** to start working with the **GitHub Copilot Workspace** agent.
 
     ![](../../media/file2.png)
 
@@ -68,15 +68,15 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/new-window.png)
 
-1. Now, select **Open Folder** from the **Welcome** page, browse to the **C:\Users\azureuser\DemoApp** folder, and double-click to open it in your VS Code.
+1. Now, select **Open Folder** from the **Welcome** page, browse to the `C:\Users\azureuser\DemoApp` folder, and double-click to open it in your VS Code.
 
     ![](../../media/vscode-open-folder.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)**
 
-    ![](../../media/githubchat.png)
+    ![](../../media/togchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to start working with the **Github Copilot Workspace** agent.
+1. In the textbox, enter **@** **(1)** and select **Workspace** **(2)** to start working with the **Github Copilot Workspace** agent.
 
     ![](../../media/@workspace.png)
 
@@ -146,11 +146,11 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
 
     ![](../../media/vscode-launch.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)**.
 
-    ![](../../media/githubchat.png)
+    ![](../../media/togchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@** **(1)** and select **Workspace** **(2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../../media/@workspace.png)
 
@@ -184,11 +184,11 @@ To do so, follow the steps below:
 
     ![](../../media/vscode-launch.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)**.
 
-    ![](../../media/githubchat.png)
+    ![](../../media/togchat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@** **(1)** and select **Workspace** **(2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../../media/@workspace.png)
 
