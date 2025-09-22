@@ -2,6 +2,8 @@
 
 ## Task 1: Develop an App
 
+In this task you will be creating and testing a Contact Database MVC application using GitHub Copilot in Visual Studio. It involves forking and cloning a repository, configuring extensions, generating controller methods with Copilot, and running the application. Finally, CRUD operations create, read, update, and delete are tested to ensure proper functionality.
+
 ### Login to GitHub
 
 1. Login to [GitHub](https://github.com/login) with the CloudLabs provided GitHub account. Ensure that you are logged in to the correct GitHub account provided for this lab session.
@@ -12,7 +14,7 @@
 
    ![](../../media/Repo-info.png)
 
-1. Fork the repository into the CloudLabs-provided GitHub account.
+1. **Fork** the repository into the CloudLabs-provided GitHub account.
 
    ![](../../media/Fork-repo.png)
 
@@ -20,15 +22,15 @@
 
 1. Open the File Explorer and create a folder named **GitHub Copilot** in **C:\Users\azureuser**. 
 
-1. Launch Visual Studio and click on **Clone Git repository**.
+1. Launch Visual Studio and click on **Clone Repository**.
 
    ![](../../media/CloneRepo.png)
 
-1. In the search bar, enter the Git Repository URL and click Enter.
+1. In the search bar, enter the **Git Repository URL** and click Enter.
 
    ![](../../media/CloneURL.png)
 
-1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination.
+1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination and click **Slect as Repository Destination**.
 
    ![](../../media/Folder.png)
 
@@ -46,7 +48,7 @@
 
    - Click on the extension on the left-hand side
    - Search for NuGet Gallery and C# Dev Kit
-   - Click on install, and post this; the extensions should be installed.
+   - Click on **Install**, and post this; the extensions should be installed.
 
       ![](../../media/NuGet.png) 
    
@@ -54,7 +56,7 @@
 
 ### Implement Methods using GitHub Copilot
  
-1. Navigate to the `UserController.cs` file within the `Controllers` folder.
+1. Navigate to the **UserController.cs** file within the **Controllers** folder.
 
    ![](../../media/ABC.png)
 
@@ -64,11 +66,9 @@
  
    ![](../../media/Ex1.png)
  
-   ![](../../media/Exx2.png)
+1. From the context menu, choose the **Generate Code (1)** option and click on **Fix (2)**.
  
-1. From the context menu, choose the **Copilot** option and click on **Fix**.
- 
-   ![](../../media/github-hack-copilot-2.png)
+   ![](../../media/fix2.png)
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
  
@@ -80,9 +80,9 @@
 
    ![](../../media/Ex1.png)
  
-1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**.
+1. From the context menu, choose the **Open Inline chat**.
    
-   ![](../../media/github-hack-copilot-3.png)
+   ![](../../media/inline.png)
      
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
  
@@ -116,7 +116,7 @@
 
    ![](../../media/Coderun.png)
 
-1. Once the code runs and the build is successful, you can navigate to the URL for the app.
+1. Once the code runs and the build is successful, you can navigate to the **URL** for the app.
   
    ![](../../media/apprun.png)
 
@@ -126,7 +126,7 @@
 
    ![](../../media/crud1.7.png)
 
-1. Fill in the required fields for Name and Email in the form provided. Click on the **Create** button to submit the form and create a new contact.
+1. Fill in the required fields for **Name (1)** and **Email (2)** in the form provided. Click on the **Create (3)** button to submit the form and create a new contact.
 
    ![](../../media/crud1.8.png)
 
@@ -134,7 +134,7 @@
 
 1. After creating a contact, return to the homepage.
 
-1. Find the contact you created in the list and locate the **Edit** button associated with it. Click on the **Edit** button.
+1. Find the contact you created in the list and locate the **Edit** button associated with it and click on it.
 
    ![](../../media/crud1.9.png)
 
@@ -162,7 +162,7 @@
 
    ![](../../media/crud1.13.png)
 
-1. A confirmation dialog will appear asking if you're sure you want to delete the contact. Confirm the action.
+1. A confirmation dialog will appear asking if you're sure you want to delete the contact. Click on **Delete**.
 
    ![](../../media/crud1.14.png)
 
@@ -173,6 +173,8 @@
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
 
 # Task 2: Generate Unit Test Cases
+
+This task involves generating and running unit test cases for the Contact Database MVC application. You create a new xUnit test project, add necessary packages and references, and rename the test file. Using GitHub Copilot, you generate test cases for UserController.cs, execute them with dotnet test, and validate results.
 
 1. Run the commands below in the command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
@@ -202,7 +204,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
    ![](../../media/prom.png)
 
-1. In the **Github Copilot chat** window, ask the GitHub Copilot to **Generate test cases to UserControllerTests for the MyMvcApp.csproj app by using xunit**.
+1. In the **Github Copilot chat** window, ask the GitHub Copilot to `Generate test cases to UserControllerTests for the MyMvcApp.csproj app by using xunit`.
 
    ![](../../media/Genetest.png)
 
@@ -305,7 +307,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
    ![](../../media/Testfilegene.png)
     
-1. Right-click on the current project and open it in the Integrated terminal.
+1. Right-click on the current project **MyMvcApp.Tests**, then select **Open in the Integrated terminal**.
 
    ![](../../media/Opengene.png)
 
@@ -319,11 +321,13 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 # Task 3: Develop and Test Features
 
+This task focuses on enhancing the Contact Database application by implementing a search feature with GitHub Copilot. You update the UserController.cs and Index.cshtml files to enable search functionality, run the application, and test the feature. This demonstrates Copilot’s usefulness in adding new, user-friendly features efficiently.
+
 ### Utilize GitHub Copilot Chat for Feature Development:
   
-1. Select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+1. Open the GitHub Copilot chat window by slecting the **Toggle chat (1)** drop-down and select **Open chat (2)** to open the GitHub Copilot Chat window.
 
-      ![](../../media/newchat.png)
+      ![](../../media/togchat.png)
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
@@ -332,7 +336,9 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
    ![](../../media/function.png)
 
 1. Based on the response generated by GitHub Copilot, proceed with implementing the suggested code.
-  
+
+   >**Note:** The generated code made vary from the screenshots provided.
+
 1. In this case, GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
 
    ![](../../media/Copilotanswer.png)
@@ -376,7 +382,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 1. Save both the `UserController.cs` and `Index.cshtml` files after making the necessary changes.
 
-1. Run the application by clicking on Terminal and by the command **dotnet run**. This action starts the application on localhost in a web browser.
+1. Run the application by clicking on Terminal and by the command **dotnet run**. This action starts the application on **localhost** in a web browser.
 
    ![](../../media/runsearch.png)
 
