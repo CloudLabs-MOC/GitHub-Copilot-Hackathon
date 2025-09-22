@@ -1,6 +1,6 @@
 # Challenge 05: Create Documentation using GitHub Copilot
 
-### Estimated Time: 90 Minutes
+### Estimated Time: 60 Minutes
 
 ## Introduction
 
@@ -77,6 +77,7 @@ In this challenge, you've utilized GitHub Copilot to generate comments and markd
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
 ![](../../media/next-page.png)
+
 
 
 
