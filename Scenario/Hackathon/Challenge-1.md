@@ -1,6 +1,6 @@
 # Challenge 01: Getting Started with GitHub Copilot
 
-### Estimated Time: 45 Minutes
+### Estimated Time: 90 Minutes
 
 ## Introduction
 
