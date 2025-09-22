@@ -4,7 +4,7 @@ Welcome to your GitHub Copilot Hackathon Workshop! We've prepared a seamless env
 
 ## Accessing Your Lab Environment
 
-Once you're ready to dive in, your virtual machine and lab **guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and lab **Guide** will be right at your fingertips within your web browser.
 
 ![](../../media/GSS1.png)
 
