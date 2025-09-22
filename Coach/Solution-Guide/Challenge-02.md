@@ -67,9 +67,9 @@ In this task you will be creating and testing a Contact Database MVC application
    ![](../../media/Ex1.png)
  
 1. From the context menu, choose the **Generate Code (1)** option and click on **Fix (2)**.
- 
+
    ![](../../media/fix2.png)
- 
+
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to **Accept** or **Discard** the suggestion based on its relevance to your requirements.
  
    ![](../../media/Exxxx4.png)
