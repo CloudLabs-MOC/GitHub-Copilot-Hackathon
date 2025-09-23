@@ -100,11 +100,13 @@ Esto confirma que la funcionalidad de Copilot está funcionando correctamente.
 
 En esta tarea, creará un código Python/JS para construir una calculadora y usar claves API de OpenWeatherMap para obtener datos meteorológicos de APIs de clima.
 
-1. Abra la ventana de chat de GitHub Copilot y solicite a GitHub Copilot que cree un código Python/JS para construir una calculadora utilizando el siguiente prompt.
+1. Abra la ventana de chat de GitHub Copilot seleccionando el menú desplegable Alternar chat (1) y seleccione Abrir chat (2) y solicite a GitHub Copilot que cree un código Python/JS para construir una calculadora usando el siguiente mensaje.
 
    ```
    Create a Python/JS based code to build a calculator 
    ```
+
+      ![](../../media/togchat.png)
 
    ![](../../media/copilot-calculator.png)
 
@@ -304,7 +306,7 @@ En esta tarea, refactorizarás y depurarás códigos de Python mal escritos util
 
 1. Abre el archivo **card_draw.py** haciendo doble clic en él.  
 
-1. Selecciona todo el código, haz clic derecho y haz clic en **Copilot**, luego selecciona **Fix** para depurar el código seleccionado.  
+1. Seleccione el código completo, haga clic derecho y seleccione **Generar código** y luego haga clic en **Reparar** para depurar el código seleccionado.
 
 1. Notarás que GitHub Copilot ha depurado y corregido el código.  
 
@@ -328,10 +330,6 @@ En esta tarea, refactorizarás y depurarás códigos de Python mal escritos util
    ```
 
 1. Acepta los cambios, guarda el archivo y ejecuta algunos casos de prueba para verificar que el código depurado por GitHub Copilot funcione como se espera. 
-
-Aquí tienes la traducción al español:  
-
----  
 
 ## Tarea 7: Explorar las Funcionalidades de GitHub Copilot  
 
