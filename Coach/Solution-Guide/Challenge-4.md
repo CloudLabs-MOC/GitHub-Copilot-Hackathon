@@ -14,7 +14,7 @@ En esta tarea, utilizarás GitHub Copilot Workspace para mejorar la eficiencia d
 
     ![](../../media/file1.png)
 
-1. En el cuadro de texto, ingrese **@** y seleccione **workspace** para comenzar a trabajar con el agente **GitHub Copilot Workspace**.
+1. En el cuadro de texto, ingrese **@** **(1)** y seleccione **workspace (2)** para comenzar a trabajar con el agente **GitHub Copilot Workspace**.
 
     ![](../../media/file2.png)
 
@@ -74,11 +74,11 @@ Github Copilot Workspace no solo puede proporcionar instrucciones, respuestas o 
 
     ![](../../media/vscode-copilot-chat.png)
 
-1. En el cuadro de texto, ingrese **@** y seleccione **workspace** para comenzar a trabajar con el agente **Github Copilot Workspace**.
+1. En el cuadro de texto, ingrese **@ (1)** y seleccione **workspace (2)** para comenzar a trabajar con el agente **Github Copilot Workspace**.
 
     ![](../../media/@workspace.png)
 
-1. Proporcione el prompt, `**Create a workspace for the Expense Tracker React application with all the necessary files and code**.` En el cuadro de prueba, seleccione **Submit** para generar el espacio de trabajo completo de su aplicación Expense Tracker React, junto con un par de archivos de componentes.
+1. Proporcione el prompt, `Create a workspace for the Expense Tracker React application with all the necessary files and code.` En el cuadro de prueba, seleccione **Submit** para generar el espacio de trabajo completo de su aplicación Expense Tracker React, junto con un par de archivos de componentes.
 
     ![](../../media/expense-tracker-workspace.png)
 
@@ -148,7 +148,7 @@ En esta tarea, utilizará la función de **Referencia de Archivos de GitHub Copi
 
     ![](../../media/vscode-copilot-chat.png)
 
-1. En el cuadro de texto, ingrese **@** y seleccione **Workspace** para activar el agente **GitHub Copilot Workspace**. Necesita que este agente analice todo su espacio de trabajo para que pueda proporcionar respuestas precisas y los bloques de código relacionados haciendo referencia a los archivos correctos.
+1. En el cuadro de texto, ingrese **@ (1)** y seleccione **Workspace (2)** para activar el agente **GitHub Copilot Workspace**. Necesita que este agente analice todo su espacio de trabajo para que pueda proporcionar respuestas precisas y los bloques de código relacionados haciendo referencia a los archivos correctos.
 
     ![](../../media/@workspace.png)
 
@@ -186,7 +186,7 @@ Para ello, siga los pasos a continuación:
 
     ![](../../media/vscode-copilot-chat.png)
 
-1. En el cuadro de texto, ingrese **@** y seleccione **workspace** para activar el agente **GitHub Copilot Workspace**. Necesita que este agente analice todo su espacio de trabajo para que pueda proporcionar respuestas precisas y los bloques de código relacionados haciendo referencia a los archivos correctos.
+1. En el cuadro de texto, ingrese **@ (1)** y seleccione **workspace (2)** para activar el agente **GitHub Copilot Workspace**. Necesita que este agente analice todo su espacio de trabajo para que pueda proporcionar respuestas precisas y los bloques de código relacionados haciendo referencia a los archivos correctos.
 
     ![](../../media/@workspace.png)
 
@@ -201,3 +201,11 @@ Para ello, siga los pasos a continuación:
 1. Ejecute la aplicación y compruebe que el componente **Date** se ha añadido y que funciona correctamente.
 
     ![](../../media/app-working-date.png)
+
+### Conclusión
+
+En este desafío, ha adquirido una comprensión más profunda de cómo funcionan Github Copilot Workspace y File Referencing y cómo pueden mejorar su proceso de codificación. Al utilizar estas funciones de forma eficaz, puede mejorar significativamente la eficiencia de su codificación y la calidad general de su código. Ya sea que sea un desarrollador experimentado o un principiante, estos conocimientos seguramente serán valiosos en su viaje a la codificación.
+
+### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+
+   ![](../../media/next-page.png)
