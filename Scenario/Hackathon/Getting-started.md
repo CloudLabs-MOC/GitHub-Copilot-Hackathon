@@ -46,3 +46,7 @@ A equipe de suporte da CloudLabs está disponível por e-mail e chat ao vivo par
 - Suporte por chat ao vivo: https://cloudlabs.ai/labs-support
 
 Bom aprendizado!
+
+## Agora, clique em Próximo no canto inferior direito para passar para o próximo desafio.
+
+![](../../media/next.png)
