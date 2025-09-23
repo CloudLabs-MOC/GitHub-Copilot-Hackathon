@@ -65,3 +65,7 @@ Você também irá desenvolver e testar funcionalidades essenciais da aplicaçã
 Cada desafio vem com seu próprio conjunto de tarefas e objetivos. Sinta-se à vontade para explorar cada um deles, aprender e experimentar com o GitHub Copilot durante este hackathon! Se tiver qualquer dúvida, não hesite em pedir ajuda ao seu instrutor.
 
 Bons Códigos! 
+
+## Agora, clique em Próximo no canto inferior direito para passar para o próximo desafio.
+
+![](../../media/next.png)
