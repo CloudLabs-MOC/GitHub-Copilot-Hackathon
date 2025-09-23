@@ -16,6 +16,9 @@ Além disso, você explorará funcionalidades avançadas, como **workspace** e *
 
 Por meio deste hackathon, a Contoso busca aproveitar o poder da inteligência artificial na programação para **aumentar a produtividade**, **melhorar a segurança do código** e **tornar o processo de desenvolvimento mais ágil e eficiente**.
 
+## Agora, clique em Próximo no canto inferior direito para passar para o próximo desafio.
+
+![](../../media/next.png)
 **Contamos com você para idealizar e construir aplicações que possam transformar essa visão em realidade!**
 
 1. **Geração de Código**: Um desenvolvedor pode usar o GitHub Copilot para gerar trechos de código em várias linguagens, como Python, Java, JavaScript, etc. Isso pode acelerar o processo de desenvolvimento e reduzir o tempo gasto com código repetitivo
@@ -30,3 +33,4 @@ Por meio deste hackathon, a Contoso busca aproveitar o poder da inteligência ar
 10. **Implementação de Algoritmos**: O GitHub Copilot pode sugerir implementações para vários algoritmos, poupando aos desenvolvedores o tempo de pesquisar e implementar esses algoritmos por conta própria.
 
 Neste hackathon, você irá interagir com tecnologias de ponta que são cruciais para alcançar a visão da Contoso. Você terá acesso a todas as ferramentas e recursos necessários para realizar efetivamente esses casos de uso.
+
