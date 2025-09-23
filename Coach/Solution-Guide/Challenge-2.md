@@ -143,7 +143,7 @@ En esta tarea, creará y probará una aplicación Contact Database MVC utilizand
 
     ![](../../media/crud1.13.png)
 
-- Aparecerá un cuadro de diálogo de confirmación que le preguntará si está seguro de que desea eliminar el contacto. Confirme la acción.
+- Aparecerá un cuadro de diálogo de confirmación que le preguntará si está seguro de que desea eliminar el contacto. Haga clic en Eliminar..
 
     ![](../../media/crud1.14.png)
 
@@ -154,6 +154,8 @@ En esta tarea, creará y probará una aplicación Contact Database MVC utilizand
 Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades CRUD (Crear, Leer, Actualizar, Borrar) de la aplicación y garantizar su correcto funcionamiento.
 
 # Tarea 2: Generar Casos de Pruebas Unitarias
+
+Esta tarea implica generar y ejecutar casos de prueba unitaria para la aplicación Contact Database MVC. Crea un nuevo proyecto de prueba xUnit, agrega los paquetes y referencias necesarios y cambia el nombre del archivo de prueba. Con GitHub Copilot, genera casos de prueba para UserController.cs, los ejecuta con dotnet test y valida los resultados.
 
 - Para generar casos de pruebas unitarias, necesitamos agregar un nuevo proyecto. En el explorador de soluciones, haga clic derecho en la Solución.
 
@@ -241,11 +243,15 @@ Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades
 
 # Tarea 3: Desarrollar y Probar funciones
 
+Esta tarea se centra en mejorar la aplicación de base de datos de contactos mediante la implementación de una función de búsqueda con GitHub Copilot. Actualiza los archivos UserController.cs e Index.cshtml para habilitar la función de búsqueda, ejecutar la aplicación y probar la función. Esto demuestra la utilidad de Copilot para agregar funciones nuevas y fáciles de usar de manera eficiente.
+
 ### Utilizar GitHub Copilot Chat para el Desarrollo de Funciones:
   
    - Haga clic en la opción "Ver" en el panel superior de Visual Studio. De las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
-  
+
         ![](../../media/crud3.5.png)
+
+        >**Note:** Abra la ventana de chat de GitHub Copilot seleccionando el menú desplegable Alternar chat y seleccione Abrir chat para abrir la ventana de chat de GitHub Copilot.
 
 ### Solicitar a GitHub Copilot Chat la Implementación de Funciones:
    
@@ -338,3 +344,13 @@ La nueva función Generated Commit Message utiliza GitHub Copilot AI para descri
 - Una vez confirmado localmente, haga clic en Push para insertar los cambios en el repositorio.
 
     ![](../../media/crud5.4.png)
+
+### Conclusión
+
+En este desafío, logró desarrollar una aplicación de base de datos de contactos completamente funcional predominantemente con la ayuda de GitHub Copilot, demostrando su utilidad práctica en un escenario de desarrollo de software del mundo real. Ha navegado con éxito por el proceso de desarrollo, desde la generación de código para métodos vacíos en el archivo UserController.cs hasta la creación de funciones esenciales para la aplicación. Ha utilizado GitHub Copilot para comprender su contexto y proporcionar sugerencias de código relevantes, mejorando su experiencia de codificación.
+
+La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcionado recomendaciones de codificación interesantes, mostrando cómo la IA se puede integrar perfectamente en el flujo de trabajo de desarrollo. Los casos de prueba generados con la ayuda de GitHub Copilot han garantizado la solidez y confiabilidad de su aplicación. Sus logros en este desafío han demostrado el potencial de la IA en el desarrollo de software y han proporcionado información valiosa sobre su implementación práctica. Ha demostrado que con las herramientas adecuadas, como GitHub Copilot, el proceso de desarrollo puede volverse más eficiente y productivo.
+
+### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+
+   ![](../../media/next-page.png)
