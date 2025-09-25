@@ -118,9 +118,6 @@ Quando o acesso ao Copilot é habilitado, recursos como a capacidade de usar o C
 
   >**Observação:** Você pode assistir aos vídeos acima para aprender sobre GitHub Copilot Enterprise e suas funcionalidades. Neste Hackathon, você estará usando o GitHub Copilot Business.
   
-### Clique em Avançar >> para prosseguir com o próximo desafio.
+### Clique em Próximo >> para prosseguir para o próximo desafio.
 
 ![](../../media/next-page-p.png)
-
-
-
