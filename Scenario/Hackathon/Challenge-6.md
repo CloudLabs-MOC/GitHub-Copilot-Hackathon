@@ -49,3 +49,16 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Conclusión
 
 En este desafío, utilizó con éxito GitHub Copilot para generar scripts de monitoreo de administración de sistemas para MVs Linux y Windows, mejoró los scripts con las sugerencias y el chat en línea de GitHub Copilot y verificó que los scripts generados se ejecutaran correctamente.
+
+### Has completado con éxito el Hackathon.
+
+Este laboratorio ofreció una experiencia práctica con GitHub Copilot, centrándose en la codificación, depuración, implementación y documentación asistida por IA. Cubría:
+
+- Configuración y uso de GitHub Copilot en Visual Studio Code.
+- Generar y refinar código con asistencia de IA.
+- Desarrollo, depuración y prueba de aplicaciones.
+- Implementación de aplicaciones en Azure mediante plantillas ARM y acciones de GitHub.
+- Utilizar referencias de archivos y espacios de trabajo para la codificación contextual.
+- Creación de documentación y scripts de administración del sistema utilizando Copilot.
+
+El laboratorio proporcionó una descripción práctica de cómo GitHub Copilot puede simplificar y mejorar el desarrollo de software moderno.
