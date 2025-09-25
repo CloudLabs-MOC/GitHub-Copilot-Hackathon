@@ -21,15 +21,15 @@ En esta tarea, creará y probará una aplicación Contact Database MVC utilizand
 
 ### Abrir Visual Studio y Clonar el Repositorio
 
-- Inicie Visual Studio y haga clic en "Clonar el repositorio Git".
+1. Inicie Visual Studio y haga clic en "Clonar el repositorio Git".
 
    ![](../../media/Clone-Git-repo.png)
 
-- Ingrese la URL del Repositorio Git y haga presione Enter
+1. Ingrese la URL del Repositorio Git y haga presione Enter
 
     ![](../../media/URL-Repo.png)
 
-- La ventana se verá así.
+1. La ventana se verá así.
 
     ![](../../media/Cloned-rep.png)
 
@@ -354,3 +354,4 @@ La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcion
 ### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
    ![](../../media/next-page.png)
+
