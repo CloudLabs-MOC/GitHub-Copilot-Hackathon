@@ -4,7 +4,7 @@ Bem-vindo(a) ao workshop GitHub Copilot Hackathon! Preparamos um ambiente integr
 
 ## Acessando seu ambiente de laboratório
 
-Quando você estiver pronto para começar, a máquina virtual e o **Guia** do laboratório estarão ao seu alcance no navegador da Web..
+Quando você estiver pronto para começar, a máquina virtual e o **Guia do laboratório** estarão ao seu alcance no navegador da Web..
 
 ![](../../media/new-github-copilot-hack-por-01.png)
 
