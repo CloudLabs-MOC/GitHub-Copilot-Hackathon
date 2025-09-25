@@ -4,7 +4,7 @@
 
 En esta tarea, instalará la extensión GitHub Copilot en VS Code.
 
-1. Abra Visual Studio Code desde la pantalla del escritorio.
+1. Abra **Visual Studio Code** desde la pantalla del escritorio.
    
    ![Picture1](../../media/task1.1.png)
 
@@ -25,7 +25,11 @@ En esta tarea, iniciará sesión en su cuenta de GitHub a través de la extensi�
 1. Después de la instalación, en la esquina inferior derecha, haga clic en el mensaje **Sign in to GitHub**.
    
    ![Iniciar sesión en GitHub](../../media/signingit.png)
-   
+
+   >**Nota:** Si ve Cerrar sesión, haga clic en él y luego seleccione Iniciar sesión para usar Copilot e inicie sesión con las credenciales de Github proporcionadas en la pestaña de entorno.
+
+   ![signcop](../../media/sigcop.png)
+
 1. Haga clic en **Permitir** en la ventana emergente.
 
    ![Permitir](../../media/allow.png)
@@ -74,7 +78,7 @@ En esta tarea, creará un nuevo codespace para su repositorio de GitHub y usará
 
 En esta tarea, evaluará la funcionalidad de GitHub Copilot generando un fragmento de código simple utilizando Copilot Chat.
 
-1. Cree un archivo con el nombre de su elección.
+1. Crea un Python con extensión .py, con el nombre que elijas.
 
    ![](../../media/createfile.png)
 
@@ -87,6 +91,8 @@ En esta tarea, evaluará la funcionalidad de GitHub Copilot generando un fragmen
 
    ![](../../media/checkpy2.png)
 
+   >**Nota:** El resultado puede variar en su caso. No será exactamente igual, pero será similar a la imagen proporcionada.
+
 Esto confirma que la funcionalidad de Copilot está funcionando correctamente.
 
 
@@ -94,11 +100,13 @@ Esto confirma que la funcionalidad de Copilot está funcionando correctamente.
 
 En esta tarea, creará un código Python/JS para construir una calculadora y usar claves API de OpenWeatherMap para obtener datos meteorológicos de APIs de clima.
 
-1. Abra la ventana de chat de GitHub Copilot y solicite a GitHub Copilot que cree un código Python/JS para construir una calculadora utilizando el siguiente prompt.
+1. Abra la ventana de chat de GitHub Copilot seleccionando el menú desplegable Alternar chat (1) y seleccione Abrir chat (2) y solicite a GitHub Copilot que cree un código Python/JS para construir una calculadora usando el siguiente mensaje.
 
    ```
    Create a Python/JS based code to build a calculator 
    ```
+
+      ![](../../media/togchat.png)
 
    ![](../../media/copilot-calculator.png)
 
@@ -298,7 +306,7 @@ En esta tarea, refactorizarás y depurarás códigos de Python mal escritos util
 
 1. Abre el archivo **card_draw.py** haciendo doble clic en él.  
 
-1. Selecciona todo el código, haz clic derecho y haz clic en **Copilot**, luego selecciona **Fix** para depurar el código seleccionado.  
+1. Seleccione el código completo, haga clic derecho y seleccione **Generar código** y luego haga clic en **Reparar** para depurar el código seleccionado.
 
 1. Notarás que GitHub Copilot ha depurado y corregido el código.  
 
@@ -323,10 +331,6 @@ En esta tarea, refactorizarás y depurarás códigos de Python mal escritos util
 
 1. Acepta los cambios, guarda el archivo y ejecuta algunos casos de prueba para verificar que el código depurado por GitHub Copilot funcione como se espera. 
 
-Aquí tienes la traducción al español:  
-
----  
-
 ## Tarea 7: Explorar las Funcionalidades de GitHub Copilot  
 
 En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de un simple script en Python que define una función para calcular el factorial de un número.  
@@ -346,9 +350,9 @@ En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de
 
 1. Selecciona todo el código, haz clic derecho y explora las características de **Copilot**.  
 
-   ![](../../media/CopilotFeaturesupd.png)
+      ![](../../media/explain.png)
 
-1. La funcionalidad **Editor Inline Chat(1)** te permite hacer preguntas o proporcionar comentarios directamente dentro del editor de código mientras usas GitHub Copilot.  
+1. La funcionalidad **Open Inline Chat(1)** te permite hacer preguntas o proporcionar comentarios directamente dentro del editor de código mientras usas GitHub Copilot.  
 
 1. La funcionalidad **Explain (2)** proporciona una explicación detallada de cómo funciona el código y su funcionalidad.  
 
@@ -375,3 +379,11 @@ En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de
 1. GitHub Copilot también te ayuda a estructurar código para un nuevo espacio de trabajo, generar un nuevo cuaderno de Jupyter y varios tipos de documentación como Markdown y Javadoc.  
 
 --- 
+
+### Conclusión
+
+En este desafío, configuró exitosamente GitHub Copilot en Visual Studio Code, configuró los ajustes de la extensión e inició sesión con su cuenta de GitHub. También logró crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las API de OpenWeatherMap. Además, refinó sus habilidades de codificación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
+
+### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+
+   ![](../../media/next-page.png)

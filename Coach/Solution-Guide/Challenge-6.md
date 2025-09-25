@@ -105,4 +105,10 @@ En esta tarea, ejecutará los scripts de administrador de sistemas generados por
 
    ![](../../media/execute-ps-script.png)
 
-   
+### Conclusión
+
+En este desafío, utilizó con éxito GitHub Copilot para generar scripts de monitoreo de administrador de sistemas para máquinas virtuales Linux y Windows, mejoró los scripts utilizando las sugerencias de GitHub Copilot y el chat en línea, y verificó que los scripts generados se ejecutaron correctamente.
+
+### Has completado con éxito el Hackathon.
+
+En este Hackathon GitHub Copilot, exploraste como asistente de codificación impulsado por IA para mejorar la productividad y agilizar el desarrollo. El viaje comenzó con la configuración de Copilot en Visual Studio Code y la experimentación con funciones como autocompletado de código, sugerencias contextuales y generación de código. Los participantes practicaron creando scripts simples de Python y JavaScript y refinando el código usando Copilot Chat. Además, crearon y probaron aplicaciones en C#, integraron codificación colaborativa con Codespaces e implementaron aplicaciones en Azure utilizando plantillas ARM y GitHub Actions. Copilot también admitió documentación, referencias de archivos y generación de scripts de administración del sistema, lo que demuestra su valor durante todo el ciclo de vida del software.

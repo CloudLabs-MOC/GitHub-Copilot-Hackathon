@@ -26,6 +26,8 @@ En esta tarea, utilizará GitHub Copilot para generar documentación en formato 
 
    ![](../../media/backend-requirements-generate-docs.png)
 
+   >**Nota:** Si la opción de copiloto no está allí, seleccione el archivo completo, haga clic derecho y luego seleccione Generar código y luego haga clic en Generar documentos.
+
 1. Observa cómo GitHub Copilot enumera todos los requisitos en el archivo al principio.
 
    ![](../../media/backend-requirements-list.png)
@@ -37,6 +39,8 @@ En esta tarea, utilizará GitHub Copilot para generar documentación en formato 
    ![](../../media/snap.png)
 
    ![](../../media/snap2.png)
+
+   >**Nota:** Si la opción de copiloto no está allí, seleccione el archivo completo, haga clic derecho y seleccione Abrir chat en línea.
 
 1. Observe cómo GitHub Copilot genera comentarios en el código.
 
@@ -58,7 +62,7 @@ En esta tarea, mejorará y refinará su documentación README.md utilizando la f
 
 En esta tarea, explorará los distintos estilos de documentación que puede generar utilizando GitHub Copilot.
 
-1. En VS Code, cree un nuevo archivo, haga clic derecho en cualquier parte del nuevo archivo y seleccione **Copilot** y **Start Inline Chat**.
+1. En su VS Code, cree un nuevo archivo, haga clic derecho en cualquier lugar del nuevo archivo y seleccione **Abrir chat en línea**.
 
 1. Pídale a GitHub Copilot que genere documentación de Markdown para implementar una VNet en Azure y haga clic en **Accept**.
 
@@ -180,21 +184,10 @@ En esta tarea, explorará los distintos estilos de documentación que puede gene
        return a * b * c;
    }
    ```
+### Conclusión
 
+En este desafío, utilizó GitHub Copilot para generar comentarios y documentación de rebajas para la aplicación backend a través de las funciones de GitHub Copilot. También mejoró y refinó la documentación de rebajas recién generada para la aplicación backend a través de las sugerencias de GitHub Copilot. Además, exploró los diversos estilos de documentación que proporciona GitHub Copilot generando documentos de rebajas para implementar una VNet en Azure y un Javadoc para crear una calculadora desde cero.
 
+### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   ![](../../media/next-page.png)
