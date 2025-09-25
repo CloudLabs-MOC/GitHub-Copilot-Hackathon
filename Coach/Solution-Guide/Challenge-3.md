@@ -233,7 +233,6 @@ En esta tarea, generará un pipeline de flujo de trabajo de GitHub Actions media
 
 1. Vuelva a la pestaña **Actions**, notará que el trabajo build se ha reiniciado para su aplicación web después de definir las rutas. Espere a que build en el flujo de trabajo se complete con éxito.
 
-
    ![](../../media/challenge3-github-build-succeed.png)
 
 ## Tarea 3: Conseguir que la aplicación funcione en Azure
