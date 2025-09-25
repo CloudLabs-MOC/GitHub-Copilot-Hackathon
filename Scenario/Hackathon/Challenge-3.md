@@ -117,6 +117,7 @@ Neste desafio, você demonstrou como a IA pode auxiliar significativamente no de
 
 Através deste desafio, você demonstrou à Contoso Ltd. o potencial de integrar a IA ao fluxo de trabalho de desenvolvimento. Você mostrou como o GitHub Copilot pode auxiliar não apenas no desenvolvimento de aplicações, mas também na implantação e gerenciamento de infraestrutura, destacando assim sua versatilidade e valor. Ao implantar com sucesso a aplicação de Banco de Dados de Contatos no Azure e verificar sua funcionalidade, você forneceu uma demonstração tangível dos benefícios da IA no desenvolvimento de software.
 
-### Clique em Avançar >> para prosseguir com o próximo desafio.
+### Clique em Próximo >> para prosseguir para o próximo desafio.
 
 ![](../../media/next-page-p.png)
+
