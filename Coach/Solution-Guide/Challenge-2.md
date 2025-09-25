@@ -42,7 +42,7 @@ En esta tarea, creará y probará una aplicación Contact Database MVC utilizand
 
 1. Espere a que la extensión GitHub Copilot se descargue por completo (esto puede tardar unos minutos) y cierre el panel del Instalador de Visual Studio.
 
-  > **Nota:** Ignore el mensaje de error 'Couldn't install Microsoft.Net.4.8.1.FullRedist', esto no afectará los desafíos.
+    > **Nota:** Ignore el mensaje de error 'Couldn't install Microsoft.Net.4.8.1.FullRedist', esto no afectará los desafíos.
 
 1. Vuelva a iniciar Visual Studio y verifique que GitHub Copilot esté activo. Ahora se puede utilizar la ventana GitHub Copilot Chat.
 
@@ -354,4 +354,5 @@ La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcion
 ### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
    ![](../../media/next-page.png)
+
 
