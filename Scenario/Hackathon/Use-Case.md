@@ -33,4 +33,4 @@ Neste hackathon, você irá interagir com tecnologias de ponta que são cruciais
 
 ## Clique em Próximo >> para prosseguir para o próximo desafio.
 
-![](../../media/next.png)
+![](../../media/next-page-p.png)
