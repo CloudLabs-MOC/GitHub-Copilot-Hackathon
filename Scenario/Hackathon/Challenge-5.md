@@ -71,6 +71,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
 Neste desafio, você utilizou o GitHub Copilot para gerar comentários e documentação em markdown para a aplicação backend através dos recursos do GitHub Copilot. Você também aprimorou e refinou sua documentação em markdown recém-gerada para a aplicação backend através das Sugestões do GitHub Copilot. Além disso, você explorou os vários estilos de documentação que o GitHub Copilot oferece, gerando documentos em markdown para implantar uma VNet no Azure e um Javadoc para criar uma calculadora do zero.
 
-### Clique em Avançar >> para prosseguir com o próximo desafio.
+### Clique em Próximo >> para prosseguir para o próximo desafio..
 
 ![](../../media/next-page-p.png)
+

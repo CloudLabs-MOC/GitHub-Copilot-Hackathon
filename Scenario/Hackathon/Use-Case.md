@@ -30,3 +30,7 @@ Por meio deste hackathon, a Contoso busca aproveitar o poder da inteligência ar
 10. **Implementação de Algoritmos**: O GitHub Copilot pode sugerir implementações para vários algoritmos, poupando aos desenvolvedores o tempo de pesquisar e implementar esses algoritmos por conta própria.
 
 Neste hackathon, você irá interagir com tecnologias de ponta que são cruciais para alcançar a visão da Contoso. Você terá acesso a todas as ferramentas e recursos necessários para realizar efetivamente esses casos de uso.
+
+## Clique em Próximo >> para prosseguir para o próximo desafio.
+
+![](../../media/next-page-p.png)

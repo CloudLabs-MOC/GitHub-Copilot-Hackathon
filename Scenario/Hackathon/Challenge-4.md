@@ -91,6 +91,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 Neste desafio, você obteve uma compreensão mais profunda de como o **Github Copilot Workspace e a Referência a Arquivos** funcionam e como eles podem aprimorar seu processo de codificação. Ao usar eficazmente esses recursos, você pode melhorar significativamente sua eficiência de programação e a qualidade geral do seu código. Seja você um(a) desenvolvedor(a) experiente ou iniciante, esses insights certamente serão valiosos em sua jornada de programação.
 
-### Clique em Avançar >> para prosseguir com o próximo desafio.
+### Clique em Próximo >> para prosseguir para o próximo desafio..
 
 ![](../../media/next-page-p.png)
+

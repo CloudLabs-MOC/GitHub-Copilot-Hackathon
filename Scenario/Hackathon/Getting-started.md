@@ -4,7 +4,7 @@ Bem-vindo(a) ao workshop GitHub Copilot Hackathon! Preparamos um ambiente integr
 
 ## Acessando seu ambiente de laboratório
 
-Quando você estiver pronto para começar, sua máquina virtual e o guia de laboratório estarão ao seu alcance no navegador da web.
+Quando você estiver pronto para começar, a máquina virtual e o **Guia do laboratório** estarão ao seu alcance no navegador da Web..
 
 ![](../../media/new-github-copilot-hack-por-01.png)
 
@@ -32,7 +32,7 @@ Por conveniência, você pode abrir o guia de laboratório em uma janela separad
 
 ## Gerenciando sua máquina virtual
 
-1. Sinta-se à vontade para iniciar, parar ou reiniciar sua máquina virtual conforme necessário, na partir da aba **Recursos**. Sua experiência está em suas mãos!
+1. Sinta-se à vontade para **iniciar, parar ou reiniciar (2)** sua máquina virtual conforme necessário na guia **Recursos (1)**. Sua experiência está em suas mãos!
 
     ![](../../media/PGSS4.png)
 
@@ -46,3 +46,7 @@ A equipe de suporte da CloudLabs está disponível por e-mail e chat ao vivo par
 - Suporte por chat ao vivo: https://cloudlabs.ai/labs-support
 
 Bom aprendizado!
+
+## Agora, clique em Próximo no canto inferior direito para passar para o próximo desafio.
+
+![](../../media/next-page-p.png)

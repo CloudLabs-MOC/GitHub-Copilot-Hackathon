@@ -116,6 +116,7 @@ Neste desafio, você conseguiu desenvolver uma aplicação de Banco de Dados de 
 
 A interação com o Copilot Chat enriqueceu sua colaboração e forneceu recomendações de codificação perspicazes, mostrando como a IA pode ser integrada de forma transparente ao fluxo de trabalho de desenvolvimento. Os casos de teste gerados com a ajuda do GitHub Copilot garantiram a robustez e a confiabilidade da sua aplicação. Suas conquistas neste desafio demonstraram o potencial da IA no desenvolvimento de software e forneceram insights valiosos sobre sua implementação prática. Você mostrou que, com as ferramentas certas, como o GitHub Copilot, o processo de desenvolvimento pode se tornar mais eficiente e produtivo.
 
-### Clique em Avançar >> para prosseguir com o próximo desafio.
+### Clique em Próximo >> para prosseguir para o próximo desafio..
 
 ![](../../media/next-page-p.png)
+
