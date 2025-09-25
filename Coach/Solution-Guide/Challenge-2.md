@@ -48,15 +48,15 @@ En esta tarea, creará y probará una aplicación Contact Database MVC utilizand
 
 1. Una vez que se haya clonado el repositorio, busque y abra el archivo `MyMvcApp.sln` desde el Explorador de Soluciones.
 
-  ![](../../media/MyMvcApp_ss.png)
+    ![](../../media/MyMvcApp_ss.png)
 
 1. Vaya a Extensiones 
 
-  ![](../../media/Extension.png)
+    ![](../../media/Extension.png)
 
 1. Instale **Nuget Gallery** y **C# Dev Kit**
 
-  ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+    ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
 1. Ejecute el siguiente comando en la consola.
 
@@ -247,7 +247,7 @@ Esta tarea se centra en mejorar la aplicación de base de datos de contactos med
 
 ### Utilizar GitHub Copilot Chat para el Desarrollo de Funciones:
   
-   - Haga clic en la opción "Ver" en el panel superior de Visual Studio. De las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
+   1. Haga clic en la opción "Ver" en el panel superior de Visual Studio. De las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
 
         ![](../../media/crud3.5.png)
 
@@ -255,17 +255,17 @@ Esta tarea se centra en mejorar la aplicación de base de datos de contactos med
 
 ### Solicitar a GitHub Copilot Chat la Implementación de Funciones:
    
-    1. Inicie una conversación con GitHub Copilot Chat preguntando "How can we add a search feature/functionality to our application?"
+1. Inicie una conversación con GitHub Copilot Chat preguntando "How can we add a search feature/functionality to our application?"
 
-        ![](../../media/crud4.1.png)
+    ![](../../media/crud4.1.png)
 
-    1. Según la respuesta generada por GitHub Copilot, proceda a implementar el código sugerido.
+1. Según la respuesta generada por GitHub Copilot, proceda a implementar el código sugerido.
   
-    1. En este caso, GitHub Copilot sugirió agregar un nuevo método para aceptar una cadena de búsqueda como parámetro y filtrar la lista de usuarios según la cadena de búsqueda antes de pasarla a la vista.
+1. En este caso, GitHub Copilot sugirió agregar un nuevo método para aceptar una cadena de búsqueda como parámetro y filtrar la lista de usuarios según la cadena de búsqueda antes de pasarla a la vista.
 
-        ![](../../media/crud4.2.png)
+    ![](../../media/crud4.2.png)
   
-    1. Copie y pegue el fragmento de código proporcionado en el archivo `UserController.cs` dentro del método de acción apropiado, generalmente el método `Index`. En este código, si se proporciona una cadena de búsqueda (searchString), la lista de usuarios se filtra para incluir solo los usuarios cuyos nombres contienen la cadena de búsqueda. Si no se proporciona ninguna cadena de búsqueda, se devuelven todos los usuarios.
+1. Copie y pegue el fragmento de código proporcionado en el archivo `UserController.cs` dentro del método de acción apropiado, generalmente el método `Index`. En este código, si se proporciona una cadena de búsqueda (searchString), la lista de usuarios se filtra para incluir solo los usuarios cuyos nombres contienen la cadena de búsqueda. Si no se proporciona ninguna cadena de búsqueda, se devuelven todos los usuarios.
 
         ```
         // GET: User
@@ -281,13 +281,13 @@ Esta tarea se centra en mejorar la aplicación de base de datos de contactos med
         }
         ```
 
-        ![](../../media/crud4.3.png)
+    ![](../../media/crud4.3.png)
 
-   - GitHub Copilot también sugirió modificar el archivo `Index.cshtml` ubicado en la ruta **Views\User\Index.cshtml** a fin de incluir un formulario para la cadena de búsqueda.
+1. GitHub Copilot también sugirió modificar el archivo `Index.cshtml` ubicado en la ruta **Views\User\Index.cshtml** a fin de incluir un formulario para la cadena de búsqueda.
 
-        ![](../../media/crud4.4.png)
+    ![](../../media/crud4.4.png)
 
-   - Copie y pegue el fragmento de código proporcionado en el archivo `Index.cshtml`. Este formulario envía una solicitud GET al método de acción Index, pasando la cadena de búsqueda como un parámetro de cadena de consulta.
+1. Copie y pegue el fragmento de código proporcionado en el archivo `Index.cshtml`. Este formulario envía una solicitud GET al método de acción Index, pasando la cadena de búsqueda como un parámetro de cadena de consulta.
 
         ```
         @using (Html.BeginForm("Index", "User", FormMethod.Get))
@@ -299,29 +299,29 @@ Esta tarea se centra en mejorar la aplicación de base de datos de contactos med
         }
         ```
 
-        ![](../../media/crud4.5.png)
+    ![](../../media/crud4.5.png)
 
 ### Guardar los Cambios y Ejecutar la Aplicación:
 
-    1. Guarde los archivos `UserController.cs` e `Index.cshtml` después de realizar los cambios necesarios.
+1. Guarde los archivos `UserController.cs` e `Index.cshtml` después de realizar los cambios necesarios.
 
-    1. Ejecute la aplicación haciendo clic en el botón IIS Express. Esta acción inicia la aplicación en localhost en un navegador web.
+1. Ejecute la aplicación haciendo clic en el botón IIS Express. Esta acción inicia la aplicación en localhost en un navegador web.
 
-        ![](../../media/crud1.6.png)
+    ![](../../media/crud1.6.png)
 
 ### Probar la Función de Búsqueda:
 
-    1. Agregue un par de entradas de contacto a la aplicación haciendo clic en el botón "Create New" y rellenando los campos Name y Email.
+1. Agregue un par de entradas de contacto a la aplicación haciendo clic en el botón "Create New" y rellenando los campos Name y Email.
 
-        ![](../../media/crud4.6.png)
+    ![](../../media/crud4.6.png)
 
-    1. Una vez que añadidos los contactos, pruebe la funcionalidad de búsqueda escribiendo el nombre de un contacto en el campo de búsqueda previamente añadido. Haga clic en el botón "Search" para ejecutar la búsqueda.
+1. Una vez que añadidos los contactos, pruebe la funcionalidad de búsqueda escribiendo el nombre de un contacto en el campo de búsqueda previamente añadido. Haga clic en el botón "Search" para ejecutar la búsqueda.
 
-        ![](../../media/crud4.7.png)
+    ![](../../media/crud4.7.png)
 
-    1. Si la función se ha implementado correctamente, debería poder ver el contacto buscado en los resultados.
+1. Si la función se ha implementado correctamente, debería poder ver el contacto buscado en los resultados.
 
-        ![](../../media/crud4.8.png)
+    ![](../../media/crud4.8.png)
 
 Siguiendo estos pasos, puede utilizar GitHub Copilot de manera efectiva para implementar y probar nuevas características en su aplicación, mejorando su funcionalidad y usabilidad.
 
