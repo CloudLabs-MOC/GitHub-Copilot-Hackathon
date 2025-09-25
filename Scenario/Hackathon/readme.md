@@ -1,5 +1,7 @@
 # GitHub Copilot Hackathon - Explore o Futuro da Programação com IA
 
+## Duração geral estimada: 8 horas
+
 Bem-vindo(a) ao GitHub Copilot Hackathon! Embarque em uma jornada de programação na qual você irá explorar todo o potencial do GitHub Copilot para revolucionar sua experiência de codificação. Este evento foi criado para uma imersão no mundo inovador da programação assistida por IA, com foco em aproveitar os recursos avançados de geração de código e colaboração do Copilot no Visual Studio Code e no Visual Studio.
 
 ## Introdução
