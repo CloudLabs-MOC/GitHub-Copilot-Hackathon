@@ -61,4 +61,4 @@ Cada desafío incluye su propio conjunto de tareas y objetivos. ¡Siéntase libr
 
 ### Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
 
-    ![](../../media/new-github-copilot-hack-spn-06.png)
+![](../../media/new-github-copilot-hack-spn-06.png)
