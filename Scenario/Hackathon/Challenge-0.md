@@ -117,3 +117,6 @@ Cuando se ha habilitado el acceso a Copilot, se pueden configurar funciones como
 
   >**Nota**: Puede consultar los videos anteriores para ver y aprender, los cuales cubren la Introducción a GitHub Copilot Enterprise y sus características. En este Hackathon, usará GitHub Copilot Business.
 
+### Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
+
+![](../../media/new-github-copilot-hack-spn-06.png)
