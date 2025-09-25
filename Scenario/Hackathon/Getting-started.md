@@ -49,4 +49,4 @@ Bom aprendizado!
 
 ## Agora, clique em Próximo no canto inferior direito para passar para o próximo desafio.
 
-![](../../media/next.png)
+![](../../media/next-page-p.png)
