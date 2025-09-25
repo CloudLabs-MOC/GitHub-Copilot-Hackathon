@@ -149,8 +149,6 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pela CloudLabs:
 
 Neste desafio, você configurou com sucesso o GitHub Copilot no Visual Studio Code, ajustou as configurações da extensão e fez login com sua conta do GitHub. Você também obteve sucesso na criação de código em Python/JS para uma calculadora e um aplicativo para buscar dados meteorológicos das APIs do OpenWeatherMap. Além disso, você aprimorou suas habilidades de codificação ao refatorar trechos de código e depurar com a ajuda do Copilot.
 
-### Clique em Avançar >> para prosseguir com o próximo desafio.
-
+### Clique em Próximo >> para prosseguir para o próximo desafio..
 
 ![](../../media/next-page-p.png)
-
