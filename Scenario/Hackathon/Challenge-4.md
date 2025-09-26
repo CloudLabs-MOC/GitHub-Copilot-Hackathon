@@ -1,6 +1,6 @@
 # Challenge 04: Using GitHub Copilot workspace and file reference
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 90 Minutes
 
 ## Introduction
 
@@ -103,5 +103,6 @@ In this challenge, you have gained a deeper understanding of how **Github Copilo
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
+
 
 
