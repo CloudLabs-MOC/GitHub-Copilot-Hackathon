@@ -372,12 +372,12 @@ En esta tarea, utilizará GitHub Copilot para generar documentación específica
 
    ![](../../media/challenge3-copilot-doc-generate.png)
 
-### Conclusión
+## Conclusión
 
 En este desafío, demostró cómo la IA puede ayudar significativamente en el desarrollo y la implementación de aplicaciones, específicamente mediante el uso de GitHub Copilot. No solo desarrolló una aplicación de base de datos de contactos completamente funcional en el desafío anterior, sino que también la implementó de manera efectiva en Azure utilizando una plantilla ARM generada con la ayuda de GitHub Copilot. Ha utilizado GitHub Copilot para agilizar la creación de la plantilla ARM, que es un poderoso ejemplo de infraestructura como código (IaC), y también ha automatizado el proceso de compilación y prueba de su código mediante la creación de una canalización de GitHub Actions, con GitHub Copilot ayudando a generar los scripts necesarios. Además, ha producido documentación completa y precisa para este desafío, que sirve como una guía valiosa para proyectos futuros.
 
 A través de este desafío, le mostró a Contoso Ltd. el potencial de integrar la IA en el flujo de trabajo de desarrollo. Ha demostrado cómo GitHub Copilot puede ayudar no solo al desarrollo de aplicaciones sino también a la implementación y administración de infraestructura, destacando así su versatilidad y valor. Al implementar con éxito la aplicación Contact Database en Azure y verificar su funcionalidad, proporcionó una demostración tangible de los beneficios de la IA en el desarrollo de software.
 
-### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+## Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-   ![](../../media/next-page.png)
+![](../../media/spnext.png)
