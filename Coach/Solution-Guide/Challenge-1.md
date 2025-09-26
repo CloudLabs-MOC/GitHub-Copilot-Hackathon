@@ -414,4 +414,4 @@ In this challenge, you successfully set up GitHub Copilot in Visual Studio Code,
 
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
-   ![](../../media/next-page.png)
+   ![](../../media/solnext.png)
