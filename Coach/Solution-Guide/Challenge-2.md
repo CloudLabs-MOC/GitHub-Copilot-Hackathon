@@ -351,8 +351,6 @@ En este desafío, logró desarrollar una aplicación de base de datos de contact
 
 La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcionado recomendaciones de codificación interesantes, mostrando cómo la IA se puede integrar perfectamente en el flujo de trabajo de desarrollo. Los casos de prueba generados con la ayuda de GitHub Copilot han garantizado la solidez y confiabilidad de su aplicación. Sus logros en este desafío han demostrado el potencial de la IA en el desarrollo de software y han proporcionado información valiosa sobre su implementación práctica. Ha demostrado que con las herramientas adecuadas, como GitHub Copilot, el proceso de desarrollo puede volverse más eficiente y productivo.
 
-### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+## Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-   ![](../../media/next-page.png)
-
-
+![](../../media/spnext.png)
