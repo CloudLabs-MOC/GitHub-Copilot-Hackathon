@@ -2,7 +2,7 @@
 
 >**Note:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
 
-### Task 1: Utilizing the GitHub Copilot Workspace
+## Task 1: Utilizing the GitHub Copilot Workspace
 
 In this task, you will be utilizing the GitHub Copilot Workspace to enhance coding efficiency by providing contextually relevant code suggestions.
 
@@ -58,7 +58,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
     @workspace How can I handle form submissions in ASP.NET MVC?
     ```
     
-### Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
+## Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the steps below:
 
@@ -134,7 +134,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/app-working.png)
 
-### Task 3: Utilize the Capabilities of File Referencing
+## Task 3: Utilize the Capabilities of File Referencing
 
 **File Referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
 
@@ -208,6 +208,6 @@ To do so, follow the steps below:
 
 In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
 
-### Click on Next >> to proceed with the next challenge.
+## Now, click on Next from the lower right corner to move on to the next challenge.
 
-   ![](../../media/next-page.png)
+![](../../media/solnext.png)

@@ -1,6 +1,6 @@
 # Challenge 04: Using GitHub Copilot workspace and file reference
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 90 Minutes
 
 ## Introduction
 
@@ -100,8 +100,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
 
-### Now, click on Next from the lower right corner to move on to the next challenge.
+## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
-   ![](../../media/next-page.png)
-
-
+![](../../media/next-page.png)

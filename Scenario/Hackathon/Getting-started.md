@@ -4,7 +4,7 @@ Welcome to your GitHub Copilot Hackathon Workshop! We've prepared a seamless env
 
 ## Accessing Your Lab Environment
 
-Once you're ready to dive in, your virtual machine and lab **guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and lab **Guide** will be right at your fingertips within your web browser.
 
 ![](../../media/GSS1.png)
 
@@ -38,10 +38,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ## Managing Your Virtual Machine
 
-1. Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-    ![](../../media/resourcetab.png)
-
+![](../../media/resourcetab.png)
 
 Now you're all set to explore the powerful world of technology.  
 

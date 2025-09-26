@@ -1,6 +1,6 @@
 # Challenge 01: Getting Started with GitHub Copilot
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 70 Minutes
 
 ## Introduction
 
@@ -86,7 +86,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
       - Open Visual Studio Code and create a new file named hello.py.
 
-
    - Utilising GitHub Copilot:
    
      - Press Ctrl + I to prompt GitHub Copilot for code suggestions.
@@ -159,10 +158,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [GitHub Copilot Documentation](https://github.com/github/copilot-docs)
 - [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)
 
-### Conclusion
+## Conclusion
 
 In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You were also successful in creating Python/JS code for a calculator and an app to fetch weather data from OpenWeatherMap APIs. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance.
 
-### Now, click on Next from the lower right corner to move on to the next challenge.
+## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
 ![](../../media/next-page.png)

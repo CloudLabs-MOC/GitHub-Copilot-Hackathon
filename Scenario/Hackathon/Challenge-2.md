@@ -1,6 +1,6 @@
 # Challenge 02: Develop an App with GitHub Copilot
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 90 Minutes
   
 ## Introduction  
 
@@ -112,9 +112,6 @@ You've successfully navigated through the development process, from generating c
 
 The engagement with Copilot Chat has enriched your collaboration and provided insightful coding recommendations, showcasing how AI can be seamlessly integrated into the development workflow. The test cases generated with GitHub Copilot's assistance have ensured the robustness and reliability of your application. Your achievements in this challenge have demonstrated the potential of AI in software development and provided valuable insights into its practical implementation. You've shown that with the right tools, such as GitHub Copilot, the development process can be made more efficient and productive.
   
-### Now, click on Next from the lower right corner to move on to the next challenge.
+## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
 ![](../../media/next-page.png)
-
-
-

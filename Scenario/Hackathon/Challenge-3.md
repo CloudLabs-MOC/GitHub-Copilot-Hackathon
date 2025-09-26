@@ -1,6 +1,6 @@
 # Challenge 03: Deploy the App to Azure
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 90 Minutes
 
 ## Introduction
 
@@ -109,9 +109,6 @@ In this challenge,  you've demonstrated how AI can significantly aid in the deve
 
 Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
 
-### Now, click on Next from the lower right corner to move on to the next challenge.
+## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
-   ![](../../media/next-page.png)
-
-
-
+![](../../media/next-page.png)
