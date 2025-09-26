@@ -187,4 +187,4 @@ In this challenge, you've utilized GitHub Copilot to generate comments and markd
 
 ## Now, click on Next from the lower right corner to move on to the next challenge.
 
-![](../../media/next-page.png)
+![](../../media/solnext.png)
