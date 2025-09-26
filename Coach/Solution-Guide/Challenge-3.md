@@ -182,20 +182,20 @@ En esta tarea, generará una plantilla ARM para desplegar una aplicación web en
 
 En esta tarea, generará un pipeline de flujo de trabajo de GitHub Actions mediante el Centro de Implementación desde la Aplicación Web en el portal de Azure.
 
-1. Navegue hasta su recurso de servicio de aplicación web y, en la configuración de **Implementación**, seleccione **Centro de Implementación**.
+1. Navegue hasta su recurso de servicio de aplicación web y, en la configuración de **Implementación (1)**, seleccione **Centro de Implementación (2)**.
 
    ![](../../media/challenge3-deployment-center.png)
 
-1. Especifique las siguientes configuraciones para generar un archivo YAML de flujo de trabajo de GitHub Action y haga clic en **Guardar**:
+1. Especifique las siguientes configuraciones para generar un archivo YAML de flujo de trabajo de GitHub Action y haga clic en **Guardar** (8):
 
-   * **Origen**: GitHub
-   * **Sesión iniciada como**: Su Cuenta de GitHub
-   * **Organización**: Su Organización de GitHub
-   * **Repositorio**: Su Repositorio de Github (**MyMvcApp-Contact-Database-Application**)
-   * **Rama**: Su Rama de Repositorio de GitHub Repository
+   * **Origen**: GitHub (1)
+   * **Sesión iniciada como**: Su Cuenta de GitHub (2)
+   * **Organización**: Su Organización de GitHub ()3
+   * **Repositorio**: Su Repositorio de Github  (**MyMvcApp-Contact-Database-Application**) (4)
+   * **Rama**: Su Rama de Repositorio de GitHub Repository (5)
    * **Pila del entorno en tiempo de ejecución**: .NET
-   * **Versión**: v8.0
-   * **Tipo de autenticación**: Autenticación básica
+   * **Versión**: v8.0 (6)
+   * **Tipo de autenticación**: Autenticación básica (7)
   
    ![](../../media/challenge3-deployment-center-01.png)
 
