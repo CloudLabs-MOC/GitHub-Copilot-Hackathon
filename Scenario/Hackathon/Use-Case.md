@@ -21,6 +21,6 @@ Through this hackathon, Contoso aims to leverage the power of AI in coding to im
 
 In this hackathon, you will interact with cutting-edge technologies crucial for achieving Contoso's vision. You will have access to all the necessary tools and resources to effectively realize these use cases.
 
-### Now, click on Next from the lower right corner to move on to the next challenge.
+## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
-![](../../media/next-page.png)
+   ![](../../media/next-page.png)
