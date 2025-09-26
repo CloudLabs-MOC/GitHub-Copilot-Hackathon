@@ -1,6 +1,6 @@
 # Challenge 02: Develop an App with GitHub Copilot
 
-### Estimated Time: 90 Minutes
+### Estimated Duration: 90 Minutes
   
 ## Introduction  
 
@@ -115,6 +115,7 @@ The engagement with Copilot Chat has enriched your collaboration and provided in
 ### Now, click on Next from the lower right corner to move on to the next challenge.
 
 ![](../../media/next-page.png)
+
 
 
 
