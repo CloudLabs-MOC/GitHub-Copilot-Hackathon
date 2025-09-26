@@ -203,7 +203,7 @@ En esta tarea, creará un código Python/JS para construir una calculadora y usa
 
    ![](../../media/weather-api-keys.png)
 
-1. Abra la ventana de chat de GitHub Copilot y solicite a GitHub Copilot que cree una aplicación basada en Python/JS para obtener datos meteorológicos de las APIs de clima.
+1. Abra la ventana de chat de GitHub Copilot seleccionando el menú desplegable Alternar chat (1) y seleccione Abrir chat (2) y solicite a GitHub Copilot que cree un código Python/JS para construir una calculadora usando el siguiente mensaje.
 
    ```
    Create a Python/JS based app to get weather data from weather APIs
@@ -386,4 +386,4 @@ En este desafío, configuró exitosamente GitHub Copilot en Visual Studio Code, 
 
 ### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-   ![](../../media/next-page.png)
+   ![](../../media/spnext.png)
