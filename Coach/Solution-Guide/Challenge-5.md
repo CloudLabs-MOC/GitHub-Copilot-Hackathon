@@ -185,7 +185,7 @@ En esta tarea, explorará los distintos estilos de documentación que puede gene
    }
    ```
 
-### Conclusión
+## Conclusión
 
 En este desafío, utilizó GitHub Copilot para generar comentarios y documentación de rebajas para la aplicación backend a través de las funciones de GitHub Copilot. También mejoró y refinó la documentación de rebajas recién generada para la aplicación backend a través de las sugerencias de GitHub Copilot. Además, exploró los diversos estilos de documentación que proporciona GitHub Copilot generando documentos de rebajas para implementar una VNet en Azure y un Javadoc para crear una calculadora desde cero.
 
