@@ -86,7 +86,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
       - Open Visual Studio Code and create a new file named hello.py.
 
-
    - Utilising GitHub Copilot:
    
      - Press Ctrl + I to prompt GitHub Copilot for code suggestions.
