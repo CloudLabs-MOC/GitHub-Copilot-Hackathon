@@ -182,20 +182,20 @@ En esta tarea, generará una plantilla ARM para desplegar una aplicación web en
 
 En esta tarea, generará un pipeline de flujo de trabajo de GitHub Actions mediante el Centro de Implementación desde la Aplicación Web en el portal de Azure.
 
-1. Navegue hasta su recurso de servicio de aplicación web y, en la configuración de **Implementación**, seleccione **Centro de Implementación**.
+1. Navegue hasta su recurso de servicio de aplicación web y, en la configuración de **Implementación (1)**, seleccione **Centro de Implementación (2)**.
 
    ![](../../media/challenge3-deployment-center.png)
 
-1. Especifique las siguientes configuraciones para generar un archivo YAML de flujo de trabajo de GitHub Action y haga clic en **Guardar**:
+1. Especifique las siguientes configuraciones para generar un archivo YAML de flujo de trabajo de GitHub Action y haga clic en **Guardar** (8):
 
-   * **Origen**: GitHub
-   * **Sesión iniciada como**: Su Cuenta de GitHub
-   * **Organización**: Su Organización de GitHub
-   * **Repositorio**: Su Repositorio de Github (**MyMvcApp-Contact-Database-Application**)
-   * **Rama**: Su Rama de Repositorio de GitHub Repository
+   * **Origen**: GitHub (1)
+   * **Sesión iniciada como**: Su Cuenta de GitHub (2)
+   * **Organización**: Su Organización de GitHub ()3
+   * **Repositorio**: Su Repositorio de Github  (**MyMvcApp-Contact-Database-Application**) (4)
+   * **Rama**: Su Rama de Repositorio de GitHub Repository (5)
    * **Pila del entorno en tiempo de ejecución**: .NET
-   * **Versión**: v8.0
-   * **Tipo de autenticación**: Autenticación básica
+   * **Versión**: v8.0 (6)
+   * **Tipo de autenticación**: Autenticación básica (7)
   
    ![](../../media/challenge3-deployment-center-01.png)
 
@@ -232,7 +232,6 @@ En esta tarea, generará un pipeline de flujo de trabajo de GitHub Actions media
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
 1. Vuelva a la pestaña **Actions**, notará que el trabajo build se ha reiniciado para su aplicación web después de definir las rutas. Espere a que build en el flujo de trabajo se complete con éxito.
-
 
    ![](../../media/challenge3-github-build-succeed.png)
 
@@ -373,12 +372,12 @@ En esta tarea, utilizará GitHub Copilot para generar documentación específica
 
    ![](../../media/challenge3-copilot-doc-generate.png)
 
-### Conclusión
+## Conclusión
 
 En este desafío, demostró cómo la IA puede ayudar significativamente en el desarrollo y la implementación de aplicaciones, específicamente mediante el uso de GitHub Copilot. No solo desarrolló una aplicación de base de datos de contactos completamente funcional en el desafío anterior, sino que también la implementó de manera efectiva en Azure utilizando una plantilla ARM generada con la ayuda de GitHub Copilot. Ha utilizado GitHub Copilot para agilizar la creación de la plantilla ARM, que es un poderoso ejemplo de infraestructura como código (IaC), y también ha automatizado el proceso de compilación y prueba de su código mediante la creación de una canalización de GitHub Actions, con GitHub Copilot ayudando a generar los scripts necesarios. Además, ha producido documentación completa y precisa para este desafío, que sirve como una guía valiosa para proyectos futuros.
 
 A través de este desafío, le mostró a Contoso Ltd. el potencial de integrar la IA en el flujo de trabajo de desarrollo. Ha demostrado cómo GitHub Copilot puede ayudar no solo al desarrollo de aplicaciones sino también a la implementación y administración de infraestructura, destacando así su versatilidad y valor. Al implementar con éxito la aplicación Contact Database en Azure y verificar su funcionalidad, proporcionó una demostración tangible de los beneficios de la IA en el desarrollo de software.
 
-### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+## Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-   ![](../../media/next-page.png)
+![](../../media/spnext.png)

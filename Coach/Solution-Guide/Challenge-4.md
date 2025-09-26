@@ -202,10 +202,10 @@ Para ello, siga los pasos a continuación:
 
     ![](../../media/app-working-date.png)
 
-### Conclusión
+## Conclusión
 
 En este desafío, ha adquirido una comprensión más profunda de cómo funcionan Github Copilot Workspace y File Referencing y cómo pueden mejorar su proceso de codificación. Al utilizar estas funciones de forma eficaz, puede mejorar significativamente la eficiencia de su codificación y la calidad general de su código. Ya sea que sea un desarrollador experimentado o un principiante, estos conocimientos seguramente serán valiosos en su viaje a la codificación.
 
-### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+## Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
-   ![](../../media/next-page.png)
+![](../../media/spnext.png)

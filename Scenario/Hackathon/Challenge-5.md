@@ -63,3 +63,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Conclusión
 
 En este desafío, ha utilizado GitHub Copilot para generar comentarios y documentación de Markdown para la aplicación de backend mediante las funciones de GitHub Copilot. También ha mejorado y refinado la documentación de Markdown recién generada para la aplicación de backend mediante GitHub Copilot Suggestions. Además, ha explorado los distintos estilos de documentación que ofrece GitHub Copilot al generar documentos Markdown para implementar una VNet en Azure y un Javadoc para crear una calculadora desde cero.
+
+### Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
+
+![](../../media/new-github-copilot-hack-spn-06.png)

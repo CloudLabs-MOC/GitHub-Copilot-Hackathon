@@ -122,3 +122,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ### Conclusión
 
 En este desafío, ha configurado con éxito GitHub Copilot en Visual Studio Code, ha configurado los ajustes de la extensión y ha iniciado sesión con su cuenta de GitHub. También ha logrado crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las APIs de OpenWeatherMap. Además, ha perfeccionado sus habilidades de programación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
+
+### Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
+
+![](../../media/new-github-copilot-hack-spn-06.png)
