@@ -380,10 +380,10 @@ En esta tarea, explorarás varias funcionalidades de GitHub Copilot a través de
 
 --- 
 
-### Conclusión
+##s Conclusión
 
 En este desafío, configuró exitosamente GitHub Copilot en Visual Studio Code, configuró los ajustes de la extensión e inició sesión con su cuenta de GitHub. También logró crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las API de OpenWeatherMap. Además, refinó sus habilidades de codificación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
 
-### Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
+## Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar al siguiente desafío.
 
    ![](../../media/spnext.png)
