@@ -103,7 +103,4 @@ In this challenge, you have gained a deeper understanding of how **Github Copilo
 ## Now, click on Next >> from the lower right corner to move on to the next challenge.
 
    ![](../../media/next-page.png)
-
-
-
-
+   
