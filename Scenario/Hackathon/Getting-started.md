@@ -32,11 +32,11 @@ Para su comodidad, puede abrir la guía de laboratorio en una ventana separada s
 
 ## Administrar su máquina virtual
 
-1. No dude en iniciar, detener o reiniciar su máquina virtual según sea necesario desde la pestaña **Recursos**. ¡Tu experiencia está en tus manos!
+No dude en iniciar, detener o reiniciar su máquina virtual según sea necesario desde la pestaña **Recursos**. ¡Tu experiencia está en tus manos!
 
     ![](../../media/new-github-copilot-hack-spn-04.png)
 
-1. Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
+Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
 
     ![](../../media/new-github-copilot-hack-spn-06.png)
 
