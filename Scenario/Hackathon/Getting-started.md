@@ -34,10 +34,10 @@ Para su comodidad, puede abrir la guía de laboratorio en una ventana separada s
 
 No dude en iniciar, detener o reiniciar su máquina virtual según sea necesario desde la pestaña **Recursos**. ¡Tu experiencia está en tus manos!
 
-    ![](../../media/new-github-copilot-hack-spn-04.png)
+![](../../media/new-github-copilot-hack-spn-04.png)
 
 Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
 
-    ![](../../media/new-github-copilot-hack-spn-06.png)
+![](../../media/new-github-copilot-hack-spn-06.png)
 
 Ahora ya está todo listo para explorar el poderoso mundo de la tecnología. No dude en comunicarse si tiene alguna pregunta en el camino. ¡Disfruta de tu taller!
