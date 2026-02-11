@@ -6,7 +6,7 @@ Welcome to your GitHub Copilot Hackathon Workshop! We've prepared a seamless env
 
 Once you're ready to dive in, your virtual machine and lab **Guide** will be right at your fingertips within your web browser.
 
-![](../../media/GSS1.png)
+![](../../media/GS-Guide-01.png)
 
 ## Virtual Machine & Lab Guide
 
