@@ -50,7 +50,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="c7f107a0-97a2-4442-9cef-b14297fd5b7a" />
 
-  >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+  >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
 
 2. **Generate unit test case scripts and validate them**:
 
@@ -104,7 +104,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
   
 ### Challenge Validation
 
-Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format for the **Validate the cloned Repo** validation step.
+Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format for the **Validate the cloned Repo** validation step.
 
 ## Conclusion  
 In this challenge, you've managed to develop a fully functional Contact Database application predominantly with the assistance of GitHub Copilot, demonstrating its practical usefulness in a real-world software development scenario.

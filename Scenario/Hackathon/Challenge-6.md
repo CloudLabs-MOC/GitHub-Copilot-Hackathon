@@ -32,9 +32,9 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 3. **Refactor or debug the generated scripts:**
 
-   - Apply Copilot's suggestions for code refactoring, leading to improved readability and maintainability of the scripts.
+   - Apply Copilot's **Refactor** feature for code refactoring, leading to improved readability and maintainability of the scripts.
 
-   - Effectively use Copilot's debugging support to identify and resolve any issues present in the generated scripts.
+   - Effectively use Copilot's **Inline Chat** feature to identify and resolve any issues present in the generated scripts.
 
 5. **Execute the scripts:**
 
