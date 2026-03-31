@@ -52,7 +52,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. **Setup GitHub Copilot in VS Code:**
    
-   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **Install**.
+   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot Chat** and click on **Install**.
      
    - Configure the extension settings to suit your preferences.
 
@@ -88,9 +88,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Utilising GitHub Copilot:
    
-     - Press Ctrl + I to prompt GitHub Copilot for code suggestions.
+     - Press Ctrl + Alt + I to open GitHub Copilot Chat.
 
-     - In the Copilot mini window, type "Generate a basic Hello World program in Python".
+     - In the Copilot Chat window, type "Generate a basic Hello World program in Python".
      
      - Review the generated code, which should look like: 
 
@@ -99,8 +99,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
          ```
 
      - Click Accept to insert the code into your file.
-
-         > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
 
@@ -127,6 +125,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
+        >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
+
 6. **Code Refactoring & Debugging:**
       
       - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
@@ -141,8 +141,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
 
       - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
-
-        >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
 ## Success Criteria:
 

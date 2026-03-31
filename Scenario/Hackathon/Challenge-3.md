@@ -71,7 +71,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-   >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task. 
+   >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task. 
 
 3. **Get the app working on Azure:**
 
@@ -83,7 +83,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 4. **Generate documentation with Copilot for the app:**
 
-      - Use GitHub Copilot to assist you in generating detailed and accurate documentation specifically for this challenge.
+      - Use GitHub Copilot Chat to assist you in generating detailed and accurate documentation specifically for this challenge.
 
       - Create an MD file in your **MyMvcApp-Contact-Database-Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
 

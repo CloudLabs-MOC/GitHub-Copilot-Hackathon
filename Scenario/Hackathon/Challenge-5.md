@@ -27,41 +27,39 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
      >**Hint:** Use **@workspace** file reference to generate a README.md file for the *app/backend* directory.
 
-   - Make use of the GitHub Copilot **Generate Docs** feature to list out the requirements in the ***app/backend/requirements.txt*** file.
+   - Make use of the GitHub Copilot Chat to list out the requirements in the ***app/backend/requirements.txt*** file.
 
-   - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot **Start in Editor** feature.
+   - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot **Open Inline Chat** feature.
      
-     >**Hint:** Access the GitHub Copilot Start in Editor feature by **Ctrl+I** shortcut in your VS Code.
+     >**Hint:** Access the GitHub Copilot Inline Chat feature by **Ctrl + I** shortcut in your VS Code.
 
     <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
 
-    
-      
-    >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+    >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
 
 2. **Enhance and refine documentation:**
 
-      - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
+      - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Chat.
 
-        >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
+        >**Hint:** Access the GitHub Copilot Inline Chat feature by **Ctrl + I** shortcut in your VS Code.
 
       - Use the appropriate suggestions, which will refine the documentation.
 
     <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
     
-    >**Note:** Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format while validating the task.
+    >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
 
 3. **Explore Various Documentation Styles:**
 
-      - Utilize GitHub Copilot to generate a Javadoc to create a calculator.
+      - Utilize GitHub Copilot Chat to generate a Javadoc to create a calculator.
 
-      - Make use of GitHub Copilot to generate markdown documentation to deploy a VNet in Azure.
+      - Make use of GitHub Copilot Chat to generate markdown documentation to deploy a VNet in Azure.
 
 ## Success Criteria:
 
 - Verify that the markdown documentation for the backend app is generated successfully using GitHub Copilot chat.
-- Verify that the requirements needed for the backend app are listed at the beginning of the *app/backend/requirements.txt* file by using the GitHub Copilot Generate Docs feature.
+- Verify that the requirements needed for the backend app are listed at the beginning of the *app/backend/requirements.txt* file by using the GitHub Copilot Chat feature.
 - Verify that the comments are generated for the *app/backend/approaches/approach.py* file through GitHub Copilot Start in Editor feature.
 - Make sure that the README.md documentation is enhanced and refined through GitHub Copilot Suggestions.
 - Explore the various documentation styles that GitHub Copilot provides.
