@@ -10,9 +10,9 @@ As a software developer at **Contoso Ltd.**, a leading software development comp
 
 Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletion tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
 
-You will experiment with **GitHub Copilot** in various coding scenarios, such as creating a Python/JavaScript-based calculator and an application that fetches weather data from APIs. You will also leverage GitHub Copilot to refactor given code snippets and debug intentionally flawed code, thereby understanding the process of code improvement and effective debugging. Moreover, you will explore the integration of **GitHub Copilot** with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This will allow you to understand how Copilot can be utilized in a collaborative coding environment, enabling teams to work seamlessly on projects regardless of geographical boundaries.
+You will experiment with **GitHub Copilot** in various coding scenarios, such as creating a Python/JavaScript-based calculator and an application that fetches weather data from APIs. You will also leverage GitHub Copilot to refactor given code snippets and debug intentionally flawed code, thereby understanding the process of code improvement and effective debugging.
 
-In this challenge series, you'll dive into **GitHub Copilot's** capabilities, starting with the setup and exploration of its features. From collaborative coding with GitHub Codespaces to experimenting with Copilot's suggestions and creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant. By the end of this challenge, you aim to demonstrate how **GitHub Copilot** can be effectively used to enhance coding productivity, improve code quality, and streamline the software development process at **Contoso Ltd**.
+In this challenge series, you'll dive into **GitHub Copilot's** capabilities, starting with the setup and exploration of its features, creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant. By the end of this challenge, you aim to demonstrate how **GitHub Copilot** can be effectively used to enhance coding productivity, improve code quality, and streamline the software development process at **Contoso Ltd**.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
-- Python and NodeJs modules are installed in your Lab-VM in the directory **C:\Program Files**.
+- Python and NodeJs modules are installed in your Lab-VM.
 
 ## Login to GitHub
 
@@ -36,77 +36,100 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** in the input field, and click on **Sign in with your identity provider** **(2)**.
 
-   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-   
-   ![](../../media/CH1S3.png)
-          
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the github credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+    - Email/Username: <inject key="GitHub User Name" enableCopy="true"/> **(1)**
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+      ![](../../media/new/23-7-25-g1.png)
 
-   ![](../../media/CHS4.png)
+1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+
+   ![](../../media/new/23-7-25-g2.png)
+
+1. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials and click **Next (2)**.
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
+
+     ![Enter Your Username](../../media/new/email.png)
+
+1. Next, provide your Temporary Password and click on **Sign in (2)**
+
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
+
+     ![Enter Your Password](../../media/new/pass.png)
+
+1. On the **Permissions requested by:** tab, click on **Accept**.
+
+   ![Enter Your Password](../../media/new/permissions-requested-by-accept.png)
+
+1. On the **Stay Signed in?** pop-up, click on No.
+
+   ![](../../media/new/stay.png)
+
+1. When the **Get started with Copilot** pop-up appears, close the window to continue.
+
+   ![](../../media/new/get-started-with-copilot-close.png)
+
+1. You are now successfully logged in to **GitHub** and have been redirected to the **GitHub homepage**.
+
+   ![](../../media/new/home.png)
 
 ## Challenge Objectives:
 
-1. **Setup GitHub Copilot in VS Code:**
+1. **Login to GitHub Copilot in VS Code:**
    
-   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot Chat** and click on **Install**.
-     
-   - Configure the extension settings to suit your preferences.
+   - Open the **Visual Studio Code** shortcut from the desktop of your **Lab VM**.
 
-      <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
+     ![](../../media/new/vs-code-desktop.png)
 
-2. **Login with a GitHub account:**
-   
-      - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
+   - Once VS Code opens, you will see a prompt to sign in to GitHub. Click 
 
-      - On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
+     ![](../../media/new/continue-with-github.png)
 
-      - To verify your GitHub account login, sign in to **Outlook** in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
+   - Now, in the browser, click on **Continue** to Authorize Visual Studio Code. 
 
-      - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
+     ![](../../media/new/21.png)
 
+   - On the next window, click on **Authorize Visual-Studio-Code**.
 
-3. **Using GitHub Codespaces with Copilot:**
+     ![](../../media/new/22a.png)
 
-      - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
+   - You will see a pop-up asking **This site is trying to open Visual Studio Code**. Enable the **CheckBox** (1) and then click on **Open** (2). It will take you to VS Code. 
 
-      - Clone the above forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
+     ![](../../media/new/auth-vs-code-open.png)
 
-      - Understand how Copilot can be utilized in a collaborative coding environment.
-
-      - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
-
-
-4. **Copilot Function Test:**
+2. **Copilot Function Test:**
      
    - Create a New Python File:
      
-      - Open Visual Studio Code and create a new file named hello.py.
+      - In Visual Studio Code and create a new file named **hello.py**.
 
-   - Utilising GitHub Copilot:
-   
-     - Press Ctrl + Alt + I to open GitHub Copilot Chat.
+   - Use GitHub Copilot:
 
-     - In the Copilot Chat window, type "Generate a basic Hello World program in Python".
+     - In the Copilot Chat window, using either **Ask** or **Agent** mode, enter the following prompt:
+    
+       ```
+       Generate a basic Hello World program in Python
+       ```
      
-     - Review the generated code, which should look like: 
+     - Review the generated code, which should resemble the following:
 
          ```
          print("Hello, World!")
          ```
 
-     - Click Accept to insert the code into your file.
+     - Run the Python file using either the Command Prompt or Visual Studio Code to verify Copilot functionality.
 
-5. **Code Generation with Copilot and Copilot Chat:**
+3. **Code Generation with Copilot and Copilot Chat:**
 
       - Create Python/JS-based code to build a calculator.
 
-         - Utilize GitHub Copilot to assist in generating the code. Start by typing a comment like `# Create a basic calculator` to prompt Copilot to suggest code snippets. 
+         - Utilize GitHub Copilot Chat to assist in generating the code. Start by typing the prompt like:
+           ```
+           Create a basic calculator in Python/JS (your preferred programming language)
+           ```
          - Implement various mathematical operations, such as addition, subtraction, multiplication, and division, as well as user interactions to take input and display results.
-         - Once you’ve written the code, save the file as ***calculator.py*** if you’re using Python, or ***calculator.js*** if you’re using JavaScript, and push it to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
+         - Once you’ve written the code, save the file as ***calculator.py*** (if you’re using Python), or ***calculator.js*** (if you’re using JavaScript).
          - Feel free to experiment with additional features, like handling multiple calculations or improving the user interface.
 
       - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
@@ -115,41 +138,91 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
            >**NOTE:** If you are already registered for an OpenWeatherMap account, kindly continue to use the same account.
 
-         - Use GitHub Copilot to generate code that connects to the OpenWeatherMap API. Begin by writing a comment like # Fetch weather data from OpenWeatherMap API, which will help Copilot understand your goal and provide relevant code snippets.
+         - Use GitHub Copilot Chat to generate code that connects to the OpenWeatherMap API. Start by typing the prompt like:
+           ```
+           Create a Python/JS-based app to get weather data from OpenWeatherMap APIs
+           ```
 
          - Ensure that the code includes functionality for making API requests and processing the retrieved data to display weather information like temperature, humidity, and weather conditions.
 
-         - Save this file as ***weather_script.py*** for Python or ***weather_script.js*** for JavaScript, and push it to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
+         - Save this file as ***weather_script.py*** (for Python) or ***weather_script.js*** (for JavaScript).
 
          - Test the app by entering different locations to see how it retrieves and presents weather data.
 
-      <validation step="b5244888-2b42-4686-b326-465182a86561" />
-
-        >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
-
-6. **Code Refactoring & Debugging:**
+4. **Code Refactoring & Debugging:**
       
-      - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
+      - Refactor the below poorly written `sum_elements.py` code using Copilot, understanding the process of code improvement.
 
-        >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
+        ```
+        #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
 
-      - Debug the `card_draw.py` code effectively from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository with Copilot's assistance, addressing and fixing identified issues. 
+        MAX = 100
 
-        >**Hint:** Utilize GitHub Copilot's **Fix** feature.
+        def calculate_sum(arr):
+           return sum(arr)
 
-7. **Explore GitHub Copilot Features:**
+        def main():
+           try:
+              n = int(input("Enter the number of elements (1-100): "))
+              if not 1 <= n <= MAX:
+                 print("Invalid input. Please provide a digit ranging from 1 to 100.")
+                 exit(1)
+
+              arr = []
+
+              print(f"Enter {n} integers:")
+              for _ in range(n):
+                 try:
+                    arr.append(int(input()))
+                 except ValueError:
+                    print("Invalid input. Please enter valid integers.")
+                    exit(1)
+
+              total = calculate_sum(arr)
+
+              print("Sum of the numbers:", total)
+
+           except KeyboardInterrupt:
+              print("\nProgram terminated by user.")
+              exit(1)
+
+        if __name__ == "__main__":
+           main()
+        ```
+
+      - Debug the below intentionally bugged Python `card_draw.py` code effectively with Copilot, addressing and fixing identified issues. 
+
+        ```
+        # Intentionally flawed Python program
+
+        # importing modules
+        import itertools, random
+
+        # make a deck of cards
+        deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+
+        # shuffle the cards
+        random.shuffle(deck)
+
+        # draw five cards
+        print("You got:")
+        for i in range(5)
+           print(deck[i][0], "of", deck[i][1]
+        ```
+
+4. **Explore GitHub Copilot Features:**
+   
       - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
 
       - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
 
 ## Success Criteria:
 
-- Verify that GitHub Copilot is successfully installed and configured in Visual Studio Code and logged in.
-- Successfully explored GitHub Codespaces integration and understood its collaboration features.
+- Successfully logged into GitHub Copilot in Visual Studio Code.
 - Successfully tried out Copilot in coding scenarios, experiencing its code generation capabilities.
 - Verify that Python/JS code for a calculator and an app to get weather data using Copilot were created and run successfully.
 - Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
-- Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
+- Verify that a piece of code with intentional errors is fixed successfully using Copilot.
 
 ## Additional Resources:
 
