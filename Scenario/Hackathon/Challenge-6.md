@@ -18,15 +18,16 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
-- A **Linux VM** to execute the bash scripts and a **Windows VM** running (use your Windows Lab-VM to execute the PowerShell scripts).
+- A **Windows VM** running (use your Windows Lab-VM to execute the PowerShell scripts).
 
 ## Challenge Objectives:
 
 1. **Generate Sysadmin scripts:**
 
-   - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and memory usage for a Linux VM.
+   - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and memory usage for a Windows VM.
 
    - Generate a sysadmin monitoring PowerShell script using GitHub Copilot for disk usage for a Windows VM.
+
      >**Hint:** Utilize GitHub Copilot Chat to generate the above sysadmin resource monitoring scripts.
 
 2. **Refactor or debug the generated scripts:**
@@ -41,13 +42,13 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Success Criteria:
 
-- Verify that Sysdamin scripts for both Linux & Windows VMs are generated successfully using GitHub Copilot.
+- Verify that Sysdamin scripts for Windows VM are generated successfully using GitHub Copilot.
 - Verify that the generated scripts are refactored or debugged successfully.
 - Make sure the scripts are executed successfully, and the results are verified.
 
 ## Conclusion
 
-In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and ask in chat, and verified that the generated scripts executed successfully.
+In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for a Windows VM, enhanced the scripts using GitHub Copilot's suggestions and ask in chat, and verified that the generated scripts executed successfully.
 
 ### You have successfully completed Hackathon.
 
