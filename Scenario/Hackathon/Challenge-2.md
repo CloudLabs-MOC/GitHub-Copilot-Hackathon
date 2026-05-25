@@ -27,6 +27,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. Enter the following GitHub repository for the source URL to be imported:
 
+   - `https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Database-Application`
+
    ![](../../media/new/github-import-repo.png)
 
 1. Enter the following details while creating a new repository:
