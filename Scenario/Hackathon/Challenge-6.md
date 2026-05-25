@@ -18,7 +18,6 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
-- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - A **Linux VM** to execute the bash scripts and a **Windows VM** running (use your Windows Lab-VM to execute the PowerShell scripts).
 
 ## Challenge Objectives:
@@ -30,13 +29,13 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Generate a sysadmin monitoring PowerShell script using GitHub Copilot for disk usage for a Windows VM.
      >**Hint:** Utilize GitHub Copilot Chat to generate the above sysadmin resource monitoring scripts.
 
-3. **Refactor or debug the generated scripts:**
+2. **Refactor or debug the generated scripts:**
 
    - Apply Copilot's **Refactor** feature for code refactoring, leading to improved readability and maintainability of the scripts.
 
-   - Effectively use Copilot's **Inline Chat** feature to identify and resolve any issues present in the generated scripts.
+   - Effectively use Copilot's **Ask in Chat** feature to identify and resolve any issues present in the generated scripts.
 
-5. **Execute the scripts:**
+3. **Execute the scripts:**
 
    - Execute and test out the generated scripts in your environment, and view the results.
 
@@ -48,7 +47,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Conclusion
 
-In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat, and verified that the generated scripts executed successfully.
+In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and ask in chat, and verified that the generated scripts executed successfully.
 
 ### You have successfully completed Hackathon.
 
