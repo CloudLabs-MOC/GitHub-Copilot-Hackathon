@@ -68,8 +68,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
        
       - Update the `deploy-webapp.yml` worflow file with the following input values:
   
-        - webAppName: **<YOUR_APP_SEVICE_NAME>**
-        - resourceGroupName: **Github-Copilot-Challenges**
+        - webAppName: **'YOUR_APP_SEVICE_NAME'**
+        - resourceGroupName: **'Github-Copilot-Challenges'**
 
 3. **Get the app working on Azure:**
 
