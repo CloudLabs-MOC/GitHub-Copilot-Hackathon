@@ -125,11 +125,14 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Create Python/JS-based code to build a calculator.
 
          - Utilize GitHub Copilot Chat to assist in generating the code. Start by typing the prompt like:
+
            ```
            Create a basic calculator in Python/JS (your preferred programming language)
            ```
          - Implement various mathematical operations, such as addition, subtraction, multiplication, and division, as well as user interactions to take input and display results.
+         
          - Once you’ve written the code, save the file as ***calculator.py*** (if you’re using Python), or ***calculator.js*** (if you’re using JavaScript).
+         
          - Feel free to experiment with additional features, like handling multiple calculations or improving the user interface.
 
       - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
@@ -139,6 +142,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
            >**NOTE:** If you are already registered for an OpenWeatherMap account, kindly continue to use the same account.
 
          - Use GitHub Copilot Chat to generate code that connects to the OpenWeatherMap API. Start by typing the prompt like:
+
            ```
            Create a Python/JS-based app to get weather data from OpenWeatherMap APIs
            ```
@@ -227,7 +231,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Additional Resources:
 
 - [GitHub Copilot Documentation](https://github.com/github/copilot-docs)
-- [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)
 
 ## Conclusion
 
