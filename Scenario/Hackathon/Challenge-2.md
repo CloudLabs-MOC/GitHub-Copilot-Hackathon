@@ -43,7 +43,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
   
      ![](../../media/new/github-begin-import.png)
 
-1. After a few moments, the newly created repository will be ready for use.
+1. After a few moments, the newly created repository will be ready for use. Copy the repository URL, as it will be required in the upcoming task.
 
    ![](../../media/new/github-import-new-repo.png)
 
