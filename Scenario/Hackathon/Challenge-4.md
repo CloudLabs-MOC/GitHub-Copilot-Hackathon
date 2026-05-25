@@ -35,7 +35,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Understand and explore how the Workspace feature works.
 
-   - Use the same VS Code window which was created in Challenge 01 for the [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) GitHub repository.
+   - Use the same VS Code window which was created in Challenge 02 for the [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) GitHub repository.
 
    - Give some prompts to the Copilot agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
 
