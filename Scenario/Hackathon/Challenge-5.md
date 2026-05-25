@@ -16,7 +16,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
-- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - Fork the GitHub repo [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) to your GitHub provided account and clone it in VS Code in your environment.
 
 ## Challenge Objectives:
@@ -24,31 +23,20 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. **Generate documentation with Copilot:**
 
    - Utilize the GitHub Copilot chat to generate markdown documentation for the **backend** app and copy the documentation to a new file, **README.md** in the ***app/backend/*** directory.
-     
-     >**Hint:** Use **@workspace** file reference to generate a README.md file for the *app/backend* directory.
 
    - Make use of the GitHub Copilot Chat to list out the requirements in the ***app/backend/requirements.txt*** file.
 
-   - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot **Open Inline Chat** feature.
+   - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot **Ask in Chat** feature.
      
-     >**Hint:** Access the GitHub Copilot Inline Chat feature by **Ctrl + I** shortcut in your VS Code.
-
-    <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
-
-    >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
+     >**Hint:** Access the GitHub Copilot Ask in Chat feature by **Ctrl + I** shortcut in your VS Code.
 
 2. **Enhance and refine documentation:**
 
       - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Chat.
 
-        >**Hint:** Access the GitHub Copilot Inline Chat feature by **Ctrl + I** shortcut in your VS Code.
+        >**Hint:** Access the GitHub Copilot Ask in Chat feature by **Ctrl + I** shortcut in your VS Code.
 
       - Use the appropriate suggestions, which will refine the documentation.
-
-    <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
-
-    
-    >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task.
 
 3. **Explore Various Documentation Styles:**
 
