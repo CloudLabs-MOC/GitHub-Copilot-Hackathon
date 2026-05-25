@@ -49,7 +49,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **MyMvcApp CRUD Application** to Azure.
 
-   - Define the necessary Azure resources in the ARM template, that is, a **Web App** present in **Azure App Services** required to deploy your application.
+   - Define the necessary Azure resources in the ARM template, that is, a **Web App** present in **Azure App Services** with **Basic authentication enabled** and **public network access allowed** required to deploy your application.
 
    - Save the ARM template and parameters files as **deploy.json** and **deploy.parameters.json**. Deploy the ARM template to Azure in **Github-Copilot-Challenges** resource group.
 
@@ -73,11 +73,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 3. **Get the app working on Azure:**
 
-      - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
-        
-         ![](../../media/challenge3-web-app-001.png)
+      - Verify that the GitHub Actions pipeline build has succeeded.
 
       - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
+  
+        ![](../../media/challenge3-web-app-001.png)
 
 4. **Generate documentation with Copilot for the app:**
 
