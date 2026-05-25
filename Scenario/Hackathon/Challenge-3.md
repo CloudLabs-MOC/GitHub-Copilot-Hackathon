@@ -35,8 +35,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-1. **Skip** the MFA registration if the pop-up appears while logging in to the Azure portal.
-
 1. If you see the pop-up **Stay Signed in?** click **No**.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
@@ -53,25 +51,25 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Define the necessary Azure resources in the ARM template, that is, a **Web App** present in **Azure App Services** required to deploy your application.
 
-   - Save the ARM template and parameters files in your **MyMvcApp CRUD Application** GitHub repository as **deploy.json** and **deploy.parameters.json** files on the **master** branch.
+   - Save the ARM template and parameters files as **deploy.json** and **deploy.parameters.json**. Deploy the ARM template to Azure in **Github-Copilot-Challenges** resource group.
 
-   <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
+2. **Generate a new GitHub repository secret and GitHub action workflow:**
 
-2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
-
-      - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
+      - Once the App Service deploys successfully, navigate to the App Service and **download the publish profile** from the **Overview** page, as you will need it to create the GitHub repository secret for workflow deployment authentication.
+      
+      - Navigate to your **github-copilot-hack-<inject key="Deployment-id"  enableCopy="false"/>** GitHub repository and add a **New repository secret** from repository **Settings → Secrets and variables → Actions → Repository Secrets**.
+  
+        - Name: **AZURE_WEBAPP_PUBLISH_PROFILE**
+        - Secret Value: Paste the complete Azure App Service publish profile XML content downloaded from the Azure portal.
         
-      >**Note:** The build will fail due to the undefined path in your workflow YAML file.
-
-      - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
-
-         ![](../../media/challenge3-github-workflow-edit.png)
-
-         ![](../../media/challenge3-github-workflow-edit-01.png)
-
-   <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
-
-   >**Note:** Provide the GitHub Username parameter in the **cloudlabsuser-XXXX** format while validating the task. 
+      - Download and save the below `deploy-webapp.yml` worflow file and save it in the **`.github/workflows/deploy-webapp.yml`** path within your **github-copilot-hack-<inject key="Deployment-id"  enableCopy="false"/>** GitHub repository.
+  
+        - Workflow file: https://experienceazure.blob.core.windows.net/templates/github-copilot-hackathon-new/deploy-webapp.yml
+       
+      - Update the `deploy-webapp.yml` worflow file with the following input values:
+  
+        - webAppName: **<YOUR_APP_SEVICE_NAME>**
+        - resourceGroupName: **Github-Copilot-Challenges**
 
 3. **Get the app working on Azure:**
 
@@ -85,8 +83,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Use GitHub Copilot Chat to assist you in generating detailed and accurate documentation specifically for this challenge.
 
-      - Create an MD file in your **MyMvcApp-Contact-Database-Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
-
 ## Success Criteria:
 
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
@@ -96,12 +92,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 ## Additional Resources:
 
-- Refer [here](https://learn.microsoft.com/en-us/azure/developer/github/deploy-to-azure) for additional help.
 - If you encounter any challenges or have questions, refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for guidance.
-
-### Challenge Validation
-
-Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format for the **Validate GitHub directory** validation step.
 
 ## Conclusion
 
