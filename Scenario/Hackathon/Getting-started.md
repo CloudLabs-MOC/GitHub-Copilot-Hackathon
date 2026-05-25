@@ -16,25 +16,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../../media/GSS3.png)
-
-## Accessing Your GitHub credentials
-
-Once you are in the **Environment** tab, click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
-
-![](../../media/GSS2.png)
+![](../../media/new/env-tab-new.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![](../../media/GSS4.png)
+![](../../media/new/split-window-new.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
-![](../../media/labzoom.png)
+![](../../media/new/labzoom-new.png)
 
 ## Managing Your Virtual Machine
 
